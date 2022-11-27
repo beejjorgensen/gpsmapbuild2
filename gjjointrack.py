@@ -2,8 +2,6 @@ import sys
 import json
 import math
 
-from math import asin, sin, cos, sqrt
-
 MERGE_DIST_M = 50
 
 def usage():
@@ -226,6 +224,8 @@ def main(argv):
         fp = open(ac.out_file_name, 'w')
 
     print(json.dumps(input_data, indent=ac.indent_level), file=fp)
+
+    fp.close()
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv))
