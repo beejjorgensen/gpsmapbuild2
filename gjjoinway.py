@@ -1,15 +1,10 @@
-"""
-* **Write GJ to GPX converter**
-* Run gpxcat -d 50 to merge NCR data
-* **Write track splitter based on max points**
-* Run existing gjwaypoints tool
-* Run existing simplification process
-"""
-
 import sys
 import json
+import math
 
 from math import asin, sin, cos, sqrt
+
+MERGE_DIST_M = 50
 
 def usage():
     s = "usage: gjjoinway.py [options] way_name json_file\n" \
@@ -79,17 +74,23 @@ class AppContext:
         if self.way_name is None or self.in_file_name is None:
             usage_exit()
 
-def lldist(lat0, lon0, lat1, lon1):
+def lldist(lat1, lon1, lat2, lon2):
+    R = 6.3781e6  # Earth radius in meters
 
-    f1 = sin((lat0 - lat1) / 2)**2  
-    f2 = cos(lat0) * cos(lat1)
-    f3 = sin((lon0 - lon1) / 2)**2
+    a1 = lat1 * math.pi/180;
+    a2 = lat2 * math.pi/180;
+    d1 = (lat2-lat1) * math.pi/180;
+    d2 = (lon2-lon1) * math.pi/180;
 
-    x = sqrt(f1 + f2 * f3)
+    a = math.sin(d1/2)**2 + \
+        math.cos(a1) * math.cos(a2) * \
+        math.sin(d2/2)**2;
 
-    d = 2 * asin(x)
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a));
 
-    return d
+    d = R * c
+
+    return d  # meters
 
 def read_input_file(in_file_name):
     if in_file_name == "-":
@@ -141,30 +142,73 @@ def extract_ways(data, name):
 
     return ways
 
+def copy_way_props(new_way, old_way):
+    new_way["type"] = old_way["type"]
+    new_way["id"] = old_way["id"]
+    new_way["properties"] = old_way["properties"]
+    new_way["geometry"] = old_way["geometry"]
+
+
 def merge_ways(ways):
     new_way = {}
 
-    # The new way can take on the properties of the first old one
-    new_way["type"] = ways[0]["type"]
-    new_way["id"] = ways[0]["id"]
-    new_way["properties"] = ways[0]["properties"]
+    # The new way can take on the properties of the last old one
+    copy_way_props(new_way, ways.pop(0))
 
-    coords = []
+    # Go through all remaining ways and see if they're leaders or
+    # trailers of the current way
 
+    while ways != []:
+        merged_way = None
 
-    # -- bookmark --
-    # TODO sort the ways
+        for w in ways:
+            wgc = w["geometry"]["coordinates"]
+            nwgc = new_way["geometry"]["coordinates"]
 
+            # Check for leader
+            dist = lldist(*wgc[-1], *nwgc[0])
 
-    geometry = {
-        "type": "LineString",
-        "coordinates": coords
-    }
+            if dist <= MERGE_DIST_M:
+                if dist < 0.1: wgc.pop()
+                merged_way = wgc + nwgc
+                break
+                
+            # Check for reversed leader
+            dist = lldist(*wgc[0], *nwgc[0])
 
-    new_way["geometry" ] = geometry
+            if dist <= MERGE_DIST_M:
+                wgc.reverse()
+                if dist < 0.1: wgc.pop()
+                merged_way = wgc + nwgc
+                break
+                
+            # Check for trailer
+            dist = lldist(*wgc[0], *nwgc[-1])
+
+            if dist <= MERGE_DIST_M:
+                if dist < 0.1: nwgc.pop()
+                merged_way = nwgc + wgc
+                break
+
+            # Check for reversed trailer
+            dist = lldist(*wgc[-1], *nwgc[-1])
+
+            if dist <= MERGE_DIST_M:
+                wgc.reverse()
+                if dist < 0.1: nwgc.pop()
+                merged_way = nwgc + wgc
+                break
+
+        assert merged_way is not None, "couldn't merge a way"
+        new_way["geometry"]["coordinates"] = merged_way
+
+        ways.remove(w)
 
     return new_way
 
+def add_way(data, way):
+    data["features"].append(way)
+    
 def main(argv):
     ac = AppContext(argv)
 
@@ -172,10 +216,16 @@ def main(argv):
 
     ways = extract_ways(input_data, ac.way_name)
 
-    ways = merge_ways(ways)
+    merged_way = merge_ways(ways)
 
-    #print(json.dumps(ways, indent=4))
-    #print(json.dumps(input_data, indent=4))
+    add_way(input_data, merged_way)
+
+    if ac.out_file_name is None or ac.out_file_name == "-":
+        fp = sys.stdout
+    else:
+        fp = open(ac.out_file_name, 'w')
+
+    print(json.dumps(input_data, indent=ac.indent_level), file=fp)
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv))
