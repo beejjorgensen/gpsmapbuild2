@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+
+# Round floats hacks: https://stackoverflow.com/questions/1447287/format-floats-with-standard-json-module
+# ll dist point line: https://stackoverflow.com/questions/20231258/minimum-distance-between-a-point-and-a-line-in-latitude-longitude
+
 import sys
 import json
 import uuid
@@ -8,7 +13,8 @@ MERGE_DIST_M = 50
 def usage():
     s = "usage: gjretrack.py [options] track_name json_file\n" \
         "       --indent indent_level\n" \
-        "       -m max_points" \
+        "       -m max_points\n" \
+        "       -e epsilon\n" \
         "       -v verbose\n" \
         "       -o outfile"
 
@@ -28,6 +34,7 @@ class AppContext:
         self.in_file_name = None
         self.out_file_name = None
         self.verbose = False
+        self.epsilon = None
 
         self.parse_cl()
     
@@ -50,6 +57,14 @@ class AppContext:
 
         try:
             self.max_points = int(self.argv[0])
+        except:
+            usage_exit(2)
+
+    def read_e_option(self):
+        self.consume_option_with_arg()
+
+        try:
+            self.epsilon = float(self.argv[0])
         except:
             usage_exit(2)
     
@@ -76,6 +91,9 @@ class AppContext:
 
             elif self.argv[0] == "-m":
                 self.read_m_option()
+
+            elif self.argv[0] == "-e":
+                self.read_e_option()
 
             elif self.track_name is None:
                 self.track_name = self.argv[0]
@@ -114,6 +132,50 @@ def lldist(lat1, lon1, lat2, lon2):
     d = R * c
 
     return d  # meters
+
+def dist_point_line(point, line0, line1):
+    # https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line
+
+    # TODO: fix to lat/lon
+
+    x0, y0 = point
+    x1, y1 = line0
+    x2, y2 = line1
+
+    return abs((x2 - x1) * (y1 - y0) - (x1 - x0) * (y2 - y1)) / \
+        math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+def douglas_peucker(track, epsilon):
+    # https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
+
+    def dpr(points):
+        max_dist = 0
+        max_dist_index = None
+
+        for i in range(1, len(points) - 1):
+            pdist = dist_point_line(points[i], points[0], points[-1])
+
+            if pdist > max_dist:
+                max_dist = pdist
+                max_dist_index = i
+
+        if max_dist > epsilon:
+            left = dpr(points[:max_dist_index+1])
+            right = dpr(points[max_dist_index:])
+
+            left.pop()
+
+            result = left + right
+        else:
+            result = [points[0], points[-1]]
+
+        return result
+
+    coords = track["geometry"]["coordinates"]
+
+    track["geometry"]["coordinates"] = dpr(coords)
+    
+    return track
 
 def read_input_file(in_file_name):
     if in_file_name == "-":
@@ -295,6 +357,9 @@ def main(argv):
     tracks = extract_tracks(input_data, ac.track_name)
 
     merged_track = merge_tracks(tracks)
+
+    if ac.epsilon is not None:
+        douglas_peucker(merged_track, ac.epsilon)
 
     split_tracks = split_track(merged_track, ac.max_points, ac.verbose)
 
