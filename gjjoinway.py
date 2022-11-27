@@ -7,7 +7,7 @@ from math import asin, sin, cos, sqrt
 MERGE_DIST_M = 50
 
 def usage():
-    s = "usage: gjjoinway.py [options] way_name json_file\n" \
+    s = "usage: gjjointrack.py [options] track_name json_file\n" \
         "       --indent indent_level\n" \
         "       -o outfile"
 
@@ -22,7 +22,7 @@ class AppContext:
         self.argv = argv[:]
 
         self.indent_level = None
-        self.way_name = None
+        self.track_name = None
         self.in_file_name = None
         self.out_file_name = None
 
@@ -60,8 +60,8 @@ class AppContext:
             elif self.argv[0] == "-o":
                 self.read_o_option()
 
-            elif self.way_name is None:
-                self.way_name = self.argv[0]
+            elif self.track_name is None:
+                self.track_name = self.argv[0]
 
             elif self.in_file_name is None:
                 self.in_file_name = self.argv[0]
@@ -71,7 +71,7 @@ class AppContext:
 
             self.argv.pop(0)
 
-        if self.way_name is None or self.in_file_name is None:
+        if self.track_name is None or self.in_file_name is None:
             usage_exit()
 
 def lldist(lat1, lon1, lat2, lon2):
@@ -117,11 +117,11 @@ def get_feature_title(f):
     except KeyError:
         return None
 
-def extract_ways(data, name):
+def extract_tracks(data, name):
     features = data["features"]
-    ways = []
+    tracks = []
 
-    # Inventory ways of name "name"
+    # Inventory tracks of name "name"
 
     for f in features:
 
@@ -133,44 +133,44 @@ def extract_ways(data, name):
         title = get_feature_title(f)
 
         if geom_type == "LineString" and title == name:
-            ways.append(f)
+            tracks.append(f)
 
-    # Delete those ways from the original object
+    # Delete those tracks from the original object
 
-    for w in ways:
-        features.remove(w)
+    for t in tracks:
+        features.remove(t)
 
-    return ways
+    return tracks
 
-def copy_way_props(new_way, old_way):
-    new_way["type"] = old_way["type"]
-    new_way["id"] = old_way["id"]
-    new_way["properties"] = old_way["properties"]
-    new_way["geometry"] = old_way["geometry"]
+def copy_track_props(new_track, old_track):
+    new_track["type"] = old_track["type"]
+    new_track["id"] = old_track["id"]
+    new_track["properties"] = old_track["properties"]
+    new_track["geometry"] = old_track["geometry"]
 
 
-def merge_ways(ways):
-    new_way = {}
+def merge_tracks(tracks):
+    new_track = {}
 
-    # The new way can take on the properties of the last old one
-    copy_way_props(new_way, ways.pop(0))
+    # The new track can take on the properties of the last old one
+    copy_track_props(new_track, tracks.pop(0))
 
-    # Go through all remaining ways and see if they're leaders or
-    # trailers of the current way
+    # Go through all remaining tracks and see if they're leaders or
+    # trailers of the current track
 
-    while ways != []:
-        merged_way = None
+    while tracks != []:
+        merged_track = None
 
-        for w in ways:
-            wgc = w["geometry"]["coordinates"]
-            nwgc = new_way["geometry"]["coordinates"]
+        for t in tracks:
+            wgc = t["geometry"]["coordinates"]
+            nwgc = new_track["geometry"]["coordinates"]
 
             # Check for leader
             dist = lldist(*wgc[-1], *nwgc[0])
 
             if dist <= MERGE_DIST_M:
                 if dist < 0.1: wgc.pop()
-                merged_way = wgc + nwgc
+                merged_track = wgc + nwgc
                 break
                 
             # Check for reversed leader
@@ -179,7 +179,7 @@ def merge_ways(ways):
             if dist <= MERGE_DIST_M:
                 wgc.reverse()
                 if dist < 0.1: wgc.pop()
-                merged_way = wgc + nwgc
+                merged_track = wgc + nwgc
                 break
                 
             # Check for trailer
@@ -187,7 +187,7 @@ def merge_ways(ways):
 
             if dist <= MERGE_DIST_M:
                 if dist < 0.1: nwgc.pop()
-                merged_way = nwgc + wgc
+                merged_track = nwgc + wgc
                 break
 
             # Check for reversed trailer
@@ -196,29 +196,29 @@ def merge_ways(ways):
             if dist <= MERGE_DIST_M:
                 wgc.reverse()
                 if dist < 0.1: nwgc.pop()
-                merged_way = nwgc + wgc
+                merged_track = nwgc + wgc
                 break
 
-        assert merged_way is not None, "couldn't merge a way"
-        new_way["geometry"]["coordinates"] = merged_way
+        assert merged_track is not None, "couldn't merge a track"
+        new_track["geometry"]["coordinates"] = merged_track
 
-        ways.remove(w)
+        tracks.remove(t)
 
-    return new_way
+    return new_track
 
-def add_way(data, way):
-    data["features"].append(way)
+def add_track(data, track):
+    data["features"].append(track)
     
 def main(argv):
     ac = AppContext(argv)
 
     input_data = read_input_file(ac.in_file_name)
 
-    ways = extract_ways(input_data, ac.way_name)
+    tracks = extract_tracks(input_data, ac.track_name)
 
-    merged_way = merge_ways(ways)
+    merged_track = merge_tracks(tracks)
 
-    add_way(input_data, merged_way)
+    add_track(input_data, merged_track)
 
     if ac.out_file_name is None or ac.out_file_name == "-":
         fp = sys.stdout
