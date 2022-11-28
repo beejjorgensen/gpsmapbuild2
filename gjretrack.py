@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-# Round floats hacks: https://stackoverflow.com/questions/1447287/format-floats-with-standard-json-module
-# ll dist point line: https://stackoverflow.com/questions/20231258/minimum-distance-between-a-point-and-a-line-in-latitude-longitude
-
 import sys
 import json
 import uuid
@@ -407,6 +404,14 @@ def merge_tracks(tracks):
 def add_tracks(data, tracks):
     data["features"] += tracks
 
+def round_floats(o, p=6):
+    # https://stackoverflow.com/a/53798633
+    if isinstance(o, float): return round(o, p)
+    if isinstance(o, dict): return {k: round_floats(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)): return [round_floats(x) for x in o]
+
+    return o
+
 def main(argv):
     ac = AppContext(argv)
 
@@ -428,7 +433,7 @@ def main(argv):
     else:
         fp = open(ac.out_file_name, 'w')
 
-    print(json.dumps(input_data, indent=ac.indent_level), file=fp)
+    print(json.dumps(round_floats(input_data), indent=ac.indent_level), file=fp)
 
     fp.close()
 
