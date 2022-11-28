@@ -136,14 +136,71 @@ def lldist(lat1, lon1, lat2, lon2):
 def dist_point_line(point, line0, line1):
     # https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line
 
-    # TODO: fix to lat/lon
-
     x0, y0 = point
     x1, y1 = line0
     x2, y2 = line1
 
     return abs((x2 - x1) * (y1 - y0) - (x1 - x0) * (y2 - y1)) / \
         math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+def dist_point_great_circle(point, line0, line1):
+    # https://web.archive.org/web/20171230114759/http://mathforum.org/library/drmath/view/51785.html
+
+    def to_cartesian(lat, lon):
+        return [
+            math.cos(lat) * math.cos(lon),
+            math.cos(lat) * math.sin(lon),
+            math.sin(lat)
+        ]
+
+    def cross3(v0, v1):
+        a1, a2, a3 = v0
+        b1, b2, b3 = v1
+
+        return [
+            a2 * b3 - a3 * b2,
+            a3 * b1 - a1 * b3,
+            a1 * b2 - a2 * b1
+        ]
+
+    def dot3(v0, v1):
+        return \
+            v0[0] * v1[0] + \
+            v0[1] * v1[1] + \
+            v0[2] * v1[2]
+
+    def scale3(v, s):
+        v[0] *= s
+        v[1] *= s
+        v[2] *= s
+
+        return v
+
+    def length3(v):
+        return math.sqrt(v[0]**2 + v[1]**2 + v[2]**2)
+
+    def normalize3(v):
+        return scale3(v, 1 / length3(v))
+
+    point_r = [math.radians(point[0]), math.radians(point[1])]
+    line0_r = [math.radians(line0[0]), math.radians(line0[1])]
+    line1_r = [math.radians(line1[0]), math.radians(line1[1])]
+
+    point_3 = to_cartesian(*point_r)
+    line0_3 = to_cartesian(*line0_r)
+    line1_3 = to_cartesian(*line1_r)
+
+    cp = cross3(line0_3, line1_3)
+
+    normalize3(cp)
+
+    dp = dot3(cp, point_3)
+
+    a = math.pi / 2 - math.acos(dp)
+
+    R = 6.3781e6  # Earth radius in meters
+
+    return abs(a * R)
 
 def douglas_peucker(track, epsilon):
     # https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
@@ -153,10 +210,11 @@ def douglas_peucker(track, epsilon):
         max_dist_index = None
 
         for i in range(1, len(points) - 1):
-            pdist = dist_point_line(points[i], points[0], points[-1])
+            #pdist = dist_point_line(points[i], points[0], points[-1])
+            gcdist = dist_point_great_circle(points[i], points[0], points[-1])
 
-            if pdist > max_dist:
-                max_dist = pdist
+            if gcdist > max_dist:
+                max_dist = gcdist
                 max_dist_index = i
 
         if max_dist > epsilon:
