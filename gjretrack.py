@@ -25,6 +25,9 @@ def usage_exit(status=1):
     usage()
     sys.exit(status)
 
+def log(s):
+    print(s, file=sys.stderr)
+
 class AppContext:
     def __init__(self, argv):
         self.argv = argv[:]
@@ -264,7 +267,7 @@ def douglas_peucker(track, epsilon, verbose):
     coord_count_after = len(simplified_coords)
 
     if verbose:
-        print(f'{track["properties"]["title"]}: simplifying: ' \
+       log(f'{track["properties"]["title"]}: simplifying: ' \
             "coord count after/before " \
             f"{coord_count_after}/{coord_count_before}, " \
             f"{coord_count_after/coord_count_before*100:.1f}%")
@@ -329,9 +332,9 @@ def split_track(track, max_points, verbose=False):
 
     if verbose:
         title = track['properties']['title']
-        print(f"{title}: split: total track points: {track_points}")
-        print(f"{title}: split: segment count: {segment_count}")
-        print(f"{title}: split: points per segment: " \
+        log(f"{title}: split: total track points: {track_points}")
+        log(f"{title}: split: segment count: {segment_count}")
+        log(f"{title}: split: points per segment: " \
             f"{int(points_per_segment+0.5)}")
 
     tgc = track["geometry"]["coordinates"]
@@ -377,7 +380,7 @@ def extract_track(data, do_join_tracks, join_max_dist, verbose):
 
         if track_name is None:
             if verbose:
-                print(f"{title}: extracting track")
+                log(f"{title}: extracting track")
 
             track_name = title
 
@@ -403,7 +406,7 @@ def extract_track(data, do_join_tracks, join_max_dist, verbose):
 
     if do_join_tracks:
         if verbose and len(tracks) > 1:
-            print(f"{track_name}: joining: {len(tracks)} segments")
+            log(f"{track_name}: joining: {len(tracks)} segments")
 
         extracted_track = join_tracks(tracks, join_max_dist)
     else:
