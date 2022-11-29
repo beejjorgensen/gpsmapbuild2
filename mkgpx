@@ -1,0 +1,19 @@
+#!/bin/bash
+
+SMOOTH_DIST=5
+MAX_POINTS=1900
+
+files=json/*.json
+
+for f in $files; do
+    name=$(basename "$f" .json)
+    gpx_name=${name}.gpx
+
+    case "$name" in
+        Oregon_North_Cascades) track_name="NCR" ;;
+        *) printf "unrecognized track name $f"; exit 1
+    esac
+
+    ./gjretrack.py -e $SMOOTH_DIST -m 1900 -j -v "$f" | ./gjtogpx.py - "$track_name" > "$gpx_name"
+
+done
