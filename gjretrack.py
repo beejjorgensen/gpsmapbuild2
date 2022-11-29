@@ -5,15 +5,19 @@ import json
 import uuid
 import math
 
-MERGE_DIST_M = 50
+JOIN_MAX_DIST_M = 50
+DECIMAL_PLACES = 6
 
 def usage():
-    s = "usage: gjretrack.py [options] track_name json_file\n" \
-        "       --indent indent_level\n" \
-        "       -m max_points\n" \
-        "       -e epsilon\n" \
-        "       -v verbose\n" \
-        "       -o outfile"
+    s = "usage: gjretrack.py [options] json_file\n" \
+        f"       -d n         decimal places for lat, lon [default {DECIMAL_PLACES}]\n" \
+        "       -e           epsilon, smoothing max distance\n" \
+        "       --indent n   indent level, spaces\n" \
+        "       -j           join tracks of same name\n" \
+        f"       --joinmax n  maximum distance to join tracks [default {JOIN_MAX_DIST_M} meters]\n" \
+        "       -m n         max points per track\n" \
+        "       -o name      output file name\n" \
+        "       -v           verbose"
 
     print(s, file=sys.stderr)
 
@@ -25,13 +29,15 @@ class AppContext:
     def __init__(self, argv):
         self.argv = argv[:]
 
+        self.join_tracks = False
         self.indent_level = None
         self.max_points = None
-        self.track_name = None
         self.in_file_name = None
         self.out_file_name = None
         self.verbose = False
         self.epsilon = None
+        self.decimal_places = DECIMAL_PLACES
+        self.join_max_dist = JOIN_MAX_DIST_M
 
         self.parse_cl()
     
@@ -65,6 +71,22 @@ class AppContext:
         except:
             usage_exit(2)
     
+    def read_joinmax_option(self):
+        self.consume_option_with_arg()
+
+        try:
+            self.joinmax = float(self.argv[0])
+        except:
+            usage_exit(2)
+    
+    def read_d_option(self):
+        self.consume_option_with_arg()
+
+        try:
+            self.decimal_places = int(self.argv[0])
+        except:
+            usage_exit(2)
+    
     def read_o_option(self):
         self.consume_option_with_arg()
 
@@ -80,6 +102,9 @@ class AppContext:
             elif self.argv[0] == "-v":
                 self.verbose = True
 
+            elif self.argv[0] == "-j":
+                self.join_tracks = True
+
             elif self.argv[0] == "--indent":
                 self.read_indent_option()
 
@@ -92,8 +117,11 @@ class AppContext:
             elif self.argv[0] == "-e":
                 self.read_e_option()
 
-            elif self.track_name is None:
-                self.track_name = self.argv[0]
+            elif self.argv[0] == "-d":
+                self.read_d_option()
+
+            elif self.argv[0] == "--joinmax":
+                self.read_joinmax_option()
 
             elif self.in_file_name is None:
                 self.in_file_name = self.argv[0]
@@ -109,7 +137,7 @@ class AppContext:
 
             self.argv.pop(0)
 
-        if self.track_name is None or self.in_file_name is None:
+        if self.in_file_name is None:
             usage_exit()
 
 def lldist(lat1, lon1, lat2, lon2):
@@ -199,7 +227,7 @@ def dist_point_great_circle(point, line0, line1):
 
     return abs(a * R)
 
-def douglas_peucker(track, epsilon):
+def douglas_peucker(track, epsilon, verbose):
     # https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
 
     def dpr(points):
@@ -228,8 +256,19 @@ def douglas_peucker(track, epsilon):
 
     coords = track["geometry"]["coordinates"]
 
-    track["geometry"]["coordinates"] = dpr(coords)
+    coord_count_before = len(coords)
+
+    simplified_coords = dpr(coords)
+    track["geometry"]["coordinates"] = simplified_coords
     
+    coord_count_after = len(simplified_coords)
+
+    if verbose:
+        print(f'{track["properties"]["title"]}: simplifying: ' \
+            "coord count after/before " \
+            f"{coord_count_after}/{coord_count_before}, " \
+            f"{coord_count_after/coord_count_before*100:.1f}%")
+
     return track
 
 def read_input_file(in_file_name):
@@ -283,18 +322,17 @@ def split_track(track, max_points, verbose=False):
     track_points = len(track_coords)
 
     if max_points is None or track_points <= max_points:
-        if verbose:
-            print("no splitting required")
         return [track]
 
     segment_count = math.ceil(track_points / max_points)
     points_per_segment = track_points / segment_count
 
     if verbose:
-        print(f"total track points: {track_points}")
-        print(f"segment count:      {segment_count}")
-        print(f"points per segment: {int(points_per_segment+0.5)} " \
-            f"({max_points} requested)")
+        title = track['properties']['title']
+        print(f"{title}: split: total track points: {track_points}")
+        print(f"{title}: split: segment count: {segment_count}")
+        print(f"{title}: split: points per segment: " \
+            f"{int(points_per_segment+0.5)}")
 
     tgc = track["geometry"]["coordinates"]
 
@@ -310,7 +348,7 @@ def split_track(track, max_points, verbose=False):
 
         segment = {}
         copy_track_props(segment, track)
-        segment['properties']['title'] += f" {i+1}"
+        segment['properties']['title'] += f"-{i+1}"
         segment['id'] = str(uuid.uuid4())
 
         segment["geometry"]["coordinates"] = tgc[start_coord:end_coord+1]
@@ -319,11 +357,11 @@ def split_track(track, max_points, verbose=False):
 
     return new_tracks
 
-def extract_tracks(data, name):
+def extract_track(data, do_join_tracks, join_max_dist, verbose):
     features = data["features"]
     tracks = []
 
-    # Inventory tracks of name "name"
+    track_name = None
 
     for f in features:
 
@@ -332,19 +370,49 @@ def extract_tracks(data, name):
 
         geom_type = get_feature_geom_type(f)
 
+        if geom_type != "LineString":
+            continue
+
         title = get_feature_title(f)
 
-        if geom_type == "LineString" and title == name:
+        if track_name is None:
+            if verbose:
+                print(f"{title}: extracting track")
+
+            track_name = title
+
+        if do_join_tracks:
+            if track_name == title:
+                tracks.append(f)
+
+        else:
             tracks.append(f)
+            break
+
+    # No more tracks left?
+
+    if tracks == []:
+        return None
 
     # Delete those tracks from the original object
 
     for t in tracks:
         features.remove(t)
 
-    return tracks
+    # Join tracks if necessary
 
-def merge_tracks(tracks):
+    if do_join_tracks:
+        if verbose and len(tracks) > 1:
+            print(f"{track_name}: joining: {len(tracks)} segments")
+
+        extracted_track = join_tracks(tracks, join_max_dist)
+    else:
+        assert len(tracks) == 1, "too many non-joined tracks extracted"
+        extracted_track = tracks[0]
+
+    return extracted_track
+
+def join_tracks(tracks, max_dist):
     new_track = {}
 
     # The new track can take on the properties of the last old one
@@ -363,7 +431,7 @@ def merge_tracks(tracks):
             # Check for leader
             dist = lldist(*wgc[-1], *nwgc[0])
 
-            if dist <= MERGE_DIST_M:
+            if dist <= max_dist:
                 if dist < 0.1: wgc.pop()
                 merged_track = wgc + nwgc
                 break
@@ -371,7 +439,7 @@ def merge_tracks(tracks):
             # Check for reversed leader
             dist = lldist(*wgc[0], *nwgc[0])
 
-            if dist <= MERGE_DIST_M:
+            if dist <= max_dist:
                 wgc.reverse()
                 if dist < 0.1: wgc.pop()
                 merged_track = wgc + nwgc
@@ -380,7 +448,7 @@ def merge_tracks(tracks):
             # Check for trailer
             dist = lldist(*wgc[0], *nwgc[-1])
 
-            if dist <= MERGE_DIST_M:
+            if dist <= max_dist:
                 if dist < 0.1: nwgc.pop()
                 merged_track = nwgc + wgc
                 break
@@ -388,7 +456,7 @@ def merge_tracks(tracks):
             # Check for reversed trailer
             dist = lldist(*wgc[-1], *nwgc[-1])
 
-            if dist <= MERGE_DIST_M:
+            if dist <= max_dist:
                 wgc.reverse()
                 if dist < 0.1: nwgc.pop()
                 merged_track = nwgc + wgc
@@ -407,8 +475,8 @@ def add_tracks(data, tracks):
 def round_floats(o, p=6):
     # https://stackoverflow.com/a/53798633
     if isinstance(o, float): return round(o, p)
-    if isinstance(o, dict): return {k: round_floats(v) for k, v in o.items()}
-    if isinstance(o, (list, tuple)): return [round_floats(x) for x in o]
+    if isinstance(o, dict): return {k: round_floats(v, p) for k, v in o.items()}
+    if isinstance(o, (list, tuple)): return [round_floats(x, p) for x in o]
 
     return o
 
@@ -417,23 +485,31 @@ def main(argv):
 
     input_data = read_input_file(ac.in_file_name)
 
-    tracks = extract_tracks(input_data, ac.track_name)
+    new_tracks = []
 
-    merged_track = merge_tracks(tracks)
+    while True:
+        track = extract_track(input_data, ac.join_tracks, \
+            ac.join_max_dist, ac.verbose)
 
-    if ac.epsilon is not None:
-        douglas_peucker(merged_track, ac.epsilon)
+        if track is None:
+            break
 
-    split_tracks = split_track(merged_track, ac.max_points, ac.verbose)
+        if ac.epsilon is not None:
+            douglas_peucker(track, ac.epsilon, ac.verbose)
 
-    add_tracks(input_data, split_tracks)
+        split_tracks = split_track(track, ac.max_points, ac.verbose)
+
+        new_tracks += split_tracks
+
+    add_tracks(input_data, new_tracks)
 
     if ac.out_file_name is None or ac.out_file_name == "-":
         fp = sys.stdout
     else:
         fp = open(ac.out_file_name, 'w')
 
-    print(json.dumps(round_floats(input_data), indent=ac.indent_level), file=fp)
+    print(json.dumps(round_floats(input_data, ac.decimal_places), \
+        indent=ac.indent_level), file=fp)
 
     fp.close()
 
