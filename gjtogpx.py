@@ -14,6 +14,11 @@ class Waypoint:
         self.sym = sym
         self.desc = desc
 
+class Track:
+    def __init__(self, name, coords):
+        self.name = name
+        self.coords = coords
+
 def usage():
     """
     Print a usage message.
@@ -21,7 +26,7 @@ def usage():
 
     print("usage: gjwaypoints.py file.json name", file=sys.stderr)
 
-def toxml(name, waypoints):
+def toxml(name, waypoints, tracks):
     """
     Return XML string of all data.
     """
@@ -40,6 +45,18 @@ def toxml(name, waypoints):
         if w.desc is not None:
             r += f'<cmt>{w.desc}</cmt>'
         r += '</wpt>'
+
+    for t in tracks:
+        r += '<trk>'
+        r += f'<name>{t.name}</name>'
+        r += '<trkseg>'
+
+        for lon, lat in t.coords:
+            r += f'<trkpt lat="{lat}" lon="{lon}">'
+            r += '</trkpt>'
+
+        r += '</trkseg>'
+        r += '</trk>'
 
     r += "</gpx>"
 
@@ -145,8 +162,9 @@ def symbol_map(sym, name, color):
     return sym_map[sym]
 
 
-def get_waypoints(jdata):
+def get_waypoints_tracks(jdata):
     waypoints = []
+    tracks = []
 
     assert(jdata["type"] == "FeatureCollection")
 
@@ -162,52 +180,65 @@ def get_waypoints(jdata):
         if f["geometry"] is None:
             continue
 
-        if f["geometry"]["type"] != "Point":
-            continue
+        geom_type = f["geometry"]["type"]
 
-        sym = f["properties"]["marker-symbol"]
-        name = f["properties"]["title"]
-        color = f["properties"]["marker-color"] if "marker-color" in f["properties"] else "#000000"
+        if geom_type == "Point":
+            sym = f["properties"]["marker-symbol"]
+            name = f["properties"]["title"]
+            color = f["properties"]["marker-color"] if "marker-color" in f["properties"] else "#000000"
 
-        sym = symbol_map(sym, name, color)
+            sym = symbol_map(sym, name, color)
 
-        if "description" in f["properties"]:
-            desc = f["properties"]["description"]
-            desc = None if desc == "" else desc
-        else:
-            desc = None
+            if "description" in f["properties"]:
+                desc = f["properties"]["description"]
+                desc = None if desc == "" else desc
+            else:
+                desc = None
 
-        # Force to 6 or fewer decimal places
-        c = f["geometry"]["coordinates"]
-        c = list(map(lambda x: float(f'{x:.6f}'), c))
+            # Force to 6 or fewer decimal places
+            c = f["geometry"]["coordinates"]
+            c = list(map(lambda x: float(f'{x:.6f}'), c))
 
-        wp = Waypoint(name, c[1], c[0], sym, desc); # switch to lat,lon
+            wp = Waypoint(name, c[1], c[0], sym, desc); # switch to lat,lon
 
-        waypoints.append(wp)
+            waypoints.append(wp)
 
-    return waypoints
+        elif geom_type == "LineString":
+            name = f["properties"]["title"]
+            coords = f["geometry"]["coordinates"]
+
+            track = Track(name, coords)
+
+            tracks.append(track)
+            
+    return waypoints, tracks
 
 def main(argv):
     """
     Main.
     """
-    if len(argv) != 3:
+
+    try:
+        file_name = argv[1]
+        name = argv[2]
+    except:
         usage()
         return 1
 
-    name = argv[2]
+    if file_name == "-":
+        infile = sys.stdin
+    else:
+        infile = open(file_name)
 
-    with open(argv[1]) as fp:
-        jdata = json.load(fp)
+    jdata = json.load(infile)
 
-    # Read the data into internal representation
-    waypoints = get_waypoints(jdata)
+    waypoints, tracks = get_waypoints_tracks(jdata)
 
-    # Output final XML
-    print(toxml(name, waypoints))
+    xml_data = toxml(name, waypoints, tracks)
+
+    print(xml_data)
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv))
