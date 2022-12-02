@@ -2,6 +2,11 @@
 
 # ./gjwaypoints.py test.json
 
+#
+# Icons:
+#
+# https://freegeographytools.com/2008/garmin-gps-unit-waypoint-icons-table
+
 import sys
 import json
 import re
@@ -144,11 +149,11 @@ def symbol_map(sym, name, color):
         "theater": "Movie Theater",
         "airport": "Airport",
         "automobile": "Car",
+        "hiking": "Trail Head",
     }
 
     # Bank (dollar sign)
     # Park (single tree)
-    # Trail Head (hiking boot)
     # Mine (Shovel and pick)
     # Museum (Building with pillars)
     # Residence (House)
