@@ -3,7 +3,11 @@
 SMOOTH_DIST=5
 MAX_POINTS=1900
 
+OUTDIR=build
+
 files=json/*.json
+
+mkdir -p $OUTDIR
 
 for f in $files; do
     name=$(basename "$f" .json)
@@ -12,7 +16,7 @@ for f in $files; do
     printf "Building %s\n" "$name"
     printf -- "-------------------------------------------------------\n"
 
-    gpx_name=${name}.gpx
+    gpx_name=${OUTDIR}/${name}.gpx
     track_name="$name"
 
     case "$name" in
