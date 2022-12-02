@@ -20,7 +20,7 @@ for f in $files; do
     track_name="$name"
 
     case "$name" in
-        Oregon_North_Cascades) track_name="ONCR" ;;
+        Oregon_North_Cascades_Route) track_name="ONCR" ;;
     esac
 
     ./gjretrack.py -e $SMOOTH_DIST -m 1900 -j -v "$f" | ./gjtogpx.py - "$track_name" > "$gpx_name"
