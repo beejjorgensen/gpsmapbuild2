@@ -5,7 +5,7 @@ import json
 import uuid
 import math
 
-JOIN_MAX_DIST_M = 50
+JOIN_MAX_DIST_M = 30
 DECIMAL_PLACES = 6
 
 def usage():
@@ -290,19 +290,19 @@ def read_input_file(in_file_name):
 def get_feature_geom_type(f):
     try:
         return f["geometry"]["type"]
-    except KeyError:
+    except (KeyError, TypeError):
         return None
 
-def get_feature_title(f):
+def get_feature_property(f, p):
     try:
-        return f["properties"]["title"]
+        return f["properties"][p].strip()
     except KeyError:
         return None
 
 def get_feature_geom_coordinates(f):
     try:
         return f["geometry"]["coordinates"]
-    except KeyError:
+    except (KeyError, TypeError):
         return None
 
 def copy_track_props(new_track, old_track, copy_coords=False):
@@ -331,7 +331,7 @@ def split_track(track, max_points, verbose=False):
     points_per_segment = track_points / segment_count
 
     if verbose:
-        title = track['properties']['title']
+        title = get_feature_property(track, 'title')
         log(f"{title}: split: total track points: {track_points}")
         log(f"{title}: split: segment count: {segment_count}")
         log(f"{title}: split: points per segment: " \
@@ -376,7 +376,7 @@ def extract_track(data, do_join_tracks, join_max_dist, verbose):
         if geom_type != "LineString":
             continue
 
-        title = get_feature_title(f)
+        title = get_feature_property(f, "title")
 
         if track_name is None:
             if verbose:
@@ -416,6 +416,21 @@ def extract_track(data, do_join_tracks, join_max_dist, verbose):
     return extracted_track
 
 def join_tracks(tracks, max_dist):
+
+    best_dist = math.inf
+    best_dist_coords = ()
+
+    def get_dist(p1, p2):
+        nonlocal best_dist, best_dist_coords
+
+        dist = lldist(*p1, *p2)
+
+        if dist < best_dist:
+            best_dist = dist
+            best_dist_coords = (p1, p2)
+
+        return dist
+
     new_track = {}
 
     # The new track can take on the properties of the last old one
@@ -426,13 +441,14 @@ def join_tracks(tracks, max_dist):
 
     while tracks != []:
         merged_track = None
+        best_dist = math.inf
 
         for t in tracks:
             wgc = t["geometry"]["coordinates"]
             nwgc = new_track["geometry"]["coordinates"]
 
             # Check for leader
-            dist = lldist(*wgc[-1], *nwgc[0])
+            dist = get_dist(wgc[-1], nwgc[0])
 
             if dist <= max_dist:
                 if dist < 0.1: wgc.pop()
@@ -440,7 +456,7 @@ def join_tracks(tracks, max_dist):
                 break
                 
             # Check for reversed leader
-            dist = lldist(*wgc[0], *nwgc[0])
+            dist = get_dist(wgc[0], nwgc[0])
 
             if dist <= max_dist:
                 wgc.reverse()
@@ -449,7 +465,7 @@ def join_tracks(tracks, max_dist):
                 break
                 
             # Check for trailer
-            dist = lldist(*wgc[0], *nwgc[-1])
+            dist = get_dist(wgc[0], nwgc[-1])
 
             if dist <= max_dist:
                 if dist < 0.1: nwgc.pop()
@@ -457,7 +473,7 @@ def join_tracks(tracks, max_dist):
                 break
 
             # Check for reversed trailer
-            dist = lldist(*wgc[-1], *nwgc[-1])
+            dist = get_dist(wgc[-1], nwgc[-1])
 
             if dist <= max_dist:
                 wgc.reverse()
@@ -465,7 +481,14 @@ def join_tracks(tracks, max_dist):
                 merged_track = nwgc + wgc
                 break
 
-        assert merged_track is not None, "couldn't merge a track"
+        if merged_track is None:
+            title = get_feature_property(new_track, "title")
+            log(f"{title}: joining: fatal: couldn't join track")
+            log(f"{title}: joining: best distance: {best_dist}")
+            log(f"{title}: joining: point 1: {best_dist_coords[0]}")
+            log(f"{title}: joining: point 2: {best_dist_coords[1]}")
+            sys.exit(3)
+
         new_track["geometry"]["coordinates"] = merged_track
 
         tracks.remove(t)
