@@ -7,15 +7,16 @@ files=json/*.json
 
 for f in $files; do
     name=$(basename "$f" .json)
-    gpx_name=${name}.gpx
 
     printf -- "-------------------------------------------------------\n"
     printf "Building %s\n" "$name"
     printf -- "-------------------------------------------------------\n"
 
+    gpx_name=${name}.gpx
+    track_name="$name"
+
     case "$name" in
         Oregon_North_Cascades) track_name="ONCR" ;;
-        *) printf "unrecognized track name $f"; exit 1
     esac
 
     ./gjretrack.py -e $SMOOTH_DIST -m 1900 -j -v "$f" | ./gjtogpx.py - "$track_name" > "$gpx_name"
