@@ -85,7 +85,8 @@ def symbol_map(sym, name, color):
         "store|market": "store",
         " mines?|^mining|^mine$|^mines$": "mine",
         "restarea|rest area": "restarea",
-        "theater": "theater"
+        "theater": "theater",
+        "bridge": "bridge"
     }
 
     if sym == "placemark2":
@@ -150,6 +151,7 @@ def symbol_map(sym, name, color):
         "airport": "Airport",
         "automobile": "Car",
         "hiking": "Trail Head",
+        "bridge": "Bridge",
     }
 
     # Bank (dollar sign)
