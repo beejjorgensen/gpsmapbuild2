@@ -374,10 +374,10 @@
     "creator": "J9KSHN",
     "marker-color": "000000",
     "description": "",
-    "title": "North to Butte Falls",
+    "title": "North to Butte Falls gas",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1670174061000,
+    "updated": 1670597106000,
     "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
     "marker-rotation": null
    }
@@ -1581,29 +1581,6 @@
   {
    "geometry": {
     "coordinates": [
-     -122.45609989061181,
-     42.466701592536694,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "500990e9-4f17-4e4e-b916-00b4fe161ac5",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "camping$circle",
-    "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Campground",
-    "class": "Marker",
-    "updated": 1669819309000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309"
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -122.46247967411757,
      42.892165426304665,
      0,
@@ -2452,6 +2429,31 @@
   {
    "geometry": {
     "coordinates": [
+     -121.77310395104146,
+     43.715071833121875,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "7bdc9dd7-0e0c-4d6c-bb8c-b2fad8ea5a91",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "$18+$8\nwater",
+    "title": "West South Twin CG, water",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670547834000,
+    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.54845654839845,
      44.29155097850183,
      0,
@@ -3046,6 +3048,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1670174850000,
+    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.63332665954538,
+     43.76792764650394,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "9f3759ff-eb0e-490a-9762-8f2c4815eb74",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "photo$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Fall River Spring",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670548118000,
     "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
     "marker-rotation": null
    }
@@ -3776,6 +3803,31 @@
   {
    "geometry": {
     "coordinates": [
+     -121.86136261280514,
+     44.405783356751144,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "c0fcc98c-a2a8-4d87-ab76-9fe883163da8",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "atv$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "ATV track",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670549081000,
+    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -122.39255958515746,
      42.40656987089934,
      0,
@@ -4325,6 +4377,31 @@
   {
    "geometry": {
     "coordinates": [
+     -121.63316036258645,
+     43.76840800834406,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "deb9c6cd-5b92-4822-9369-d14e6bdc1c4f",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "hut$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "Reservations only\n$90",
+    "title": "Fall River Guard Station",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670548104000,
+    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.86148017403764,
      44.40522925087745,
      0,
@@ -4498,6 +4575,31 @@
   {
    "geometry": {
     "coordinates": [
+     -121.62049497161813,
+     43.77249595433654,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "e89ee978-55c1-4767-8085-743f06219476",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "$14+$8\nno water",
+    "title": "Fall River CG",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670548187000,
+    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.78008741508938,
      44.38080412384507,
      0,
@@ -4614,6 +4716,31 @@
   {
    "geometry": {
     "coordinates": [
+     -121.62517462965172,
+     44.10325243683073,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "efed8894-c89f-442c-ae52-48544e69c32f",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "$16+$8\nno water",
+    "title": "Driftwood CG",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670548633000,
+    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.63578597021478,
      44.15309928124858,
      0,
@@ -4697,12 +4824,14 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Willow Lake Campground",
+    "marker-color": "000000",
+    "description": "$22+$6\nwater",
+    "title": "Willow Lake CG, water",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1669819309000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309"
+    "updated": 1670597080000,
+    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
+    "marker-rotation": null
    }
   },
   {
@@ -5061,156 +5190,6 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1670174980000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.77310395104146,
-     43.715071833121875,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "7bdc9dd7-0e0c-4d6c-bb8c-b2fad8ea5a91",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "camping$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "$18+$8\nwater",
-    "title": "West South Twin CG, water",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670547834000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.63316036258645,
-     43.76840800834406,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "deb9c6cd-5b92-4822-9369-d14e6bdc1c4f",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "hut$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "Reservations only\n$90",
-    "title": "Fall River Guard Station",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670548104000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.63332665954538,
-     43.76792764650394,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "9f3759ff-eb0e-490a-9762-8f2c4815eb74",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "photo$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Fall River Spring",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670548118000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.62049497161813,
-     43.77249595433654,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "e89ee978-55c1-4767-8085-743f06219476",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "camping$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "$14+$8\nno water",
-    "title": "Fall River CG",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670548187000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.62517462965172,
-     44.10325243683073,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "efed8894-c89f-442c-ae52-48544e69c32f",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "camping$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "$16+$8\nno water",
-    "title": "Driftwood CG",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670548633000,
-    "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.86136261280514,
-     44.405783356751144,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "c0fcc98c-a2a8-4d87-ab76-9fe883163da8",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "atv$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "ATV track",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670549081000,
     "folderId": "77d4de90-0c48-460e-88ca-94fadc190309",
     "marker-rotation": null
    }
