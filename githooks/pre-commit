@@ -1,0 +1,16 @@
+#!/bin/sh
+
+files=$(git diff --staged --name-only | grep 'json/.*\.json')
+
+exit_status=0
+
+for f in $files; do
+    lines=$(wc -l "$f" | awk '{print $1}')
+
+    if [ $lines -lt 5 ]; then
+        printf "%s: needs pretty-printing\n" "$f"
+        exit_status=1
+    fi
+done
+
+exit $exit_status
