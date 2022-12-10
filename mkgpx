@@ -21,6 +21,7 @@ for f in $files; do
 
     case "$name" in
         Oregon_North_Cascades_Route) track_name="ONCR" ;;
+        California_Trans-Sierra_Route) track_name="CTSR" ;;
     esac
 
     ./gjretrack.py -e $SMOOTH_DIST -m 1900 -j -v "$f" | ./gjtogpx.py - "$track_name" > "$gpx_name"
