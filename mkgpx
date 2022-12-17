@@ -21,6 +21,7 @@ for f in $files; do
 
     case "$name" in
         Oregon_North_Cascades_Route) track_name="ONCR" ;;
+        Oregon_Newberry_Summer_Route) track_name="ONSR" ;;
         California_Trans-Sierra_Route) track_name="CTSR" ;;
         California_Ponderosa_Way_Route) track_name="CPWR" ;;
     esac
