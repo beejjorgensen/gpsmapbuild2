@@ -485,8 +485,8 @@ def join_tracks(tracks, max_dist):
             title = get_feature_property(new_track, "title")
             log(f"{title}: joining: fatal: couldn't join track")
             log(f"{title}: joining: best distance: {best_dist}")
-            log(f"{title}: joining: point 1: {best_dist_coords[0]}")
-            log(f"{title}: joining: point 2: {best_dist_coords[1]}")
+            log(f"{title}: joining: point 1: {list(reversed(best_dist_coords[0]))}")
+            log(f"{title}: joining: point 2: {list(reversed(best_dist_coords[1]))}")
             sys.exit(3)
 
         new_track["geometry"]["coordinates"] = merged_track
