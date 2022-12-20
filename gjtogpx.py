@@ -82,7 +82,7 @@ def symbol_map(sym, name, color):
         "Edwards Crossing": "pin",  # The bridge
         "crossing": "crossing",
         "cemetery|grave": "cemetery",
-        "store|market|grocer": "store",
+        "store|market|grocer|minimart": "store",
         " mines?|^mining|^mine$|^mines$": "mine",
         "restarea|rest area": "restarea",
         "theater": "theater",
@@ -123,6 +123,7 @@ def symbol_map(sym, name, color):
         "residence": "Residence",
         "drinking-water": "Drinking Water",
         "firelookout": "Short Tower",
+        "flag-1": "Flag, Blue",   # Black flag
         "flag-2": "Flag, Green",  # Checkered Flag
         "fuel": "Gas Station",
         "info": "Information",
