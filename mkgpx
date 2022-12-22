@@ -23,6 +23,11 @@ for f in $files; do
         Oregon_North_Cascades_Route) track_name="ONCR" ;;
         Oregon_Newberry_Summer_Route) track_name="ONSR" ;;
         Oregon_Santiam_Crossing_Route) track_name="OSCR" ;;
+        Unofficial_OBCDR2) track_name="OBCDR2" ;;
+        Unofficial_OBCDR3) track_name="OBCDR3" ;;
+        Unofficial_OBCDR4) track_name="OBCDR4" ;;
+        Unofficial_OBCDR5) track_name="OBCDR5" ;;
+        Unofficial_OBCDR6) track_name="OBCDR6" ;;
         California_Trans-Sierra_Route) track_name="CTSR" ;;
         California_Ponderosa_Way_Route) track_name="CPWR" ;;
     esac
