@@ -1,0 +1,7 @@
+#!/bin/sh
+
+for f in "$@"; do
+    localfile=$(basename "$f")
+    cp "$f" "$localfile"
+    ../jsonpp.py "$localfile"
+done
