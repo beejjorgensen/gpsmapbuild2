@@ -52,8 +52,58 @@
   {
    "geometry": {
     "coordinates": [
-     -119.89765227009359,
-     44.33795819608644,
+     -119.80764782455111,
+     44.35273440376163,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "05b83164-bc18-45da-a17e-7ddc4dfaf1cc",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671928692000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.24293743328779,
+     44.2157908327607,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "08a51f93-f4e1-4a0a-8bce-cb896a17f2c1",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671985688000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.89615827967229,
+     44.339128405987985,
      0,
      0
     ],
@@ -64,12 +114,89 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
+    "marker-color": "000000",
     "description": "",
-    "title": "Little Summit Campground",
+    "title": "Little Summit Campsite",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659052000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671922565000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -118.9648466111372,
+     44.236582025050964,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "09a7bd33-308f-4674-812e-060747fb662a",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672170419000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.29883916568984,
+     44.45173666298838,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "09ff7db1-a661-4ff9-9f18-39c9aa6d7633",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671910181000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.9791068563536,
+     44.45529014840545,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "0a9cc123-06d5-4dd7-9cc0-b8adda7bc1b5",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921673000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -160,12 +287,39 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Walton Lake Campground",
+    "marker-color": "000000",
+    "description": "$15+$5\nwater",
+    "title": "Walton Lake CG, water",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659052000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671910333000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.98186006834071,
+     44.45466755180381,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "1530438a-d9b2-447f-8c4c-4bfb85341a35",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921658000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -189,6 +343,56 @@
     "class": "Marker",
     "updated": 1671659052000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.12074419862876,
+     44.28699584411806,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "18497ed4-9386-4dc0-9ab7-818b12b71627",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671986273000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.27531444147175,
+     44.18594331239705,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "18cab764-a07d-484f-b834-39be4ba023d6",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671931013000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -219,8 +423,8 @@
   {
    "geometry": {
     "coordinates": [
-     -120.14499270779748,
-     44.42441998480498,
+     -120.14547282321114,
+     44.42470731885567,
      0,
      0
     ],
@@ -231,12 +435,14 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Scotts Campgorund",
+    "marker-color": "000000",
+    "description": "free\nno water",
+    "title": "Scotts CG",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659052000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671911542000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -367,6 +573,31 @@
   {
    "geometry": {
     "coordinates": [
+     -120.07786356132723,
+     44.45235254030191,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "21b543b9-8761-440c-b603-67d04b287e65",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921347000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.13104158308956,
      44.4337073520681,
      0,
@@ -404,12 +635,14 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Frazier Campground",
+    "marker-color": "000000",
+    "description": "free\nno water",
+    "title": "Frazier CG",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659052000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671929418000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -515,29 +748,6 @@
   {
    "geometry": {
     "coordinates": [
-     -121.5499633028412,
-     44.291315410854544,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "2bfed3c1-93c7-4272-84f0-704583c2ac04",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Sisters",
-    "class": "Marker",
-    "updated": 1671659052000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -118.97570005170931,
      44.42059474188598,
      0,
@@ -550,12 +760,39 @@
    "properties": {
     "marker-symbol": "fuel$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "Sinclair",
+    "marker-color": "000000",
+    "description": "Sinclair\n5 AM - 9 PM",
     "title": "Gas",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659052000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1672177864000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.1663237803962,
+     44.44996587361488,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "2f7cafd2-449e-4852-9bf6-30549babe719",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671911434000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -579,6 +816,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671825583000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -118.76633703098372,
+     44.178994157905365,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "35d3afd1-5a9b-4e50-a520-b11811cd8dd3",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "$8+$4\nwater",
+    "title": "Parish Cabin CG, water",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672177519000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -734,6 +996,56 @@
   {
    "geometry": {
     "coordinates": [
+     -120.08559718828877,
+     44.4485698421678,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "3ff0c173-ab19-41aa-92f8-6b5c18acb76d",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921121000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.24485902380238,
+     44.217652321456704,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "41e8114e-7733-430a-a451-fd4d4447e3cb",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671985661000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.262321526068,
      44.555441538299334,
      0,
@@ -752,6 +1064,56 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671824499000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.3714473179675,
+     44.466025422879056,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "4720ef72-c9a3-46c2-bba2-d0e04431b484",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909617000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.1727220605614,
+     44.453567012299835,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "47282bac-ee13-4114-bb65-fb60e3098452",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671911411000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -832,29 +1194,6 @@
   {
    "geometry": {
     "coordinates": [
-     -118.9526875518325,
-     44.416118102808454,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "5313ae58-1d16-49c8-a940-0d5efefd3a0c",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "Gas, food, lodging",
-    "title": "John Day",
-    "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -119.66350847587836,
      44.301982242948014,
      0,
@@ -873,6 +1212,31 @@
     "class": "Marker",
     "updated": 1671659053000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.30767465620572,
+     44.44655874498576,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "559fe4ff-cbac-476f-b28f-3224f2ced988",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671910100000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -915,12 +1279,39 @@
    "properties": {
     "marker-symbol": "fuel$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "Shell",
-    "title": "Gas",
+    "marker-color": "000000",
+    "description": "Exxon/Fastbreak\n5 AM - 9 PM",
+    "title": "Gas, minimart",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1672177719000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.36257833680611,
+     44.470833442922945,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "592bcdb5-89ca-4aa0-b70b-97af2e2188af",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909701000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -944,6 +1335,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671824499000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.33930990900201,
+     44.4571267055359,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "5c61f12b-3da1-47cd-964e-490e6766355d",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909796000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -1063,12 +1479,14 @@
    "properties": {
     "marker-symbol": "fuel$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "Bear Valley Store",
+    "marker-color": "000000",
+    "description": "Bear Valley Store\n6 AM - 7 PM\nSu 8 AM - 5 PM",
     "title": "Gas",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1672177629000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -1099,6 +1517,56 @@
   {
    "geometry": {
     "coordinates": [
+     -118.83811812172131,
+     44.190215183832635,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "66e674da-deab-4cb6-a3d1-07931152b27c",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672168696000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.29672047513071,
+     44.17175608469718,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "67fd78d5-ae6a-4fdb-9956-ad09684c8b9a",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671930718000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -120.08394634573885,
      44.46378433521404,
      0,
@@ -1117,6 +1585,31 @@
     "class": "Marker",
     "updated": 1671659053000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.93469749615424,
+     44.4739864181706,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "6ca75e0f-8f0c-434a-aea5-7155d4a27e44",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "free\nno water",
+    "title": "Barnhouse CG",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671922288000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -1172,6 +1665,81 @@
   {
    "geometry": {
     "coordinates": [
+     -118.92161857031373,
+     44.211566488304555,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "71f2b4f1-bfc8-4244-9b6c-6818f87a3e0b",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672171351000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.22553427993128,
+     44.465130408819654,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "7229084f-d813-48b3-8352-c4efe1dcf082",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671910702000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.59949801816565,
+     44.21081293213669,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "779f885b-1f69-49e2-8f40-fadb4ad26f48",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671929338000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.14923302225095,
      44.43434420972691,
      0,
@@ -1190,6 +1758,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671824499000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.30378332018651,
+     44.17676554137439,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "78cafe2e-4dba-486e-8300-b2754b7affda",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671930653000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -1270,6 +1863,31 @@
   {
    "geometry": {
     "coordinates": [
+     -120.0955951887036,
+     44.44149322396887,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "7af69f6e-8a18-4b3d-816a-3d85e1aece44",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921008000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -120.52942818182727,
      44.5144269018721,
      0,
@@ -1345,6 +1963,31 @@
   {
    "geometry": {
     "coordinates": [
+     -119.24893016828418,
+     44.215767064941566,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "7ce0ee5e-10c0-45da-a450-1b7e649a7266",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671985638000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -120.44639989310025,
      44.49528143681707,
      0,
@@ -1395,6 +2038,56 @@
   {
    "geometry": {
     "coordinates": [
+     -120.02828415799577,
+     44.442226372076,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "80f68e49-d288-4c8a-a66d-5eb6b0c17f74",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921454000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.12137428213872,
+     44.425137887306384,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "81e566c5-cbc1-47ea-9672-2842a370f8e6",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671920925000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.55167663499171,
      44.34766018203487,
      0,
@@ -1420,6 +2113,31 @@
   {
    "geometry": {
     "coordinates": [
+     -120.22472205138172,
+     44.46263795636567,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "83fed716-07f3-4299-a415-818c0023e276",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Carrol Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671910767000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -119.52452040141355,
      44.18496361274613,
      0,
@@ -1438,6 +2156,56 @@
     "class": "Marker",
     "updated": 1671659053000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.3289603324122,
+     44.18698511152372,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "84754372-997a-4bd5-9e7c-401de05916f6",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "Can you camp here?",
+    "title": "Campsite??",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671930431000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.33850403577152,
+     44.45367697541219,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "8728f82f-a6c8-49c9-9a56-adadaed6e275",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909812000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -1486,6 +2254,106 @@
     "class": "Marker",
     "updated": 1671659053000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.85137725236518,
+     44.36031470807567,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "899e3f1d-9370-404a-8362-fd5a0caf822e",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671928544000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.0166981536546,
+     44.26006386654708,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "8a0f2691-7fa4-46ec-aadd-1893cebcd623",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "$6+$3\nno water",
+    "title": "Starr CG",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671986814000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.30345498458213,
+     44.44909660073205,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "8a9b719d-a198-4001-b36c-c676bcbb224b",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671910122000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -118.91942113677469,
+     44.20647118217328,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "8b5901a9-4333-4346-ad35-15a516efa2d1",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672171800000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -1614,6 +2482,56 @@
   {
    "geometry": {
     "coordinates": [
+     -119.19507983203671,
+     44.231754644975254,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "947b244c-7fad-45ed-bae8-90468ba7730b",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671985936000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.01109119232797,
+     44.451728013353154,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "94ee8870-429d-4528-96a1-61f63bd704a9",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921513000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -119.28088345377658,
      44.18598772120765,
      0,
@@ -1685,6 +2603,31 @@
   {
    "geometry": {
     "coordinates": [
+     -120.3664171154647,
+     44.46816291615998,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "9c41b157-2a8f-4e40-87ef-039fcfbfedd9",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909654000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.14215886984985,
      44.49473297668365,
      0,
@@ -1703,6 +2646,81 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671824499000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -118.96050943622568,
+     44.4203274512583,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "9e35f60a-4a04-4ee0-8f9d-d3b5e3d5b200",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "placemark2",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "7 AM - 10 PM",
+    "title": "Chester's Market",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672177909000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -118.86985061982764,
+     44.19415540986189,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "9e830b7b-effc-402c-b10c-47a848da036a",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672175075000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.96955718153254,
+     44.45690727731895,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "9f78aaf9-8d48-47ad-882e-25f7b1bf3540",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921711000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -1785,6 +2803,31 @@
   {
    "geometry": {
     "coordinates": [
+     -119.22452698081341,
+     44.236306727853396,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "a43b4e20-970a-401f-b531-f6f75a7bd6db",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671985812000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.14820175198022,
      44.43126675771189,
      0,
@@ -1860,24 +2903,26 @@
   {
    "geometry": {
     "coordinates": [
-     -120.84708603982932,
-     44.30291531171585,
+     -120.26137720343304,
+     44.466701843830634,
      0,
      0
     ],
     "type": "Point"
    },
-   "id": "a658e1d5-d90f-4465-9655-31b96dea01af",
+   "id": "a89dd46f-6f6a-4c66-a7c3-21c30282bcef",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "placemark2",
+    "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
+    "marker-color": "000000",
     "description": "",
-    "title": "Prineville",
+    "title": "Campsite",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671910566000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -1926,6 +2971,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671824622000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.03650694274334,
+     44.442114099487135,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "ad603dfc-caf2-4268-b29f-d201f0823174",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921435000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -2104,6 +3174,81 @@
   {
    "geometry": {
     "coordinates": [
+     -118.8703092040888,
+     44.202075354834754,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "b969d180-01be-4f8d-bbc4-b5dc980cd20b",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672174718000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.37825208223828,
+     44.46961150874732,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "ba974f1d-fe2b-4ffb-99e3-7b54dbd38dbd",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909581000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -118.84548473477751,
+     44.196293045127234,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "bc9bac92-f99b-4bb7-9a45-6f200a41e77b",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1672175425000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -119.27690148841178,
      44.184186444434616,
      0,
@@ -2139,14 +3284,16 @@
    "id": "be31320f-ab10-4ec1-b730-8956683bffbd",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "rangerstation2$circle",
+    "marker-symbol": "hut$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
+    "marker-color": "000000",
+    "description": "$60 reservations only\nno water",
     "title": "Deer Creek Guard Station",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671930566000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -2177,6 +3324,56 @@
   {
    "geometry": {
     "coordinates": [
+     -119.98268569387461,
+     44.4518976915676,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "c099422d-640f-4b83-b229-9faa291d934d",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921633000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.40087303104002,
+     44.156169100525005,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "c3225a36-7e4c-46d2-af0f-f6e818bf5801",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671929863000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -120.33624128102045,
      44.48471167150551,
      0,
@@ -2189,12 +3386,14 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Wildwood Campground",
+    "marker-color": "000000",
+    "description": "free\nno water",
+    "title": "Wildwood CG",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671910278000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -2218,6 +3417,56 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671740432000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.35788241727234,
+     44.468084328035815,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "c6502eb3-83cf-43d7-888f-8c8390d16311",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909733000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.05838577812271,
+     44.245555074695,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "c8e40784-f714-4d61-8a8f-26b97649bd84",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671986589000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -2298,6 +3547,31 @@
   {
    "geometry": {
     "coordinates": [
+     -119.32625724739952,
+     44.194138520401545,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "ce30150e-b5b0-4334-a4db-77f5700188e3",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671930479000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -118.8793802047484,
      44.21364038614304,
      0,
@@ -2348,8 +3622,8 @@
   {
    "geometry": {
     "coordinates": [
-     -119.85555231739583,
-     44.38796861901659,
+     -119.85526263882223,
+     44.388382637516024,
      0,
      0
     ],
@@ -2360,12 +3634,14 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Cottonwood Campground",
+    "marker-color": "000000",
+    "description": "free\nno water",
+    "title": "Cottonwood CG",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671922381000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -2391,29 +3667,6 @@
     "updated": 1671824499000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -118.96958627550815,
-     44.13622269373775,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "d14dcb93-d7b6-45e3-bcd6-3f4ebd9a2881",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "Gas, food, lodging",
-    "title": "Seneca",
-    "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
    }
   },
   {
@@ -2469,6 +3722,31 @@
   {
    "geometry": {
     "coordinates": [
+     -119.21469831028286,
+     44.23587782750189,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "d70366cb-4ae1-4c1c-8acb-620f45046815",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671985861000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.08917052232816,
      44.428846079479264,
      0,
@@ -2487,6 +3765,56 @@
     "class": "Marker",
     "updated": 1671659053000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.00426289173677,
+     44.451879491879076,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "d763f6e2-43ea-4b4c-b280-ead24d97a28a",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921548000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.67003046938042,
+     44.30793399107337,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "d8d7b591-8a78-4fb8-b989-e23e2ba52329",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671929019000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -2515,6 +3843,31 @@
   {
    "geometry": {
     "coordinates": [
+     -119.87016422455959,
+     44.3677812535359,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "dac18fd6-21a5-4a5a-938e-51a4a0575a0d",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "free\nno water",
+    "title": "Cottonwood Pit CG",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671922167000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.27899599544367,
      44.54667248017261,
      0,
@@ -2533,6 +3886,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1671824499000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.23389164411869,
+     44.21978454465275,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "dc308efa-7225-422a-bdcc-8d2c74d5d95e",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671985731000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
     "marker-rotation": null
    }
@@ -2665,6 +4043,31 @@
   {
    "geometry": {
     "coordinates": [
+     -120.00042864062044,
+     44.4521988274117,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "e6d8a33b-536e-4e72-ade7-30d5baaa491b",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921582000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -120.56341503992101,
      44.505178181380394,
      0,
@@ -2702,12 +4105,39 @@
    "properties": {
     "marker-symbol": "hut$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Badger Cabin",
+    "marker-color": "000000",
+    "description": "Ruin?",
+    "title": "Badger Cabin`",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671911578000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.32909530835992,
+     44.450864557050984,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "e87ca4cc-d993-4c65-a755-a66797da614a",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671909863000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -2763,6 +4193,81 @@
   {
    "geometry": {
     "coordinates": [
+     -120.09548350938552,
+     44.44373715330167,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "ea796f4a-a282-4bcf-8649-59a3005161e3",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671921035000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.64218637045737,
+     44.232814031282544,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "ebf61cf4-12f5-47a9-becc-151ad76800f6",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "What is that thing?",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671929261000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.19177566162199,
+     44.45854909899517,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "efa506f3-fe59-4982-b7ac-8ce537229e87",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Campsite",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671910980000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -118.85368148302666,
      44.217618184924675,
      0,
@@ -2775,12 +4280,14 @@
    "properties": {
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
-    "title": "Wikiup Campground",
+    "marker-color": "000000",
+    "description": "$6+$3\nno water",
+    "title": "Wikiup CG",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1671986926000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -2798,12 +4305,14 @@
    "properties": {
     "marker-symbol": "fuel$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "Leathers Fuels",
+    "marker-color": "000000",
+    "description": "Leathers Fuels\n7 AM - 6 PM\nSu 8 AM - 6 PM",
     "title": "Gas",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1671659053000,
-    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+    "updated": 1672177811000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -2902,6 +4411,31 @@
     "class": "Marker",
     "updated": 1671659053000,
     "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -119.27092261335912,
+     44.19490683741828,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "fcc58435-8f0c-4883-8864-0ea72c8b7fe1",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "photo$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Cabin ruin?",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1671931087000,
+    "folderId": "6175cfd3-3584-4ef9-8bc5-159c63c15150",
+    "marker-rotation": null
    }
   },
   {
@@ -7714,20 +9248,8 @@
       44.24858
      ],
      [
-      -119.02386629748719,
-      44.24824295879486
-     ],
-     [
-      -119.02386629748719,
-      44.24824295879486
-     ],
-     [
-      -119.02387,
-      44.24823
-     ],
-     [
-      -119.02387,
-      44.24823
+      -119.02355349933624,
+      44.24847016567817
      ],
      [
       -119.02289,
@@ -9515,7 +11037,7 @@
     "stroke-width": 3,
     "fill-opacity": 0.1,
     "class": "Shape",
-    "updated": 1671662140000
+    "updated": 1671986717000
    }
   },
   {
@@ -17296,6 +18818,3658 @@
     "fill-opacity": 0.1,
     "class": "Shape",
     "updated": 1671661660000
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     [
+      -120.39233972848342,
+      44.493888373027524
+     ],
+     [
+      -120.39234073344778,
+      44.49388844737677
+     ],
+     [
+      -120.39465000000001,
+      44.489
+     ],
+     [
+      -120.39567,
+      44.48764
+     ],
+     [
+      -120.39567,
+      44.48764
+     ],
+     [
+      -120.39567,
+      44.48764
+     ],
+     [
+      -120.39636000000002,
+      44.48688
+     ],
+     [
+      -120.39726999999999,
+      44.48605
+     ],
+     [
+      -120.39726999999999,
+      44.48605
+     ],
+     [
+      -120.39726999999999,
+      44.48605
+     ],
+     [
+      -120.39859999999999,
+      44.48507
+     ],
+     [
+      -120.40445806834362,
+      44.481108563033985
+     ],
+     [
+      -120.40445999999997,
+      44.48111
+     ],
+     [
+      -120.404,
+      44.48083
+     ],
+     [
+      -120.404,
+      44.48083
+     ],
+     [
+      -120.40294,
+      44.48021
+     ],
+     [
+      -120.40294,
+      44.48021
+     ],
+     [
+      -120.40294,
+      44.48021
+     ],
+     [
+      -120.40256999999997,
+      44.48003
+     ],
+     [
+      -120.4022,
+      44.47967
+     ],
+     [
+      -120.40177,
+      44.47921
+     ],
+     [
+      -120.40109999999999,
+      44.47873
+     ],
+     [
+      -120.3996460578121,
+      44.47778666846142
+     ],
+     [
+      -120.39966820119099,
+      44.47780103529653
+     ],
+     [
+      -120.39942000000002,
+      44.47764
+     ],
+     [
+      -120.39835,
+      44.47669
+     ],
+     [
+      -120.39724999999999,
+      44.47563
+     ],
+     [
+      -120.39675,
+      44.47506
+     ],
+     [
+      -120.39663000000002,
+      44.47487
+     ],
+     [
+      -120.39630999999997,
+      44.4737
+     ],
+     [
+      -120.39627999999999,
+      44.47305
+     ],
+     [
+      -120.39621999999997,
+      44.47291
+     ],
+     [
+      -120.39609000000002,
+      44.47273
+     ],
+     [
+      -120.39591999999999,
+      44.47263
+     ],
+     [
+      -120.39567,
+      44.47255
+     ],
+     [
+      -120.39553999999998,
+      44.47255
+     ],
+     [
+      -120.39472999999998,
+      44.47272
+     ],
+     [
+      -120.39449000000002,
+      44.47272
+     ],
+     [
+      -120.39420000000001,
+      44.47264
+     ],
+     [
+      -120.39252999999997,
+      44.47197
+     ],
+     [
+      -120.39216999999996,
+      44.47188
+     ],
+     [
+      -120.39148999999998,
+      44.47187
+     ],
+     [
+      -120.39148999999998,
+      44.47187
+     ],
+     [
+      -120.39148999999998,
+      44.47187
+     ],
+     [
+      -120.39105999999998,
+      44.47193
+     ],
+     [
+      -120.39033999999998,
+      44.47209
+     ],
+     [
+      -120.39003000000002,
+      44.4721
+     ],
+     [
+      -120.38947999999999,
+      44.47203
+     ],
+     [
+      -120.38896999999997,
+      44.47188
+     ],
+     [
+      -120.38818000000003,
+      44.47158
+     ],
+     [
+      -120.38818000000003,
+      44.47158
+     ],
+     [
+      -120.38797,
+      44.47147
+     ],
+     [
+      -120.38711,
+      44.47091
+     ],
+     [
+      -120.38662999999997,
+      44.47066
+     ],
+     [
+      -120.38625000000002,
+      44.47052
+     ],
+     [
+      -120.38616999999999,
+      44.47052
+     ],
+     [
+      -120.38616999999999,
+      44.47052
+     ],
+     [
+      -120.38580000000002,
+      44.47052
+     ],
+     [
+      -120.38522,
+      44.47061
+     ],
+     [
+      -120.38423999999998,
+      44.47091
+     ],
+     [
+      -120.38337999999999,
+      44.47097
+     ],
+     [
+      -120.3818,
+      44.47088
+     ],
+     [
+      -120.38105000000002,
+      44.47073
+     ],
+     [
+      -120.38040000000001,
+      44.47036
+     ],
+     [
+      -120.37862999999999,
+      44.47
+     ],
+     [
+      -120.37862999999999,
+      44.47
+     ],
+     [
+      -120.37862999999999,
+      44.47
+     ],
+     [
+      -120.37612000000001,
+      44.46954
+     ],
+     [
+      -120.37495999999999,
+      44.46919
+     ],
+     [
+      -120.37464,
+      44.46919
+     ],
+     [
+      -120.37434000000002,
+      44.46924
+     ],
+     [
+      -120.37387999999999,
+      44.46936
+     ],
+     [
+      -120.37371293799004,
+      44.46936
+     ],
+     [
+      -120.37368695585684,
+      44.46936
+     ],
+     [
+      -120.37351000000001,
+      44.46936
+     ],
+     [
+      -120.37329,
+      44.4693
+     ],
+     [
+      -120.37239999999997,
+      44.46885
+     ],
+     [
+      -120.37239999999997,
+      44.46885
+     ],
+     [
+      -120.37239999999997,
+      44.46885
+     ],
+     [
+      -120.37143000000003,
+      44.4683
+     ],
+     [
+      -120.37119999999999,
+      44.46821
+     ],
+     [
+      -120.36903999999998,
+      44.46763
+     ],
+     [
+      -120.368,
+      44.46738
+     ],
+     [
+      -120.36739,
+      44.46732
+     ],
+     [
+      -120.36634050444229,
+      44.467275529849246
+     ],
+     [
+      -120.36634050444229,
+      44.467275529849246
+     ],
+     [
+      -120.36621000000002,
+      44.46727
+     ],
+     [
+      -120.36621000000002,
+      44.46727
+     ],
+     [
+      -120.36463000000003,
+      44.46722
+     ],
+     [
+      -120.36410000000001,
+      44.46712
+     ],
+     [
+      -120.36304000000001,
+      44.46688
+     ],
+     [
+      -120.36304000000001,
+      44.46688
+     ],
+     [
+      -120.36304000000001,
+      44.46688
+     ],
+     [
+      -120.36193000000003,
+      44.4666
+     ],
+     [
+      -120.36193000000003,
+      44.4666
+     ],
+     [
+      -120.36193000000003,
+      44.4666
+     ],
+     [
+      -120.36088000000001,
+      44.4662
+     ],
+     [
+      -120.36012,
+      44.46577
+     ],
+     [
+      -120.35984000000002,
+      44.46528
+     ],
+     [
+      -120.35978999999998,
+      44.46515
+     ],
+     [
+      -120.35978999999998,
+      44.46515
+     ],
+     [
+      -120.35966000000002,
+      44.46478
+     ],
+     [
+      -120.35933816956077,
+      44.464265071297234
+     ],
+     [
+      -120.35934596112043,
+      44.46427753779261
+     ],
+     [
+      -120.35931,
+      44.46422
+     ],
+     [
+      -120.35861999999997,
+      44.46342
+     ],
+     [
+      -120.35802999999999,
+      44.46301
+     ],
+     [
+      -120.35771999999997,
+      44.46264
+     ],
+     [
+      -120.35730999999998,
+      44.4619
+     ],
+     [
+      -120.35681999999997,
+      44.46141
+     ],
+     [
+      -120.35582,
+      44.46092
+     ],
+     [
+      -120.35555999999997,
+      44.4606
+     ],
+     [
+      -120.35564,
+      44.46032
+     ],
+     [
+      -120.35654,
+      44.46007
+     ],
+     [
+      -120.35669000000001,
+      44.45992
+     ],
+     [
+      -120.35669000000001,
+      44.4597
+     ],
+     [
+      -120.35669000000001,
+      44.4597
+     ],
+     [
+      -120.35669000000001,
+      44.4597
+     ],
+     [
+      -120.35636999999997,
+      44.45941
+     ],
+     [
+      -120.3553,
+      44.4591
+     ],
+     [
+      -120.35405000000003,
+      44.45827
+     ],
+     [
+      -120.35361999999998,
+      44.45749
+     ],
+     [
+      -120.35336000000001,
+      44.45722
+     ],
+     [
+      -120.35311000000002,
+      44.45704
+     ],
+     [
+      -120.35311000000002,
+      44.45704
+     ],
+     [
+      -120.35369000000003,
+      44.45623
+     ],
+     [
+      -120.35408000000001,
+      44.45542
+     ],
+     [
+      -120.35406,
+      44.45498
+     ],
+     [
+      -120.35406,
+      44.45498
+     ],
+     [
+      -120.35406,
+      44.45498
+     ],
+     [
+      -120.35191281082587,
+      44.455570711432195
+     ],
+     [
+      -120.35197752926973,
+      44.45555290679479
+     ],
+     [
+      -120.35176999999999,
+      44.45561
+     ],
+     [
+      -120.35122000000001,
+      44.45569
+     ],
+     [
+      -120.35090000000002,
+      44.45568
+     ],
+     [
+      -120.34953999999999,
+      44.45541
+     ],
+     [
+      -120.34861999999998,
+      44.4551
+     ],
+     [
+      -120.34719999999999,
+      44.45461
+     ],
+     [
+      -120.34663,
+      44.45446
+     ],
+     [
+      -120.34600999999998,
+      44.45445
+     ],
+     [
+      -120.34600999999998,
+      44.45445
+     ],
+     [
+      -120.34600999999998,
+      44.45445
+     ],
+     [
+      -120.34480000000002,
+      44.45453
+     ],
+     [
+      -120.34424000000001,
+      44.45465
+     ],
+     [
+      -120.34424000000001,
+      44.45465
+     ],
+     [
+      -120.34329000000002,
+      44.45487
+     ],
+     [
+      -120.34291999999999,
+      44.45501
+     ],
+     [
+      -120.34291999999999,
+      44.45501
+     ],
+     [
+      -120.34291999999999,
+      44.45501
+     ],
+     [
+      -120.34120000000001,
+      44.45589
+     ],
+     [
+      -120.3392,
+      44.45672
+     ],
+     [
+      -120.33896360713436,
+      44.45673719220841
+     ],
+     [
+      -120.33893273961837,
+      44.45673943711866
+     ],
+     [
+      -120.33865000000003,
+      44.45676
+     ],
+     [
+      -120.33821999999998,
+      44.45666
+     ],
+     [
+      -120.33785999999998,
+      44.45651
+     ],
+     [
+      -120.33726999999999,
+      44.45614
+     ],
+     [
+      -120.33704999999998,
+      44.45593
+     ],
+     [
+      -120.33667361766766,
+      44.45497728222132
+     ],
+     [
+      -120.33667361766766,
+      44.45497728222132
+     ],
+     [
+      -120.33641,
+      44.45431
+     ],
+     [
+      -120.3363,
+      44.45411
+     ],
+     [
+      -120.33614999999998,
+      44.45392
+     ],
+     [
+      -120.33584000000002,
+      44.45364
+     ],
+     [
+      -120.33566000000002,
+      44.45337
+     ],
+     [
+      -120.33553,
+      44.45305
+     ],
+     [
+      -120.33537000000001,
+      44.45284
+     ],
+     [
+      -120.33526999999998,
+      44.45276
+     ],
+     [
+      -120.33510999999999,
+      44.45268
+     ],
+     [
+      -120.33479,
+      44.45265
+     ],
+     [
+      -120.33407999999997,
+      44.45264
+     ],
+     [
+      -120.33362,
+      44.45259
+     ],
+     [
+      -120.33362,
+      44.45259
+     ],
+     [
+      -120.33362,
+      44.45259
+     ],
+     [
+      -120.33299,
+      44.45247
+     ],
+     [
+      -120.33202,
+      44.45209
+     ],
+     [
+      -120.33127999999999,
+      44.45188
+     ],
+     [
+      -120.33005000000003,
+      44.45182
+     ],
+     [
+      -120.32931000000002,
+      44.45148
+     ],
+     [
+      -120.32826,
+      44.45121
+     ],
+     [
+      -120.32693999999998,
+      44.45078
+     ],
+     [
+      -120.32619999999997,
+      44.45043
+     ],
+     [
+      -120.32598000000002,
+      44.45009
+     ],
+     [
+      -120.32598000000002,
+      44.45009
+     ],
+     [
+      -120.32598000000002,
+      44.45009
+     ],
+     [
+      -120.32574,
+      44.44987
+     ],
+     [
+      -120.32596000000001,
+      44.44947
+     ],
+     [
+      -120.32596000000001,
+      44.44947
+     ],
+     [
+      -120.32610999999997,
+      44.44919
+     ],
+     [
+      -120.32628,
+      44.44875
+     ],
+     [
+      -120.32627000000002,
+      44.44823
+     ],
+     [
+      -120.32609000000002,
+      44.44787
+     ],
+     [
+      -120.32553999999999,
+      44.4474
+     ],
+     [
+      -120.32553999999999,
+      44.4474
+     ],
+     [
+      -120.32553999999999,
+      44.4474
+     ],
+     [
+      -120.32418000000001,
+      44.4464
+     ],
+     [
+      -120.32418000000001,
+      44.4464
+     ],
+     [
+      -120.32418000000001,
+      44.4464
+     ],
+     [
+      -120.32388120188887,
+      44.44626860083065
+     ],
+     [
+      -120.32388120188887,
+      44.44626860083065
+     ],
+     [
+      -120.32252,
+      44.44567
+     ],
+     [
+      -120.32227,
+      44.44553
+     ],
+     [
+      -120.32227,
+      44.44553
+     ],
+     [
+      -120.32206466332369,
+      44.44542173157066
+     ],
+     [
+      -120.32205121921427,
+      44.44541568404937
+     ],
+     [
+      -120.32172,
+      44.44524
+     ],
+     [
+      -120.32112962937019,
+      44.44520310183564
+     ],
+     [
+      -120.32112962937019,
+      44.44520310183564
+     ],
+     [
+      -120.32076,
+      44.44518
+     ],
+     [
+      -120.32076,
+      44.44518
+     ],
+     [
+      -120.32076,
+      44.44518
+     ],
+     [
+      -120.3203665712274,
+      44.44520280746508
+     ],
+     [
+      -120.3203667538003,
+      44.44520279688451
+     ],
+     [
+      -120.32007,
+      44.44522
+     ],
+     [
+      -120.3192,
+      44.44532
+     ],
+     [
+      -120.31874,
+      44.44549
+     ],
+     [
+      -120.31857,
+      44.44567
+     ],
+     [
+      -120.31847,
+      44.44586
+     ],
+     [
+      -120.31831,
+      44.44596
+     ],
+     [
+      -120.31785,
+      44.44607
+     ],
+     [
+      -120.31714,
+      44.44631
+     ],
+     [
+      -120.31646,
+      44.44634
+     ],
+     [
+      -120.31591,
+      44.4463
+     ],
+     [
+      -120.31388,
+      44.44638
+     ],
+     [
+      -120.31362,
+      44.44649
+     ],
+     [
+      -120.31304,
+      44.44683
+     ],
+     [
+      -120.31257321750908,
+      44.44702560409142
+     ],
+     [
+      -120.31257272426639,
+      44.44702581095081
+     ],
+     [
+      -120.31233464593498,
+      44.44712557694153
+     ],
+     [
+      -120.31233464593498,
+      44.44712557694153
+     ],
+     [
+      -120.31199,
+      44.44727
+     ],
+     [
+      -120.31177,
+      44.44729
+     ],
+     [
+      -120.31117,
+      44.44724
+     ],
+     [
+      -120.31117,
+      44.44724
+     ],
+     [
+      -120.3106,
+      44.44727
+     ],
+     [
+      -120.31031,
+      44.44746
+     ],
+     [
+      -120.30945,
+      44.44821
+     ],
+     [
+      -120.3092762938546,
+      44.44839949761317
+     ],
+     [
+      -120.30927585069523,
+      44.44839998114111
+     ],
+     [
+      -120.30923,
+      44.44845
+     ],
+     [
+      -120.30895,
+      44.44885
+     ],
+     [
+      -120.30877,
+      44.44947
+     ],
+     [
+      -120.30877,
+      44.44947
+     ],
+     [
+      -120.30871,
+      44.4497
+     ],
+     [
+      -120.3086,
+      44.4499
+     ],
+     [
+      -120.30845226893511,
+      44.44997878990127
+     ],
+     [
+      -120.30832903789408,
+      44.45000443697419
+     ],
+     [
+      -120.30830313624105,
+      44.450011101445746
+     ],
+     [
+      -120.30829363953518,
+      44.45001475402493
+     ],
+     [
+      -120.3082550708416,
+      44.45003383892644
+     ],
+     [
+      -120.30791999999997,
+      44.45012
+     ],
+     [
+      -120.30709000000002,
+      44.45015
+     ],
+     [
+      -120.30651999999998,
+      44.45009
+     ],
+     [
+      -120.30599000000001,
+      44.44997
+     ],
+     [
+      -120.30547999999999,
+      44.44976
+     ],
+     [
+      -120.30502000000001,
+      44.44947
+     ],
+     [
+      -120.30502000000001,
+      44.44947
+     ],
+     [
+      -120.30489999999998,
+      44.44941
+     ],
+     [
+      -120.30453,
+      44.44933
+     ],
+     [
+      -120.30426,
+      44.44931
+     ],
+     [
+      -120.30403999999999,
+      44.44937
+     ],
+     [
+      -120.3039,
+      44.44947
+     ],
+     [
+      -120.3039,
+      44.44947
+     ],
+     [
+      -120.30381999999997,
+      44.44952
+     ],
+     [
+      -120.30369999999999,
+      44.4498
+     ],
+     [
+      -120.30360000000002,
+      44.45069
+     ],
+     [
+      -120.30347,
+      44.45098
+     ],
+     [
+      -120.30321000000004,
+      44.45117
+     ],
+     [
+      -120.30284,
+      44.45131
+     ],
+     [
+      -120.30284,
+      44.45131
+     ],
+     [
+      -120.30284,
+      44.45131
+     ],
+     [
+      -120.30119000000002,
+      44.45189
+     ],
+     [
+      -120.30119000000002,
+      44.45189
+     ],
+     [
+      -120.30119000000002,
+      44.45189
+     ],
+     [
+      -120.30039999999997,
+      44.45209
+     ],
+     [
+      -120.30029000000002,
+      44.4521
+     ],
+     [
+      -120.30029000000002,
+      44.4521
+     ],
+     [
+      -120.29981790671792,
+      44.45214969402969
+     ],
+     [
+      -120.29978755536257,
+      44.45215288890921
+     ],
+     [
+      -120.29953,
+      44.45218
+     ],
+     [
+      -120.29925000000003,
+      44.45225
+     ],
+     [
+      -120.29888,
+      44.45239
+     ],
+     [
+      -120.29868999999997,
+      44.45256
+     ],
+     [
+      -120.29845,
+      44.4532
+     ],
+     [
+      -120.29818999999998,
+      44.45343
+     ],
+     [
+      -120.29674,
+      44.45424
+     ],
+     [
+      -120.29650823762677,
+      44.454413821779916
+     ],
+     [
+      -120.29651863401682,
+      44.45440602448739
+     ],
+     [
+      -120.29649999999998,
+      44.45442
+     ],
+     [
+      -120.29512999999997,
+      44.45574
+     ],
+     [
+      -120.29428999999999,
+      44.4567
+     ],
+     [
+      -120.29372000000001,
+      44.45733
+     ],
+     [
+      -120.29356999999999,
+      44.45746
+     ],
+     [
+      -120.29332,
+      44.45755
+     ],
+     [
+      -120.2928,
+      44.45764
+     ],
+     [
+      -120.29143999999997,
+      44.45758
+     ],
+     [
+      -120.29106999999999,
+      44.45763
+     ],
+     [
+      -120.29068000000001,
+      44.45774
+     ],
+     [
+      -120.29014000000001,
+      44.45803
+     ],
+     [
+      -120.28966144717447,
+      44.4583207663355
+     ],
+     [
+      -120.28966144717447,
+      44.4583207663355
+     ],
+     [
+      -120.28856000000002,
+      44.45899
+     ],
+     [
+      -120.28838999999999,
+      44.45912
+     ],
+     [
+      -120.28816,
+      44.45935
+     ],
+     [
+      -120.28703999999999,
+      44.46074
+     ],
+     [
+      -120.2867,
+      44.4611
+     ],
+     [
+      -120.28624000000002,
+      44.46146
+     ],
+     [
+      -120.28571999999997,
+      44.46173
+     ],
+     [
+      -120.2851,
+      44.46197
+     ],
+     [
+      -120.28481999999997,
+      44.46216
+     ],
+     [
+      -120.28471000000002,
+      44.46234
+     ],
+     [
+      -120.28458,
+      44.46295
+     ],
+     [
+      -120.2844,
+      44.4633
+     ],
+     [
+      -120.28431,
+      44.46339
+     ],
+     [
+      -120.28431,
+      44.46339
+     ],
+     [
+      -120.28431,
+      44.46339
+     ],
+     [
+      -120.28425107273756,
+      44.463421990754966
+     ],
+     [
+      -120.28425107273756,
+      44.463421990754966
+     ],
+     [
+      -120.28395999999998,
+      44.46358
+     ],
+     [
+      -120.28242,
+      44.46405
+     ],
+     [
+      -120.28170999999998,
+      44.46409
+     ],
+     [
+      -120.28138000000001,
+      44.464
+     ],
+     [
+      -120.28123,
+      44.46379
+     ],
+     [
+      -120.28129000000001,
+      44.46353
+     ],
+     [
+      -120.28174000000001,
+      44.46302
+     ],
+     [
+      -120.28179,
+      44.46268
+     ],
+     [
+      -120.28161,
+      44.46244
+     ],
+     [
+      -120.28008,
+      44.46184
+     ],
+     [
+      -120.27967000000001,
+      44.46178
+     ],
+     [
+      -120.27933000000002,
+      44.46183
+     ],
+     [
+      -120.27897999999999,
+      44.46206
+     ],
+     [
+      -120.27832000000001,
+      44.46286
+     ],
+     [
+      -120.27832000000001,
+      44.46286
+     ],
+     [
+      -120.27697,
+      44.46449
+     ],
+     [
+      -120.27543000000003,
+      44.46515
+     ],
+     [
+      -120.27543000000003,
+      44.46515
+     ],
+     [
+      -120.27513775116654,
+      44.46530153643215
+     ],
+     [
+      -120.27514381230276,
+      44.465298393620806
+     ],
+     [
+      -120.27462000000003,
+      44.46557
+     ],
+     [
+      -120.27350999999999,
+      44.46603
+     ],
+     [
+      -120.2725166510939,
+      44.466376517060276
+     ],
+     [
+      -120.27247121891165,
+      44.46638784492666
+     ],
+     [
+      -120.27228008644559,
+      44.46643749511201
+     ],
+     [
+      -120.27092,
+      44.467
+     ],
+     [
+      -120.2705,
+      44.46732
+     ],
+     [
+      -120.27023,
+      44.46766
+     ],
+     [
+      -120.26997,
+      44.46833
+     ],
+     [
+      -120.26935,
+      44.46965
+     ],
+     [
+      -120.26906,
+      44.47
+     ],
+     [
+      -120.26891,
+      44.47027
+     ],
+     [
+      -120.26846,
+      44.47079
+     ],
+     [
+      -120.26758,
+      44.47151
+     ],
+     [
+      -120.26725,
+      44.47176
+     ],
+     [
+      -120.26683,
+      44.47197
+     ],
+     [
+      -120.26683,
+      44.47197
+     ],
+     [
+      -120.26683,
+      44.47197
+     ],
+     [
+      -120.26635,
+      44.47183
+     ],
+     [
+      -120.2657,
+      44.47146
+     ],
+     [
+      -120.265,
+      44.47076
+     ],
+     [
+      -120.26434,
+      44.46984
+     ],
+     [
+      -120.26414,
+      44.4696
+     ],
+     [
+      -120.26361973498754,
+      44.468803836874876
+     ],
+     [
+      -120.26361119203015,
+      44.4687907635613
+     ],
+     [
+      -120.26348,
+      44.46859
+     ],
+     [
+      -120.26287,
+      44.46782
+     ],
+     [
+      -120.26242,
+      44.46764
+     ],
+     [
+      -120.26176,
+      44.46747
+     ],
+     [
+      -120.26106,
+      44.46734
+     ],
+     [
+      -120.26106,
+      44.46734
+     ],
+     [
+      -120.26106,
+      44.46734
+     ],
+     [
+      -120.26066801047943,
+      44.46729324898961
+     ],
+     [
+      -120.26066751266309,
+      44.467295374794986
+     ],
+     [
+      -120.26020617271253,
+      44.46723710093882
+     ],
+     [
+      -120.26014140248512,
+      44.46722950599275
+     ],
+     [
+      -120.25986,
+      44.46718
+     ],
+     [
+      -120.25986,
+      44.46718
+     ],
+     [
+      -120.25909999999999,
+      44.4668
+     ],
+     [
+      -120.25839000000002,
+      44.46634
+     ],
+     [
+      -120.25834673005323,
+      44.46629564830457
+     ],
+     [
+      -120.25832368170302,
+      44.46627202374558
+     ],
+     [
+      -120.25799,
+      44.46593
+     ],
+     [
+      -120.25731999999999,
+      44.46563
+     ],
+     [
+      -120.25682999999998,
+      44.46567
+     ],
+     [
+      -120.25635,
+      44.46584
+     ],
+     [
+      -120.25635,
+      44.46584
+     ],
+     [
+      -120.25563,
+      44.46621
+     ],
+     [
+      -120.25488000000001,
+      44.46623
+     ],
+     [
+      -120.25391000000002,
+      44.46607
+     ],
+     [
+      -120.25358,
+      44.4659
+     ],
+     [
+      -120.25306,
+      44.46545
+     ],
+     [
+      -120.25247000000002,
+      44.46538
+     ],
+     [
+      -120.25212999999997,
+      44.46543
+     ],
+     [
+      -120.25193000000002,
+      44.46552
+     ],
+     [
+      -120.25176999999996,
+      44.46578
+     ],
+     [
+      -120.25193000000002,
+      44.4662
+     ],
+     [
+      -120.25218999999998,
+      44.46653
+     ],
+     [
+      -120.25260000000003,
+      44.46682
+     ],
+     [
+      -120.25263000000001,
+      44.46698
+     ],
+     [
+      -120.25243,
+      44.46705
+     ],
+     [
+      -120.25211999999999,
+      44.46708
+     ],
+     [
+      -120.25139000000001,
+      44.46687
+     ],
+     [
+      -120.25081999999998,
+      44.46656
+     ],
+     [
+      -120.25040999999999,
+      44.466
+     ],
+     [
+      -120.25000999999997,
+      44.46577
+     ],
+     [
+      -120.24937999999997,
+      44.46568
+     ],
+     [
+      -120.24874,
+      44.46542
+     ],
+     [
+      -120.2486170997521,
+      44.46534786289798
+     ],
+     [
+      -120.24861837294259,
+      44.465348610205425
+     ],
+     [
+      -120.24828000000002,
+      44.46515
+     ],
+     [
+      -120.24828000000002,
+      44.46515
+     ],
+     [
+      -120.24748999999997,
+      44.46481
+     ],
+     [
+      -120.24649,
+      44.46464
+     ],
+     [
+      -120.24516,
+      44.46458
+     ],
+     [
+      -120.24308000000002,
+      44.46515
+     ],
+     [
+      -120.24308000000002,
+      44.46515
+     ],
+     [
+      -120.24223,
+      44.46538
+     ],
+     [
+      -120.24142999999998,
+      44.46573
+     ],
+     [
+      -120.24063000000001,
+      44.46567
+     ],
+     [
+      -120.23815000000002,
+      44.4659
+     ],
+     [
+      -120.23698000000002,
+      44.46562
+     ],
+     [
+      -120.23491000000001,
+      44.4654
+     ],
+     [
+      -120.23437999999999,
+      44.46539
+     ],
+     [
+      -120.23437999999999,
+      44.46539
+     ],
+     [
+      -120.23175000000003,
+      44.46534
+     ],
+     [
+      -120.23138,
+      44.46536
+     ],
+     [
+      -120.23032999999998,
+      44.46515
+     ],
+     [
+      -120.23032999999998,
+      44.46515
+     ],
+     [
+      -120.22973000000002,
+      44.46507
+     ],
+     [
+      -120.22712999999999,
+      44.46494
+     ],
+     [
+      -120.22674,
+      44.46479
+     ],
+     [
+      -120.22664396089208,
+      44.46470196415105
+     ],
+     [
+      -120.22660486458906,
+      44.464630670110274
+     ],
+     [
+      -120.22658877133497,
+      44.46447223262784
+     ],
+     [
+      -120.22654,
+      44.46386
+     ],
+     [
+      -120.22644,
+      44.4637
+     ],
+     [
+      -120.22585,
+      44.46323
+     ],
+     [
+      -120.22529,
+      44.46264
+     ],
+     [
+      -120.22485,
+      44.4624
+     ],
+     [
+      -120.22446,
+      44.46212
+     ],
+     [
+      -120.22314,
+      44.46157
+     ],
+     [
+      -120.22266,
+      44.46157
+     ],
+     [
+      -120.22184,
+      44.46148
+     ],
+     [
+      -120.2212,
+      44.46132
+     ],
+     [
+      -120.22093,
+      44.46131
+     ],
+     [
+      -120.22029,
+      44.46133
+     ],
+     [
+      -120.21928,
+      44.46128
+     ],
+     [
+      -120.21849,
+      44.46104
+     ],
+     [
+      -120.21798,
+      44.46094
+     ],
+     [
+      -120.21763,
+      44.46082
+     ],
+     [
+      -120.21722,
+      44.4606
+     ],
+     [
+      -120.21654,
+      44.46006
+     ],
+     [
+      -120.21577,
+      44.45899
+     ],
+     [
+      -120.21572,
+      44.45883
+     ],
+     [
+      -120.21557,
+      44.45877
+     ],
+     [
+      -120.21517,
+      44.45877
+     ],
+     [
+      -120.21478,
+      44.45873
+     ],
+     [
+      -120.2135,
+      44.4585
+     ],
+     [
+      -120.21299,
+      44.45849
+     ],
+     [
+      -120.2124,
+      44.45858
+     ],
+     [
+      -120.2124,
+      44.45858
+     ],
+     [
+      -120.21155,
+      44.4586
+     ],
+     [
+      -120.21075,
+      44.45857
+     ],
+     [
+      -120.20987601102897,
+      44.45841166866467
+     ],
+     [
+      -120.20962105976693,
+      44.45835457353154
+     ],
+     [
+      -120.20751000000001,
+      44.45817
+     ],
+     [
+      -120.20526000000001,
+      44.45806
+     ],
+     [
+      -120.2045,
+      44.4583
+     ],
+     [
+      -120.20373000000001,
+      44.45835
+     ],
+     [
+      -120.20305000000002,
+      44.4582
+     ],
+     [
+      -120.20305000000002,
+      44.4582
+     ],
+     [
+      -120.20305000000002,
+      44.4582
+     ],
+     [
+      -120.20125000000002,
+      44.45767
+     ],
+     [
+      -120.20017000000001,
+      44.45712
+     ],
+     [
+      -120.19972999999999,
+      44.45673
+     ],
+     [
+      -120.19972999999999,
+      44.45673
+     ],
+     [
+      -120.19972999999999,
+      44.45673
+     ],
+     [
+      -120.19921,
+      44.45666
+     ],
+     [
+      -120.19870000000003,
+      44.45673
+     ],
+     [
+      -120.19761,
+      44.45705
+     ],
+     [
+      -120.19709999999998,
+      44.45733
+     ],
+     [
+      -120.19686999999999,
+      44.45767
+     ],
+     [
+      -120.19655,
+      44.45778
+     ],
+     [
+      -120.19594000000001,
+      44.45786
+     ],
+     [
+      -120.19527,
+      44.45783
+     ],
+     [
+      -120.19463999999999,
+      44.45797
+     ],
+     [
+      -120.19407000000001,
+      44.45834
+     ],
+     [
+      -120.19367,
+      44.45843
+     ],
+     [
+      -120.19328999999999,
+      44.45837
+     ],
+     [
+      -120.19214999999997,
+      44.45814
+     ],
+     [
+      -120.19115,
+      44.45819
+     ],
+     [
+      -120.19055000000003,
+      44.45804
+     ],
+     [
+      -120.19042999999999,
+      44.45803
+     ],
+     [
+      -120.19042999999999,
+      44.45803
+     ],
+     [
+      -120.18829,
+      44.45791
+     ],
+     [
+      -120.18716999999998,
+      44.45802
+     ],
+     [
+      -120.18624999999997,
+      44.45797
+     ],
+     [
+      -120.18546000000003,
+      44.45807
+     ],
+     [
+      -120.18432000000001,
+      44.45772
+     ],
+     [
+      -120.18216999999999,
+      44.45624
+     ],
+     [
+      -120.18198224421502,
+      44.455964427878214
+     ],
+     [
+      -120.18179087433408,
+      44.45579942753119
+     ],
+     [
+      -120.18166645503743,
+      44.45574170238353
+     ],
+     [
+      -120.18153833862306,
+      44.45570309379668
+     ],
+     [
+      -120.18126999999998,
+      44.45567
+     ],
+     [
+      -120.18,
+      44.45574
+     ],
+     [
+      -120.17899999999997,
+      44.45583
+     ],
+     [
+      -120.17786000000001,
+      44.45621
+     ],
+     [
+      -120.17736000000002,
+      44.4564
+     ],
+     [
+      -120.17696000000001,
+      44.45649
+     ],
+     [
+      -120.17656999999997,
+      44.45643
+     ],
+     [
+      -120.17622,
+      44.45612
+     ],
+     [
+      -120.17604,
+      44.45585
+     ],
+     [
+      -120.17588999999998,
+      44.45547
+     ],
+     [
+      -120.17570999999998,
+      44.45521
+     ],
+     [
+      -120.17565000000002,
+      44.45497
+     ],
+     [
+      -120.17559,
+      44.45441
+     ],
+     [
+      -120.17545580125807,
+      44.454319572926
+     ],
+     [
+      -120.1752824049282,
+      44.45430712812192
+     ],
+     [
+      -120.17507413988113,
+      44.454436362496665
+     ],
+     [
+      -120.17486262334825,
+      44.45452805604445
+     ],
+     [
+      -120.17451776934622,
+      44.45449972885959
+     ],
+     [
+      -120.1742863337469,
+      44.45435537370426
+     ],
+     [
+      -120.17399588954925,
+      44.45400424225736
+     ],
+     [
+      -120.17387224536895,
+      44.45377785156429
+     ],
+     [
+      -120.1736605545616,
+      44.45355191461023
+     ],
+     [
+      -120.17336183935252,
+      44.4533283563119
+     ],
+     [
+      -120.17331666892291,
+      44.45330076668059
+     ],
+     [
+      -120.17311013882876,
+      44.45318588946113
+     ],
+     [
+      -120.17311229995656,
+      44.453183878593244
+     ],
+     [
+      -120.17274,
+      44.45298
+     ],
+     [
+      -120.1725,
+      44.45281
+     ],
+     [
+      -120.17223,
+      44.4525
+     ],
+     [
+      -120.17202,
+      44.45215
+     ],
+     [
+      -120.17157,
+      44.45128
+     ],
+     [
+      -120.17128,
+      44.45092
+     ],
+     [
+      -120.17098,
+      44.45068
+     ],
+     [
+      -120.17052,
+      44.45046
+     ],
+     [
+      -120.16989,
+      44.4503
+     ],
+     [
+      -120.16846,
+      44.45014
+     ],
+     [
+      -120.16846,
+      44.45014
+     ],
+     [
+      -120.16814707730379,
+      44.45009306159557
+     ],
+     [
+      -120.16815024032056,
+      44.45009353605351
+     ],
+     [
+      -120.16806,
+      44.45008
+     ],
+     [
+      -120.16778,
+      44.44996
+     ],
+     [
+      -120.1677,
+      44.44987
+     ],
+     [
+      -120.1677,
+      44.44987
+     ],
+     [
+      -120.16725,
+      44.44947
+     ],
+     [
+      -120.16725,
+      44.44947
+     ],
+     [
+      -120.16703,
+      44.44918
+     ],
+     [
+      -120.16689,
+      44.44869
+     ],
+     [
+      -120.16678,
+      44.44822
+     ],
+     [
+      -120.16677823611224,
+      44.448189572936045
+     ],
+     [
+      -120.16677835328203,
+      44.44819159427599
+     ],
+     [
+      -120.16674,
+      44.44753
+     ],
+     [
+      -120.16664,
+      44.44702
+     ],
+     [
+      -120.16641,
+      44.44668
+     ],
+     [
+      -120.16609,
+      44.44629
+     ],
+     [
+      -120.16558,
+      44.44576
+     ],
+     [
+      -120.16541,
+      44.44562
+     ],
+     [
+      -120.16479857144807,
+      44.44540420168756
+     ],
+     [
+      -120.1647975352119,
+      44.445403836112256
+     ],
+     [
+      -120.16456,
+      44.44532
+     ],
+     [
+      -120.16426,
+      44.44517
+     ],
+     [
+      -120.164,
+      44.44498
+     ],
+     [
+      -120.16358,
+      44.44434
+     ],
+     [
+      -120.16317,
+      44.44308
+     ],
+     [
+      -120.16281,
+      44.44174
+     ],
+     [
+      -120.16268,
+      44.44144
+     ],
+     [
+      -120.16247,
+      44.44119
+     ],
+     [
+      -120.16240319125669,
+      44.44114440038154
+     ],
+     [
+      -120.16240585382808,
+      44.441146217836916
+     ],
+     [
+      -120.16184,
+      44.44076
+     ],
+     [
+      -120.16158,
+      44.4405
+     ],
+     [
+      -120.16089,
+      44.43946
+     ],
+     [
+      -120.16032,
+      44.43868
+     ],
+     [
+      -120.15933,
+      44.43743
+     ],
+     [
+      -120.15931,
+      44.43729
+     ],
+     [
+      -120.15934,
+      44.43714
+     ],
+     [
+      -120.15934,
+      44.43714
+     ],
+     [
+      -120.15952,
+      44.43665
+     ],
+     [
+      -120.15968069940567,
+      44.43643127243577
+     ],
+     [
+      -120.15980014513256,
+      44.43618413791916
+     ],
+     [
+      -120.15983912458898,
+      44.435917850478035
+     ],
+     [
+      -120.15957912516595,
+      44.435094159963555
+     ],
+     [
+      -120.15944,
+      44.43378
+     ],
+     [
+      -120.15944,
+      44.43378
+     ],
+     [
+      -120.15935,
+      44.43208
+     ],
+     [
+      -120.15898,
+      44.43057
+     ],
+     [
+      -120.15887,
+      44.4304
+     ],
+     [
+      -120.15794,
+      44.42973
+     ],
+     [
+      -120.15761,
+      44.42957
+     ],
+     [
+      -120.15645,
+      44.42914
+     ],
+     [
+      -120.15562,
+      44.4288
+     ],
+     [
+      -120.15441,
+      44.42825
+     ],
+     [
+      -120.15428980208046,
+      44.42818478623515
+     ],
+     [
+      -120.1543147141046,
+      44.428198302536025
+     ],
+     [
+      -120.15347,
+      44.42774
+     ],
+     [
+      -120.15314,
+      44.42748
+     ],
+     [
+      -120.1526,
+      44.42694
+     ],
+     [
+      -120.1523,
+      44.42671
+     ],
+     [
+      -120.15198,
+      44.42655
+     ],
+     [
+      -120.15149,
+      44.42637
+     ],
+     [
+      -120.15086,
+      44.42623
+     ],
+     [
+      -120.14917,
+      44.42607
+     ],
+     [
+      -120.14875,
+      44.42599
+     ],
+     [
+      -120.1485,
+      44.4259
+     ],
+     [
+      -120.14816,
+      44.42575
+     ],
+     [
+      -120.14747024785044,
+      44.42515534781324
+     ],
+     [
+      -120.14695752149582,
+      44.42492464492696
+     ],
+     [
+      -120.14648,
+      44.4249
+     ],
+     [
+      -120.14648,
+      44.4249
+     ],
+     [
+      -120.14630166137694,
+      44.42501623045238
+     ],
+     [
+      -120.14601311904907,
+      44.425166487296906
+     ],
+     [
+      -120.14563956232134,
+      44.425185653633406
+     ],
+     [
+      -120.14534938344622,
+      44.42516277146264
+     ],
+     [
+      -120.14488413988111,
+      44.42517110145069
+     ],
+     [
+      -120.14452113624573,
+      44.42520363512689
+     ],
+     [
+      -120.14428510185242,
+      44.42521512836197
+     ],
+     [
+      -120.14427525313913,
+      44.42503783109393
+     ],
+     [
+      -120.14427370970965,
+      44.4249996860655
+     ],
+     [
+      -120.14416580711035,
+      44.425014859340706
+     ],
+     [
+      -120.14359999999999,
+      44.42517
+     ],
+     [
+      -120.14294999999998,
+      44.42519
+     ],
+     [
+      -120.14195999999998,
+      44.42471
+     ],
+     [
+      -120.13997999999998,
+      44.42445
+     ],
+     [
+      -120.13905999999997,
+      44.42464
+     ],
+     [
+      -120.13774999999998,
+      44.42498
+     ],
+     [
+      -120.13689,
+      44.42511
+     ],
+     [
+      -120.13281,
+      44.42481
+     ],
+     [
+      -120.13123999999999,
+      44.42534
+     ],
+     [
+      -120.13076999999998,
+      44.42538
+     ],
+     [
+      -120.13003000000003,
+      44.42532
+     ],
+     [
+      -120.12820139397752,
+      44.42543560153016
+     ],
+     [
+      -120.12822622926922,
+      44.42543403148298
+     ],
+     [
+      -120.12655000000001,
+      44.42554
+     ],
+     [
+      -120.12562000000003,
+      44.42577
+     ],
+     [
+      -120.12461000000002,
+      44.42596
+     ],
+     [
+      -120.12450999999999,
+      44.42595
+     ],
+     [
+      -120.12450999999999,
+      44.42595
+     ],
+     [
+      -120.12185,
+      44.42585
+     ],
+     [
+      -120.12108000005287,
+      44.42599999946164
+     ],
+     [
+      -120.12108000005287,
+      44.42599999946164
+     ],
+     [
+      -120.12108,
+      44.426
+     ],
+     [
+      -120.12050999999997,
+      44.42621
+     ],
+     [
+      -120.12002000000001,
+      44.42642
+     ],
+     [
+      -120.11919,
+      44.42692
+     ],
+     [
+      -120.11858999999998,
+      44.42699
+     ],
+     [
+      -120.11811,
+      44.42681
+     ],
+     [
+      -120.11743999999999,
+      44.42628
+     ],
+     [
+      -120.11737,
+      44.4261
+     ],
+     [
+      -120.11712,
+      44.42596
+     ],
+     [
+      -120.11705999999998,
+      44.42578
+     ],
+     [
+      -120.11680000000001,
+      44.42557
+     ],
+     [
+      -120.11676999999997,
+      44.42532
+     ],
+     [
+      -120.11667,
+      44.42523
+     ],
+     [
+      -120.11651,
+      44.42464
+     ],
+     [
+      -120.11637999999999,
+      44.42452
+     ],
+     [
+      -120.11642,
+      44.42429
+     ],
+     [
+      -120.11606999999998,
+      44.42409
+     ],
+     [
+      -120.11556000000002,
+      44.42409
+     ],
+     [
+      -120.11523999999997,
+      44.42455
+     ],
+     [
+      -120.11500999999998,
+      44.42525
+     ],
+     [
+      -120.11463000000003,
+      44.42546
+     ],
+     [
+      -120.1139,
+      44.42546
+     ],
+     [
+      -120.11358000000001,
+      44.42535
+     ],
+     [
+      -120.11271999999997,
+      44.42459
+     ],
+     [
+      -120.11217999999997,
+      44.42404
+     ],
+     [
+      -120.11122,
+      44.42355
+     ],
+     [
+      -120.11122,
+      44.42355
+     ],
+     [
+      -120.11122,
+      44.42355
+     ],
+     [
+      -120.10962,
+      44.42312
+     ],
+     [
+      -120.10926999999998,
+      44.42322
+     ],
+     [
+      -120.10931,
+      44.42386
+     ],
+     [
+      -120.10915,
+      44.42434
+     ],
+     [
+      -120.10847999999999,
+      44.42512
+     ],
+     [
+      -120.10824000000002,
+      44.4256
+     ],
+     [
+      -120.108,
+      44.42706
+     ],
+     [
+      -120.10780999999997,
+      44.42743
+     ],
+     [
+      -120.10755,
+      44.42761
+     ],
+     [
+      -120.10606000000001,
+      44.42805
+     ],
+     [
+      -120.10528999999997,
+      44.42839
+     ],
+     [
+      -120.10474999999997,
+      44.42905
+     ],
+     [
+      -120.10474999999997,
+      44.42958
+     ],
+     [
+      -120.10504000000003,
+      44.43106
+     ],
+     [
+      -120.10523,
+      44.43143
+     ],
+     [
+      -120.10559999999998,
+      44.43251
+     ],
+     [
+      -120.10564,
+      44.43291
+     ],
+     [
+      -120.1054597117531,
+      44.43335199699241
+     ],
+     [
+      -120.1054597117531,
+      44.43335199699241
+     ],
+     [
+      -120.10532999999998,
+      44.43367
+     ],
+     [
+      -120.10523999999998,
+      44.43378
+     ],
+     [
+      -120.10523999999998,
+      44.43378
+     ],
+     [
+      -120.10375999999997,
+      44.43572
+     ],
+     [
+      -120.10293999999999,
+      44.4365
+     ],
+     [
+      -120.10253999999998,
+      44.43668
+     ],
+     [
+      -120.10253999999998,
+      44.43668
+     ],
+     [
+      -120.10172,
+      44.43705
+     ],
+     [
+      -120.10111999999998,
+      44.43831
+     ],
+     [
+      -120.10070000000002,
+      44.43892
+     ],
+     [
+      -120.09956,
+      44.4397
+     ],
+     [
+      -120.09767999999997,
+      44.44071
+     ],
+     [
+      -120.09697,
+      44.44128
+     ],
+     [
+      -120.09685000000002,
+      44.44167
+     ],
+     [
+      -120.09685000000002,
+      44.44206
+     ],
+     [
+      -120.09632999999997,
+      44.44347
+     ],
+     [
+      -120.09593000000001,
+      44.44395
+     ],
+     [
+      -120.09593000000001,
+      44.44395
+     ],
+     [
+      -120.09593000000001,
+      44.44395
+     ],
+     [
+      -120.09481,
+      44.44658
+     ],
+     [
+      -120.09402,
+      44.44793
+     ],
+     [
+      -120.09291999999999,
+      44.44947
+     ],
+     [
+      -120.09291999999999,
+      44.44947
+     ],
+     [
+      -120.09125,
+      44.45179
+     ],
+     [
+      -120.09087,
+      44.45202
+     ],
+     [
+      -120.08891,
+      44.45239
+     ],
+     [
+      -120.08823000000001,
+      44.45269
+     ],
+     [
+      -120.08681999999999,
+      44.45291
+     ],
+     [
+      -120.08585,
+      44.45278
+     ],
+     [
+      -120.08585,
+      44.45278
+     ],
+     [
+      -120.08585,
+      44.45278
+     ],
+     [
+      -120.08438999999998,
+      44.45214
+     ],
+     [
+      -120.08368000000002,
+      44.45173
+     ],
+     [
+      -120.08326,
+      44.45131
+     ],
+     [
+      -120.08301,
+      44.4509
+     ],
+     [
+      -120.08269000000001,
+      44.45063
+     ],
+     [
+      -120.08230000000003,
+      44.45051
+     ],
+     [
+      -120.08186,
+      44.45047
+     ],
+     [
+      -120.08148,
+      44.45066
+     ],
+     [
+      -120.08122000000003,
+      44.45093
+     ],
+     [
+      -120.08067733837868,
+      44.45119715649049
+     ],
+     [
+      -120.08067733837868,
+      44.45119715649049
+     ],
+     [
+      -120.08056999999997,
+      44.45125
+     ],
+     [
+      -120.08056999999997,
+      44.45125
+     ],
+     [
+      -120.08017000000001,
+      44.45145
+     ],
+     [
+      -120.07945999999998,
+      44.45227
+     ],
+     [
+      -120.07898780613203,
+      44.45263190040974
+     ],
+     [
+      -120.07897066882163,
+      44.45264503484471
+     ],
+     [
+      -120.07808999999997,
+      44.45332
+     ],
+     [
+      -120.07808999999997,
+      44.45332
+     ],
+     [
+      -120.07808999999997,
+      44.45332
+     ],
+     [
+      -120.07717000000002,
+      44.4541
+     ],
+     [
+      -120.07652999999999,
+      44.45452
+     ],
+     [
+      -120.07541000000003,
+      44.45466
+     ],
+     [
+      -120.07443999999998,
+      44.45448
+     ],
+     [
+      -120.07416999999998,
+      44.45421
+     ],
+     [
+      -120.07366000000002,
+      44.45397
+     ],
+     [
+      -120.07123000000001,
+      44.45234
+     ],
+     [
+      -120.07116638283236,
+      44.4522716509769
+     ],
+     [
+      -120.07116638283236,
+      44.4522716509769
+     ],
+     [
+      -120.07051229617684,
+      44.45156891324784
+     ],
+     [
+      -120.07051229617684,
+      44.45156891324784
+     ],
+     [
+      -120.07002,
+      44.45104
+     ],
+     [
+      -120.06984999999997,
+      44.44947
+     ],
+     [
+      -120.06984999999997,
+      44.44947
+     ],
+     [
+      -120.06983000000002,
+      44.44924
+     ],
+     [
+      -120.06855000000002,
+      44.4485
+     ],
+     [
+      -120.06801000000002,
+      44.44848
+     ],
+     [
+      -120.06747000000001,
+      44.44866
+     ],
+     [
+      -120.06654000000003,
+      44.44871
+     ],
+     [
+      -120.06284,
+      44.44837
+     ],
+     [
+      -120.06221,
+      44.44818
+     ],
+     [
+      -120.06121999999999,
+      44.44745
+     ],
+     [
+      -120.06040999999999,
+      44.44693
+     ],
+     [
+      -120.06040999999999,
+      44.44693
+     ],
+     [
+      -120.06040999999999,
+      44.44693
+     ],
+     [
+      -120.05901,
+      44.44588
+     ],
+     [
+      -120.05858999999998,
+      44.44535
+     ],
+     [
+      -120.05858999999998,
+      44.44535
+     ],
+     [
+      -120.05854,
+      44.44528
+     ],
+     [
+      -120.05700000000002,
+      44.44476
+     ],
+     [
+      -120.05581999999998,
+      44.44467
+     ],
+     [
+      -120.05444999999997,
+      44.44444
+     ],
+     [
+      -120.05360999999999,
+      44.44459
+     ],
+     [
+      -120.05360999999999,
+      44.44459
+     ],
+     [
+      -120.05360999999999,
+      44.44459
+     ],
+     [
+      -120.05340000000001,
+      44.44473
+     ],
+     [
+      -120.05324000000002,
+      44.44501
+     ],
+     [
+      -120.05329999999998,
+      44.44515
+     ],
+     [
+      -120.05311,
+      44.44533
+     ],
+     [
+      -120.05149,
+      44.44569
+     ],
+     [
+      -120.05081999999999,
+      44.44572
+     ],
+     [
+      -120.04989,
+      44.44551
+     ],
+     [
+      -120.04919000000001,
+      44.44499
+     ],
+     [
+      -120.04867999999999,
+      44.44485
+     ],
+     [
+      -120.04613,
+      44.44462
+     ],
+     [
+      -120.04561999999999,
+      44.44437
+     ],
+     [
+      -120.0456199997086,
+      44.444369999858395
+     ],
+     [
+      -120.0456199997086,
+      44.444369999858395
+     ],
+     [
+      -120.0387400002432,
+      44.442650000063324
+     ],
+     [
+      -120.0387400002432,
+      44.442650000063324
+     ],
+     [
+      -120.03874000000002,
+      44.44265
+     ],
+     [
+      -120.03845999999999,
+      44.4426
+     ],
+     [
+      -120.03845999999999,
+      44.4426
+     ],
+     [
+      -120.03845999999999,
+      44.4426
+     ],
+     [
+      -120.03755000000001,
+      44.44238
+     ],
+     [
+      -120.03701000000001,
+      44.44249
+     ],
+     [
+      -120.03661999999997,
+      44.44246
+     ],
+     [
+      -120.03661999999997,
+      44.44246
+     ],
+     [
+      -120.03629063859006,
+      44.44243526979174
+     ],
+     [
+      -120.03629063859006,
+      44.44243526979174
+     ],
+     [
+      -120.03368999999998,
+      44.44224
+     ],
+     [
+      -120.03267,
+      44.44244
+     ],
+     [
+      -120.03093999999999,
+      44.44222
+     ],
+     [
+      -120.03010999999998,
+      44.44237
+     ],
+     [
+      -120.03010999999998,
+      44.44237
+     ],
+     [
+      -120.03010999999998,
+      44.44237
+     ],
+     [
+      -120.02868337803085,
+      44.442746469686305
+     ],
+     [
+      -120.02868337803085,
+      44.442746469686305
+     ],
+     [
+      -120.02795000000003,
+      44.44294
+     ],
+     [
+      -120.02580999999998,
+      44.4437
+     ],
+     [
+      -120.02440000000001,
+      44.44383
+     ],
+     [
+      -120.02381000000003,
+      44.44391
+     ],
+     [
+      -120.02293288703981,
+      44.444443501697414
+     ],
+     [
+      -120.02293288703981,
+      44.444443501697414
+     ],
+     [
+      -120.02283999999997,
+      44.4445
+     ],
+     [
+      -120.01556,
+      44.44947
+     ],
+     [
+      -120.01556,
+      44.44947
+     ],
+     [
+      -120.01465000000002,
+      44.45017
+     ],
+     [
+      -120.01465000000002,
+      44.45017
+     ],
+     [
+      -120.014469431632,
+      44.45030948095492
+     ],
+     [
+      -120.01446315760143,
+      44.450314327361795
+     ],
+     [
+      -120.01297999999997,
+      44.45146
+     ],
+     [
+      -120.01173,
+      44.45229
+     ],
+     [
+      -120.01013999999998,
+      44.45313
+     ],
+     [
+      -120.00765000000001,
+      44.45381
+     ],
+     [
+      -120.00655999999998,
+      44.45384
+     ],
+     [
+      -120.00576999999998,
+      44.45365
+     ],
+     [
+      -120.00480784067372,
+      44.45336369893218
+     ],
+     [
+      -120.00480784067372,
+      44.45336369893218
+     ],
+     [
+      -120.00371999999999,
+      44.45304
+     ],
+     [
+      -120.00371999999999,
+      44.45304
+     ],
+     [
+      -120.00371999999999,
+      44.45304
+     ],
+     [
+      -120.00202999999999,
+      44.45246
+     ],
+     [
+      -120.00148999999999,
+      44.45205
+     ],
+     [
+      -120.00110999999998,
+      44.45171
+     ],
+     [
+      -120.00045999999998,
+      44.45125
+     ],
+     [
+      -120.00045999999998,
+      44.45116
+     ],
+     [
+      -119.99989,
+      44.45066
+     ],
+     [
+      -119.99898999999999,
+      44.45009
+     ],
+     [
+      -119.99808790092072,
+      44.44970691682936
+     ],
+     [
+      -119.99804393494236,
+      44.44968824634539
+     ],
+     [
+      -119.99752999999998,
+      44.44947
+     ],
+     [
+      -119.99752999999998,
+      44.44947
+     ],
+     [
+      -119.99640999999997,
+      44.44899
+     ],
+     [
+      -119.99399,
+      44.44723
+     ],
+     [
+      -119.99399,
+      44.44723
+     ],
+     [
+      -119.99399,
+      44.44723
+     ],
+     [
+      -119.99315000000001,
+      44.4471
+     ],
+     [
+      -119.99271365236018,
+      44.44717340964402
+     ],
+     [
+      -119.99204846452449,
+      44.447288298689855
+     ],
+     [
+      -119.99204216933362,
+      44.447275955826015
+     ],
+     [
+      -119.99149,
+      44.44742
+     ],
+     [
+      -119.99079,
+      44.44776
+     ],
+     [
+      -119.98903999999999,
+      44.44902
+     ],
+     [
+      -119.98852999999997,
+      44.44947
+     ],
+     [
+      -119.98852999999997,
+      44.44947
+     ],
+     [
+      -119.98792000000003,
+      44.45
+     ],
+     [
+      -119.98738000000003,
+      44.45071
+     ],
+     [
+      -119.98684000000003,
+      44.45119
+     ],
+     [
+      -119.98518000000001,
+      44.45217
+     ],
+     [
+      -119.98413,
+      44.45256
+     ],
+     [
+      -119.98316999999997,
+      44.45284
+     ],
+     [
+      -119.98202000000003,
+      44.4533
+     ],
+     [
+      -119.98158000000001,
+      44.45357
+     ],
+     [
+      -119.98068,
+      44.45394
+     ],
+     [
+      -119.97868,
+      44.45458
+     ],
+     [
+      -119.97771999999998,
+      44.45499
+     ],
+     [
+      -119.97724,
+      44.45506
+     ],
+     [
+      -119.97507000000002,
+      44.4551
+     ],
+     [
+      -119.97417999999999,
+      44.45529
+     ],
+     [
+      -119.97338000000002,
+      44.45561
+     ],
+     [
+      -119.97246000000001,
+      44.45634
+     ],
+     [
+      -119.97069999999997,
+      44.45705
+     ],
+     [
+      -119.97069999999997,
+      44.45705
+     ],
+     [
+      -119.969224561864,
+      44.45754634554805
+     ],
+     [
+      -119.96919166228633,
+      44.457557413147924
+     ],
+     [
+      -119.96852999999999,
+      44.45778
+     ],
+     [
+      -119.96767,
+      44.45833
+     ],
+     [
+      -119.96671000000003,
+      44.45851
+     ],
+     [
+      -119.96528,
+      44.45851
+     ],
+     [
+      -119.96068000000002,
+      44.45812
+     ],
+     [
+      -119.95803000000001,
+      44.45815
+     ],
+     [
+      -119.95803000000001,
+      44.45815
+     ],
+     [
+      -119.95803000000001,
+      44.45815
+     ],
+     [
+      -119.95504,
+      44.45776
+     ],
+     [
+      -119.95504,
+      44.45776
+     ],
+     [
+      -119.95504,
+      44.45776
+     ],
+     [
+      -119.95344,
+      44.45758
+     ],
+     [
+      -119.95209999999997,
+      44.4576
+     ],
+     [
+      -119.9513,
+      44.45753
+     ],
+     [
+      -119.94925999999998,
+      44.45714
+     ],
+     [
+      -119.94873000000001,
+      44.45709
+     ],
+     [
+      -119.94873000000001,
+      44.45709
+     ],
+     [
+      -119.94754,
+      44.45696
+     ],
+     [
+      -119.94562000000002,
+      44.45657
+     ],
+     [
+      -119.94535840445627,
+      44.45640988548615
+     ],
+     [
+      -119.94528208366114,
+      44.45636317189603
+     ],
+     [
+      -119.94445999999999,
+      44.45586
+     ],
+     [
+      -119.94301000000002,
+      44.45406
+     ],
+     [
+      -119.94236999999998,
+      44.45344
+     ],
+     [
+      -119.94186000000002,
+      44.45257
+     ],
+     [
+      -119.94160999999997,
+      44.45239
+     ],
+     [
+      -119.93826999999999,
+      44.45083
+     ],
+     [
+      -119.93772000000001,
+      44.4507
+     ],
+     [
+      -119.93772000000001,
+      44.4507
+     ],
+     [
+      -119.93768724475467,
+      44.450671762719516
+     ],
+     [
+      -119.9376961810467,
+      44.45067319870027
+     ]
+    ],
+    "type": "LineString"
+   },
+   "id": "6d562453-dbe3-484e-923c-ecaa8e094673",
+   "type": "Feature",
+   "properties": {
+    "creator": "J9KSHN",
+    "pattern": "solid",
+    "description": "",
+    "fill": "#0000FF",
+    "title": "OBCDR4",
+    "stroke": "#0000FF",
+    "folderId": "7ac799f1-70b5-4389-8a97-e678b7aba43f",
+    "gpstype": "TRACK",
+    "stroke-opacity": 1,
+    "stroke-width": 3,
+    "fill-opacity": 0.1,
+    "class": "Shape",
+    "updated": 1671911474000
    }
   },
   {
@@ -29428,3330 +34602,6 @@
     "fill-opacity": 0.1,
     "class": "Shape",
     "updated": 1671659643000
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     [
-      -120.39233972848342,
-      44.493888373027524
-     ],
-     [
-      -120.39234073344778,
-      44.49388844737677
-     ],
-     [
-      -120.39465000000001,
-      44.489
-     ],
-     [
-      -120.39567,
-      44.48764
-     ],
-     [
-      -120.39567,
-      44.48764
-     ],
-     [
-      -120.39567,
-      44.48764
-     ],
-     [
-      -120.39636000000002,
-      44.48688
-     ],
-     [
-      -120.39726999999999,
-      44.48605
-     ],
-     [
-      -120.39726999999999,
-      44.48605
-     ],
-     [
-      -120.39726999999999,
-      44.48605
-     ],
-     [
-      -120.39859999999999,
-      44.48507
-     ],
-     [
-      -120.40445806834362,
-      44.481108563033985
-     ],
-     [
-      -120.40445999999997,
-      44.48111
-     ],
-     [
-      -120.404,
-      44.48083
-     ],
-     [
-      -120.404,
-      44.48083
-     ],
-     [
-      -120.40294,
-      44.48021
-     ],
-     [
-      -120.40294,
-      44.48021
-     ],
-     [
-      -120.40294,
-      44.48021
-     ],
-     [
-      -120.40256999999997,
-      44.48003
-     ],
-     [
-      -120.4022,
-      44.47967
-     ],
-     [
-      -120.40177,
-      44.47921
-     ],
-     [
-      -120.40109999999999,
-      44.47873
-     ],
-     [
-      -120.3996460578121,
-      44.47778666846142
-     ],
-     [
-      -120.39966820119099,
-      44.47780103529653
-     ],
-     [
-      -120.39942000000002,
-      44.47764
-     ],
-     [
-      -120.39835,
-      44.47669
-     ],
-     [
-      -120.39724999999999,
-      44.47563
-     ],
-     [
-      -120.39675,
-      44.47506
-     ],
-     [
-      -120.39663000000002,
-      44.47487
-     ],
-     [
-      -120.39630999999997,
-      44.4737
-     ],
-     [
-      -120.39627999999999,
-      44.47305
-     ],
-     [
-      -120.39621999999997,
-      44.47291
-     ],
-     [
-      -120.39609000000002,
-      44.47273
-     ],
-     [
-      -120.39591999999999,
-      44.47263
-     ],
-     [
-      -120.39567,
-      44.47255
-     ],
-     [
-      -120.39553999999998,
-      44.47255
-     ],
-     [
-      -120.39472999999998,
-      44.47272
-     ],
-     [
-      -120.39449000000002,
-      44.47272
-     ],
-     [
-      -120.39420000000001,
-      44.47264
-     ],
-     [
-      -120.39252999999997,
-      44.47197
-     ],
-     [
-      -120.39216999999996,
-      44.47188
-     ],
-     [
-      -120.39148999999998,
-      44.47187
-     ],
-     [
-      -120.39148999999998,
-      44.47187
-     ],
-     [
-      -120.39148999999998,
-      44.47187
-     ],
-     [
-      -120.39105999999998,
-      44.47193
-     ],
-     [
-      -120.39033999999998,
-      44.47209
-     ],
-     [
-      -120.39003000000002,
-      44.4721
-     ],
-     [
-      -120.38947999999999,
-      44.47203
-     ],
-     [
-      -120.38896999999997,
-      44.47188
-     ],
-     [
-      -120.38818000000003,
-      44.47158
-     ],
-     [
-      -120.38818000000003,
-      44.47158
-     ],
-     [
-      -120.38797,
-      44.47147
-     ],
-     [
-      -120.38711,
-      44.47091
-     ],
-     [
-      -120.38662999999997,
-      44.47066
-     ],
-     [
-      -120.38625000000002,
-      44.47052
-     ],
-     [
-      -120.38616999999999,
-      44.47052
-     ],
-     [
-      -120.38616999999999,
-      44.47052
-     ],
-     [
-      -120.38580000000002,
-      44.47052
-     ],
-     [
-      -120.38522,
-      44.47061
-     ],
-     [
-      -120.38423999999998,
-      44.47091
-     ],
-     [
-      -120.38337999999999,
-      44.47097
-     ],
-     [
-      -120.3818,
-      44.47088
-     ],
-     [
-      -120.38105000000002,
-      44.47073
-     ],
-     [
-      -120.38040000000001,
-      44.47036
-     ],
-     [
-      -120.37862999999999,
-      44.47
-     ],
-     [
-      -120.37862999999999,
-      44.47
-     ],
-     [
-      -120.37862999999999,
-      44.47
-     ],
-     [
-      -120.37612000000001,
-      44.46954
-     ],
-     [
-      -120.37495999999999,
-      44.46919
-     ],
-     [
-      -120.37464,
-      44.46919
-     ],
-     [
-      -120.37434000000002,
-      44.46924
-     ],
-     [
-      -120.37387999999999,
-      44.46936
-     ],
-     [
-      -120.37371293799004,
-      44.46936
-     ],
-     [
-      -120.37368695585684,
-      44.46936
-     ],
-     [
-      -120.37351000000001,
-      44.46936
-     ],
-     [
-      -120.37329,
-      44.4693
-     ],
-     [
-      -120.37239999999997,
-      44.46885
-     ],
-     [
-      -120.37239999999997,
-      44.46885
-     ],
-     [
-      -120.37239999999997,
-      44.46885
-     ],
-     [
-      -120.37143000000003,
-      44.4683
-     ],
-     [
-      -120.37119999999999,
-      44.46821
-     ],
-     [
-      -120.36903999999998,
-      44.46763
-     ],
-     [
-      -120.368,
-      44.46738
-     ],
-     [
-      -120.36739,
-      44.46732
-     ],
-     [
-      -120.36634050444229,
-      44.467275529849246
-     ],
-     [
-      -120.36634050444229,
-      44.467275529849246
-     ],
-     [
-      -120.36621000000002,
-      44.46727
-     ],
-     [
-      -120.36621000000002,
-      44.46727
-     ],
-     [
-      -120.36463000000003,
-      44.46722
-     ],
-     [
-      -120.36410000000001,
-      44.46712
-     ],
-     [
-      -120.36304000000001,
-      44.46688
-     ],
-     [
-      -120.36304000000001,
-      44.46688
-     ],
-     [
-      -120.36304000000001,
-      44.46688
-     ],
-     [
-      -120.36193000000003,
-      44.4666
-     ],
-     [
-      -120.36193000000003,
-      44.4666
-     ],
-     [
-      -120.36193000000003,
-      44.4666
-     ],
-     [
-      -120.36088000000001,
-      44.4662
-     ],
-     [
-      -120.36012,
-      44.46577
-     ],
-     [
-      -120.35984000000002,
-      44.46528
-     ],
-     [
-      -120.35978999999998,
-      44.46515
-     ],
-     [
-      -120.35978999999998,
-      44.46515
-     ],
-     [
-      -120.35966000000002,
-      44.46478
-     ],
-     [
-      -120.35933816956077,
-      44.464265071297234
-     ],
-     [
-      -120.35934596112043,
-      44.46427753779261
-     ],
-     [
-      -120.35931,
-      44.46422
-     ],
-     [
-      -120.35861999999997,
-      44.46342
-     ],
-     [
-      -120.35802999999999,
-      44.46301
-     ],
-     [
-      -120.35771999999997,
-      44.46264
-     ],
-     [
-      -120.35730999999998,
-      44.4619
-     ],
-     [
-      -120.35681999999997,
-      44.46141
-     ],
-     [
-      -120.35582,
-      44.46092
-     ],
-     [
-      -120.35555999999997,
-      44.4606
-     ],
-     [
-      -120.35564,
-      44.46032
-     ],
-     [
-      -120.35654,
-      44.46007
-     ],
-     [
-      -120.35669000000001,
-      44.45992
-     ],
-     [
-      -120.35669000000001,
-      44.4597
-     ],
-     [
-      -120.35669000000001,
-      44.4597
-     ],
-     [
-      -120.35669000000001,
-      44.4597
-     ],
-     [
-      -120.35636999999997,
-      44.45941
-     ],
-     [
-      -120.3553,
-      44.4591
-     ],
-     [
-      -120.35405000000003,
-      44.45827
-     ],
-     [
-      -120.35361999999998,
-      44.45749
-     ],
-     [
-      -120.35336000000001,
-      44.45722
-     ],
-     [
-      -120.35311000000002,
-      44.45704
-     ],
-     [
-      -120.35311000000002,
-      44.45704
-     ],
-     [
-      -120.35369000000003,
-      44.45623
-     ],
-     [
-      -120.35408000000001,
-      44.45542
-     ],
-     [
-      -120.35406,
-      44.45498
-     ],
-     [
-      -120.35406,
-      44.45498
-     ],
-     [
-      -120.35406,
-      44.45498
-     ],
-     [
-      -120.35191281082587,
-      44.455570711432195
-     ],
-     [
-      -120.35197752926973,
-      44.45555290679479
-     ],
-     [
-      -120.35176999999999,
-      44.45561
-     ],
-     [
-      -120.35122000000001,
-      44.45569
-     ],
-     [
-      -120.35090000000002,
-      44.45568
-     ],
-     [
-      -120.34953999999999,
-      44.45541
-     ],
-     [
-      -120.34861999999998,
-      44.4551
-     ],
-     [
-      -120.34719999999999,
-      44.45461
-     ],
-     [
-      -120.34663,
-      44.45446
-     ],
-     [
-      -120.34600999999998,
-      44.45445
-     ],
-     [
-      -120.34600999999998,
-      44.45445
-     ],
-     [
-      -120.34600999999998,
-      44.45445
-     ],
-     [
-      -120.34480000000002,
-      44.45453
-     ],
-     [
-      -120.34424000000001,
-      44.45465
-     ],
-     [
-      -120.34424000000001,
-      44.45465
-     ],
-     [
-      -120.34329000000002,
-      44.45487
-     ],
-     [
-      -120.34291999999999,
-      44.45501
-     ],
-     [
-      -120.34291999999999,
-      44.45501
-     ],
-     [
-      -120.34291999999999,
-      44.45501
-     ],
-     [
-      -120.34120000000001,
-      44.45589
-     ],
-     [
-      -120.3392,
-      44.45672
-     ],
-     [
-      -120.33896360713436,
-      44.45673719220841
-     ],
-     [
-      -120.33893273961837,
-      44.45673943711866
-     ],
-     [
-      -120.33865000000003,
-      44.45676
-     ],
-     [
-      -120.33821999999998,
-      44.45666
-     ],
-     [
-      -120.33785999999998,
-      44.45651
-     ],
-     [
-      -120.33726999999999,
-      44.45614
-     ],
-     [
-      -120.33704999999998,
-      44.45593
-     ],
-     [
-      -120.33667361766766,
-      44.45497728222132
-     ],
-     [
-      -120.33667361766766,
-      44.45497728222132
-     ],
-     [
-      -120.33641,
-      44.45431
-     ],
-     [
-      -120.3363,
-      44.45411
-     ],
-     [
-      -120.33614999999998,
-      44.45392
-     ],
-     [
-      -120.33584000000002,
-      44.45364
-     ],
-     [
-      -120.33566000000002,
-      44.45337
-     ],
-     [
-      -120.33553,
-      44.45305
-     ],
-     [
-      -120.33537000000001,
-      44.45284
-     ],
-     [
-      -120.33526999999998,
-      44.45276
-     ],
-     [
-      -120.33510999999999,
-      44.45268
-     ],
-     [
-      -120.33479,
-      44.45265
-     ],
-     [
-      -120.33407999999997,
-      44.45264
-     ],
-     [
-      -120.33362,
-      44.45259
-     ],
-     [
-      -120.33362,
-      44.45259
-     ],
-     [
-      -120.33362,
-      44.45259
-     ],
-     [
-      -120.33299,
-      44.45247
-     ],
-     [
-      -120.33202,
-      44.45209
-     ],
-     [
-      -120.33127999999999,
-      44.45188
-     ],
-     [
-      -120.33005000000003,
-      44.45182
-     ],
-     [
-      -120.32931000000002,
-      44.45148
-     ],
-     [
-      -120.32826,
-      44.45121
-     ],
-     [
-      -120.32693999999998,
-      44.45078
-     ],
-     [
-      -120.32619999999997,
-      44.45043
-     ],
-     [
-      -120.32598000000002,
-      44.45009
-     ],
-     [
-      -120.32598000000002,
-      44.45009
-     ],
-     [
-      -120.32598000000002,
-      44.45009
-     ],
-     [
-      -120.32574,
-      44.44987
-     ],
-     [
-      -120.32596000000001,
-      44.44947
-     ],
-     [
-      -120.32596000000001,
-      44.44947
-     ],
-     [
-      -120.32610999999997,
-      44.44919
-     ],
-     [
-      -120.32628,
-      44.44875
-     ],
-     [
-      -120.32627000000002,
-      44.44823
-     ],
-     [
-      -120.32609000000002,
-      44.44787
-     ],
-     [
-      -120.32553999999999,
-      44.4474
-     ],
-     [
-      -120.32553999999999,
-      44.4474
-     ],
-     [
-      -120.32553999999999,
-      44.4474
-     ],
-     [
-      -120.32418000000001,
-      44.4464
-     ],
-     [
-      -120.32418000000001,
-      44.4464
-     ],
-     [
-      -120.32418000000001,
-      44.4464
-     ],
-     [
-      -120.32388120188887,
-      44.44626860083065
-     ],
-     [
-      -120.32388120188887,
-      44.44626860083065
-     ],
-     [
-      -120.32252,
-      44.44567
-     ],
-     [
-      -120.32227,
-      44.44553
-     ],
-     [
-      -120.32227,
-      44.44553
-     ],
-     [
-      -120.32172000000003,
-      44.44524
-     ],
-     [
-      -120.32114000000001,
-      44.44512
-     ],
-     [
-      -120.32114000000001,
-      44.44512
-     ],
-     [
-      -120.32114000000001,
-      44.44512
-     ],
-     [
-      -120.32065999999998,
-      44.44512
-     ],
-     [
-      -120.32065999999998,
-      44.44512
-     ],
-     [
-      -120.32065999999998,
-      44.44512
-     ],
-     [
-      -120.31911000000002,
-      44.44528
-     ],
-     [
-      -120.31879000000004,
-      44.4454
-     ],
-     [
-      -120.31855999999999,
-      44.44567
-     ],
-     [
-      -120.31825000000003,
-      44.44583
-     ],
-     [
-      -120.3178040186574,
-      44.445977400613216
-     ],
-     [
-      -120.31779561534461,
-      44.44598017797932
-     ],
-     [
-      -120.31707,
-      44.44622
-     ],
-     [
-      -120.31636000000003,
-      44.44624
-     ],
-     [
-      -120.31362000000001,
-      44.44599
-     ],
-     [
-      -120.31297999999998,
-      44.44654
-     ],
-     [
-      -120.31177000000002,
-      44.44706
-     ],
-     [
-      -120.31040000000002,
-      44.44716
-     ],
-     [
-      -120.31007999999997,
-      44.44725
-     ],
-     [
-      -120.30966000000001,
-      44.44752
-     ],
-     [
-      -120.30912000000001,
-      44.44802
-     ],
-     [
-      -120.30893000000003,
-      44.44834
-     ],
-     [
-      -120.30872,
-      44.44947
-     ],
-     [
-      -120.30872,
-      44.44947
-     ],
-     [
-      -120.30867,
-      44.44969
-     ],
-     [
-      -120.30854,
-      44.44992
-     ],
-     [
-      -120.30829363953518,
-      44.45001475402493
-     ],
-     [
-      -120.3082550708416,
-      44.45003383892644
-     ],
-     [
-      -120.30791999999997,
-      44.45012
-     ],
-     [
-      -120.30709000000002,
-      44.45015
-     ],
-     [
-      -120.30651999999998,
-      44.45009
-     ],
-     [
-      -120.30599000000001,
-      44.44997
-     ],
-     [
-      -120.30547999999999,
-      44.44976
-     ],
-     [
-      -120.30502000000001,
-      44.44947
-     ],
-     [
-      -120.30502000000001,
-      44.44947
-     ],
-     [
-      -120.30489999999998,
-      44.44941
-     ],
-     [
-      -120.30453,
-      44.44933
-     ],
-     [
-      -120.30426,
-      44.44931
-     ],
-     [
-      -120.30403999999999,
-      44.44937
-     ],
-     [
-      -120.3039,
-      44.44947
-     ],
-     [
-      -120.3039,
-      44.44947
-     ],
-     [
-      -120.30381999999997,
-      44.44952
-     ],
-     [
-      -120.30369999999999,
-      44.4498
-     ],
-     [
-      -120.30360000000002,
-      44.45069
-     ],
-     [
-      -120.30347,
-      44.45098
-     ],
-     [
-      -120.30321000000004,
-      44.45117
-     ],
-     [
-      -120.30284,
-      44.45131
-     ],
-     [
-      -120.30284,
-      44.45131
-     ],
-     [
-      -120.30284,
-      44.45131
-     ],
-     [
-      -120.30119000000002,
-      44.45189
-     ],
-     [
-      -120.30119000000002,
-      44.45189
-     ],
-     [
-      -120.30119000000002,
-      44.45189
-     ],
-     [
-      -120.30039999999997,
-      44.45209
-     ],
-     [
-      -120.30029000000002,
-      44.4521
-     ],
-     [
-      -120.30029000000002,
-      44.4521
-     ],
-     [
-      -120.29981790671792,
-      44.45214969402969
-     ],
-     [
-      -120.29978755536257,
-      44.45215288890921
-     ],
-     [
-      -120.29953,
-      44.45218
-     ],
-     [
-      -120.29925000000003,
-      44.45225
-     ],
-     [
-      -120.29888,
-      44.45239
-     ],
-     [
-      -120.29868999999997,
-      44.45256
-     ],
-     [
-      -120.29845,
-      44.4532
-     ],
-     [
-      -120.29818999999998,
-      44.45343
-     ],
-     [
-      -120.29674,
-      44.45424
-     ],
-     [
-      -120.29650823762677,
-      44.454413821779916
-     ],
-     [
-      -120.29651863401682,
-      44.45440602448739
-     ],
-     [
-      -120.29649999999998,
-      44.45442
-     ],
-     [
-      -120.29512999999997,
-      44.45574
-     ],
-     [
-      -120.29428999999999,
-      44.4567
-     ],
-     [
-      -120.29372000000001,
-      44.45733
-     ],
-     [
-      -120.29356999999999,
-      44.45746
-     ],
-     [
-      -120.29332,
-      44.45755
-     ],
-     [
-      -120.2928,
-      44.45764
-     ],
-     [
-      -120.29143999999997,
-      44.45758
-     ],
-     [
-      -120.29106999999999,
-      44.45763
-     ],
-     [
-      -120.29068000000001,
-      44.45774
-     ],
-     [
-      -120.29014000000001,
-      44.45803
-     ],
-     [
-      -120.28966144717447,
-      44.4583207663355
-     ],
-     [
-      -120.28966144717447,
-      44.4583207663355
-     ],
-     [
-      -120.28856000000002,
-      44.45899
-     ],
-     [
-      -120.28838999999999,
-      44.45912
-     ],
-     [
-      -120.28816,
-      44.45935
-     ],
-     [
-      -120.28703999999999,
-      44.46074
-     ],
-     [
-      -120.2867,
-      44.4611
-     ],
-     [
-      -120.28624000000002,
-      44.46146
-     ],
-     [
-      -120.28571999999997,
-      44.46173
-     ],
-     [
-      -120.2851,
-      44.46197
-     ],
-     [
-      -120.28481999999997,
-      44.46216
-     ],
-     [
-      -120.28471000000002,
-      44.46234
-     ],
-     [
-      -120.28458,
-      44.46295
-     ],
-     [
-      -120.2844,
-      44.4633
-     ],
-     [
-      -120.28431,
-      44.46339
-     ],
-     [
-      -120.28431,
-      44.46339
-     ],
-     [
-      -120.28431,
-      44.46339
-     ],
-     [
-      -120.28425107273756,
-      44.463421990754966
-     ],
-     [
-      -120.28425107273756,
-      44.463421990754966
-     ],
-     [
-      -120.28395999999998,
-      44.46358
-     ],
-     [
-      -120.28242,
-      44.46405
-     ],
-     [
-      -120.28170999999998,
-      44.46409
-     ],
-     [
-      -120.28138000000001,
-      44.464
-     ],
-     [
-      -120.28123,
-      44.46379
-     ],
-     [
-      -120.28129000000001,
-      44.46353
-     ],
-     [
-      -120.28174000000001,
-      44.46302
-     ],
-     [
-      -120.28179,
-      44.46268
-     ],
-     [
-      -120.28161,
-      44.46244
-     ],
-     [
-      -120.28008,
-      44.46184
-     ],
-     [
-      -120.27967000000001,
-      44.46178
-     ],
-     [
-      -120.27933000000002,
-      44.46183
-     ],
-     [
-      -120.27897999999999,
-      44.46206
-     ],
-     [
-      -120.27832000000001,
-      44.46286
-     ],
-     [
-      -120.27832000000001,
-      44.46286
-     ],
-     [
-      -120.27697,
-      44.46449
-     ],
-     [
-      -120.27543000000003,
-      44.46515
-     ],
-     [
-      -120.27543000000003,
-      44.46515
-     ],
-     [
-      -120.27513775116654,
-      44.46530153643215
-     ],
-     [
-      -120.27514381230276,
-      44.465298393620806
-     ],
-     [
-      -120.27462000000003,
-      44.46557
-     ],
-     [
-      -120.27350999999999,
-      44.46603
-     ],
-     [
-      -120.27093000000002,
-      44.46693
-     ],
-     [
-      -120.27055000000001,
-      44.46722
-     ],
-     [
-      -120.27025000000003,
-      44.46765
-     ],
-     [
-      -120.26963999999998,
-      44.46911
-     ],
-     [
-      -120.26864999999998,
-      44.47032
-     ],
-     [
-      -120.26727,
-      44.47158
-     ],
-     [
-      -120.26686000000001,
-      44.47173
-     ],
-     [
-      -120.26686000000001,
-      44.47173
-     ],
-     [
-      -120.26686000000001,
-      44.47173
-     ],
-     [
-      -120.26639,
-      44.47176
-     ],
-     [
-      -120.26593000000003,
-      44.47162
-     ],
-     [
-      -120.26474999999999,
-      44.4705
-     ],
-     [
-      -120.26283999999998,
-      44.4681
-     ],
-     [
-      -120.26209,
-      44.46768
-     ],
-     [
-      -120.26094,
-      44.46737
-     ],
-     [
-      -120.26094,
-      44.46737
-     ],
-     [
-      -120.26094,
-      44.46737
-     ],
-     [
-      -120.25986,
-      44.46718
-     ],
-     [
-      -120.25986,
-      44.46718
-     ],
-     [
-      -120.25909999999999,
-      44.4668
-     ],
-     [
-      -120.25839000000002,
-      44.46634
-     ],
-     [
-      -120.25834673005323,
-      44.46629564830457
-     ],
-     [
-      -120.25832368170302,
-      44.46627202374558
-     ],
-     [
-      -120.25799,
-      44.46593
-     ],
-     [
-      -120.25731999999999,
-      44.46563
-     ],
-     [
-      -120.25682999999998,
-      44.46567
-     ],
-     [
-      -120.25635,
-      44.46584
-     ],
-     [
-      -120.25635,
-      44.46584
-     ],
-     [
-      -120.25563,
-      44.46621
-     ],
-     [
-      -120.25488000000001,
-      44.46623
-     ],
-     [
-      -120.25391000000002,
-      44.46607
-     ],
-     [
-      -120.25358,
-      44.4659
-     ],
-     [
-      -120.25306,
-      44.46545
-     ],
-     [
-      -120.25247000000002,
-      44.46538
-     ],
-     [
-      -120.25212999999997,
-      44.46543
-     ],
-     [
-      -120.25193000000002,
-      44.46552
-     ],
-     [
-      -120.25176999999996,
-      44.46578
-     ],
-     [
-      -120.25193000000002,
-      44.4662
-     ],
-     [
-      -120.25218999999998,
-      44.46653
-     ],
-     [
-      -120.25260000000003,
-      44.46682
-     ],
-     [
-      -120.25263000000001,
-      44.46698
-     ],
-     [
-      -120.25243,
-      44.46705
-     ],
-     [
-      -120.25211999999999,
-      44.46708
-     ],
-     [
-      -120.25139000000001,
-      44.46687
-     ],
-     [
-      -120.25081999999998,
-      44.46656
-     ],
-     [
-      -120.25040999999999,
-      44.466
-     ],
-     [
-      -120.25000999999997,
-      44.46577
-     ],
-     [
-      -120.24937999999997,
-      44.46568
-     ],
-     [
-      -120.24874,
-      44.46542
-     ],
-     [
-      -120.2486170997521,
-      44.46534786289798
-     ],
-     [
-      -120.24861837294259,
-      44.465348610205425
-     ],
-     [
-      -120.24828000000002,
-      44.46515
-     ],
-     [
-      -120.24828000000002,
-      44.46515
-     ],
-     [
-      -120.24748999999997,
-      44.46481
-     ],
-     [
-      -120.24649,
-      44.46464
-     ],
-     [
-      -120.24516,
-      44.46458
-     ],
-     [
-      -120.24308000000002,
-      44.46515
-     ],
-     [
-      -120.24308000000002,
-      44.46515
-     ],
-     [
-      -120.24223,
-      44.46538
-     ],
-     [
-      -120.24142999999998,
-      44.46573
-     ],
-     [
-      -120.24063000000001,
-      44.46567
-     ],
-     [
-      -120.23815000000002,
-      44.4659
-     ],
-     [
-      -120.23698000000002,
-      44.46562
-     ],
-     [
-      -120.23491000000001,
-      44.4654
-     ],
-     [
-      -120.23437999999999,
-      44.46539
-     ],
-     [
-      -120.23437999999999,
-      44.46539
-     ],
-     [
-      -120.23175000000003,
-      44.46534
-     ],
-     [
-      -120.23138,
-      44.46536
-     ],
-     [
-      -120.23032999999998,
-      44.46515
-     ],
-     [
-      -120.23032999999998,
-      44.46515
-     ],
-     [
-      -120.22973000000002,
-      44.46507
-     ],
-     [
-      -120.22712999999999,
-      44.46494
-     ],
-     [
-      -120.22674,
-      44.46479
-     ],
-     [
-      -120.22662000000003,
-      44.46468
-     ],
-     [
-      -120.22662000000003,
-      44.46468
-     ],
-     [
-      -120.22662000000003,
-      44.46468
-     ],
-     [
-      -120.22652,
-      44.46447
-     ],
-     [
-      -120.22647999999998,
-      44.46376
-     ],
-     [
-      -120.22541000000001,
-      44.46258
-     ],
-     [
-      -120.22393999999997,
-      44.46173
-     ],
-     [
-      -120.22343000000001,
-      44.46162
-     ],
-     [
-      -120.22212000000002,
-      44.46146
-     ],
-     [
-      -120.22122999999999,
-      44.46125
-     ],
-     [
-      -120.22091,
-      44.46112
-     ],
-     [
-      -120.21918,
-      44.46118
-     ],
-     [
-      -120.21800000000002,
-      44.46087
-     ],
-     [
-      -120.21778,
-      44.46066
-     ],
-     [
-      -120.2174,
-      44.46055
-     ],
-     [
-      -120.2165,
-      44.45977
-     ],
-     [
-      -120.21577000000002,
-      44.45899
-     ],
-     [
-      -120.21535,
-      44.45872
-     ],
-     [
-      -120.21298999999999,
-      44.45828
-     ],
-     [
-      -120.2124,
-      44.45835
-     ],
-     [
-      -120.2124,
-      44.45835
-     ],
-     [
-      -120.21116999999998,
-      44.45849
-     ],
-     [
-      -120.20751000000001,
-      44.45817
-     ],
-     [
-      -120.20526000000001,
-      44.45806
-     ],
-     [
-      -120.2045,
-      44.4583
-     ],
-     [
-      -120.20373000000001,
-      44.45835
-     ],
-     [
-      -120.20305000000002,
-      44.4582
-     ],
-     [
-      -120.20305000000002,
-      44.4582
-     ],
-     [
-      -120.20305000000002,
-      44.4582
-     ],
-     [
-      -120.20125000000002,
-      44.45767
-     ],
-     [
-      -120.20017000000001,
-      44.45712
-     ],
-     [
-      -120.19972999999999,
-      44.45673
-     ],
-     [
-      -120.19972999999999,
-      44.45673
-     ],
-     [
-      -120.19972999999999,
-      44.45673
-     ],
-     [
-      -120.19921,
-      44.45666
-     ],
-     [
-      -120.19870000000003,
-      44.45673
-     ],
-     [
-      -120.19761,
-      44.45705
-     ],
-     [
-      -120.19709999999998,
-      44.45733
-     ],
-     [
-      -120.19686999999999,
-      44.45767
-     ],
-     [
-      -120.19655,
-      44.45778
-     ],
-     [
-      -120.19594000000001,
-      44.45786
-     ],
-     [
-      -120.19527,
-      44.45783
-     ],
-     [
-      -120.19463999999999,
-      44.45797
-     ],
-     [
-      -120.19407000000001,
-      44.45834
-     ],
-     [
-      -120.19367,
-      44.45843
-     ],
-     [
-      -120.19328999999999,
-      44.45837
-     ],
-     [
-      -120.19214999999997,
-      44.45814
-     ],
-     [
-      -120.19115,
-      44.45819
-     ],
-     [
-      -120.19055000000003,
-      44.45804
-     ],
-     [
-      -120.19042999999999,
-      44.45803
-     ],
-     [
-      -120.19042999999999,
-      44.45803
-     ],
-     [
-      -120.18829,
-      44.45791
-     ],
-     [
-      -120.18716999999998,
-      44.45802
-     ],
-     [
-      -120.18624999999997,
-      44.45797
-     ],
-     [
-      -120.18546000000003,
-      44.45807
-     ],
-     [
-      -120.18432000000001,
-      44.45772
-     ],
-     [
-      -120.18216999999999,
-      44.45624
-     ],
-     [
-      -120.18171000000001,
-      44.45575
-     ],
-     [
-      -120.18165542277882,
-      44.45574007686888
-     ],
-     [
-      -120.18179117775662,
-      44.45583647195811
-     ],
-     [
-      -120.18171000000001,
-      44.45575
-     ],
-     [
-      -120.18126999999998,
-      44.45567
-     ],
-     [
-      -120.18,
-      44.45574
-     ],
-     [
-      -120.17899999999997,
-      44.45583
-     ],
-     [
-      -120.17786000000001,
-      44.45621
-     ],
-     [
-      -120.17736000000002,
-      44.4564
-     ],
-     [
-      -120.17696000000001,
-      44.45649
-     ],
-     [
-      -120.17656999999997,
-      44.45643
-     ],
-     [
-      -120.17622,
-      44.45612
-     ],
-     [
-      -120.17604,
-      44.45585
-     ],
-     [
-      -120.17588999999998,
-      44.45547
-     ],
-     [
-      -120.17570999999998,
-      44.45521
-     ],
-     [
-      -120.17565000000002,
-      44.45497
-     ],
-     [
-      -120.17559,
-      44.45441
-     ],
-     [
-      -120.17525999999998,
-      44.45431
-     ],
-     [
-      -120.17505,
-      44.45431
-     ],
-     [
-      -120.17464000000001,
-      44.45435
-     ],
-     [
-      -120.17412999999999,
-      44.45392
-     ],
-     [
-      -120.17406,
-      44.45364
-     ],
-     [
-      -120.17390999999998,
-      44.45355
-     ],
-     [
-      -120.17390999999998,
-      44.45346
-     ],
-     [
-      -120.17298,
-      44.45298
-     ],
-     [
-      -120.17244,
-      44.45255
-     ],
-     [
-      -120.1719,
-      44.45186
-     ],
-     [
-      -120.17183,
-      44.45152
-     ],
-     [
-      -120.17169999999999,
-      44.45143
-     ],
-     [
-      -120.17169999999999,
-      44.45109
-     ],
-     [
-      -120.17119000000002,
-      44.45067
-     ],
-     [
-      -120.17059,
-      44.45038
-     ],
-     [
-      -120.16883000000001,
-      44.45008
-     ],
-     [
-      -120.16845999999998,
-      44.44999
-     ],
-     [
-      -120.16845999999998,
-      44.44999
-     ],
-     [
-      -120.16784000000001,
-      44.44985
-     ],
-     [
-      -120.16746,
-      44.44947
-     ],
-     [
-      -120.16746,
-      44.44947
-     ],
-     [
-      -120.16732999999999,
-      44.44932
-     ],
-     [
-      -120.16730000000001,
-      44.44919
-     ],
-     [
-      -120.16721000000001,
-      44.44916
-     ],
-     [
-      -120.16710999999998,
-      44.44882
-     ],
-     [
-      -120.16692,
-      44.44864
-     ],
-     [
-      -120.16685999999999,
-      44.4483
-     ],
-     [
-      -120.16676000000001,
-      44.44683
-     ],
-     [
-      -120.16656999999998,
-      44.44647
-     ],
-     [
-      -120.16574000000003,
-      44.44576
-     ],
-     [
-      -120.16429,
-      44.44509
-     ],
-     [
-      -120.16365000000002,
-      44.44454
-     ],
-     [
-      -120.16329999999999,
-      44.44351
-     ],
-     [
-      -120.16329999999999,
-      44.44315
-     ],
-     [
-      -120.16305,
-      44.44264
-     ],
-     [
-      -120.16291999999999,
-      44.4418
-     ],
-     [
-      -120.1626,
-      44.44123
-     ],
-     [
-      -120.16161999999997,
-      44.44043
-     ],
-     [
-      -120.16097000000002,
-      44.43953
-     ],
-     [
-      -120.1608,
-      44.43924
-     ],
-     [
-      -120.15989000000002,
-      44.43815
-     ],
-     [
-      -120.15969999999999,
-      44.43784
-     ],
-     [
-      -120.15936999999997,
-      44.43739
-     ],
-     [
-      -120.1594,
-      44.43714
-     ],
-     [
-      -120.15975000000003,
-      44.43625
-     ],
-     [
-      -120.15972,
-      44.43559
-     ],
-     [
-      -120.15958999999998,
-      44.43486
-     ],
-     [
-      -120.15953999999999,
-      44.43378
-     ],
-     [
-      -120.15953999999999,
-      44.43378
-     ],
-     [
-      -120.15945999999997,
-      44.43191
-     ],
-     [
-      -120.15926999999999,
-      44.43127
-     ],
-     [
-      -120.15924000000001,
-      44.43095
-     ],
-     [
-      -120.15915000000001,
-      44.43093
-     ],
-     [
-      -120.15899000000002,
-      44.43024
-     ],
-     [
-      -120.15789999999998,
-      44.42953
-     ],
-     [
-      -120.15681999999998,
-      44.42914
-     ],
-     [
-      -120.15481,
-      44.42828
-     ],
-     [
-      -120.15397999999999,
-      44.42789
-     ],
-     [
-      -120.15289999999999,
-      44.42704
-     ],
-     [
-      -120.15193999999997,
-      44.4264
-     ],
-     [
-      -120.15152999999998,
-      44.42629
-     ],
-     [
-      -120.14995999999996,
-      44.42606
-     ],
-     [
-      -120.14866,
-      44.42583
-     ],
-     [
-      -120.14778999999999,
-      44.4253
-     ],
-     [
-      -120.14706000000001,
-      44.42498
-     ],
-     [
-      -120.14648,
-      44.42491
-     ],
-     [
-      -120.14648,
-      44.42491
-     ],
-     [
-      -120.14579000000003,
-      44.42482
-     ],
-     [
-      -120.14422000000002,
-      44.425
-     ],
-     [
-      -120.14422000000002,
-      44.425
-     ],
-     [
-      -120.14359999999999,
-      44.42517
-     ],
-     [
-      -120.14294999999998,
-      44.42519
-     ],
-     [
-      -120.14195999999998,
-      44.42471
-     ],
-     [
-      -120.13997999999998,
-      44.42445
-     ],
-     [
-      -120.13905999999997,
-      44.42464
-     ],
-     [
-      -120.13774999999998,
-      44.42498
-     ],
-     [
-      -120.13689,
-      44.42511
-     ],
-     [
-      -120.13281,
-      44.42481
-     ],
-     [
-      -120.13123999999999,
-      44.42534
-     ],
-     [
-      -120.13076999999998,
-      44.42538
-     ],
-     [
-      -120.13003000000003,
-      44.42532
-     ],
-     [
-      -120.12820139397752,
-      44.42543560153016
-     ],
-     [
-      -120.12822622926922,
-      44.42543403148298
-     ],
-     [
-      -120.12655000000001,
-      44.42554
-     ],
-     [
-      -120.12562000000003,
-      44.42577
-     ],
-     [
-      -120.12461000000002,
-      44.42596
-     ],
-     [
-      -120.12450999999999,
-      44.42595
-     ],
-     [
-      -120.12450999999999,
-      44.42595
-     ],
-     [
-      -120.12185,
-      44.42585
-     ],
-     [
-      -120.12108000005287,
-      44.42599999946164
-     ],
-     [
-      -120.12108000005287,
-      44.42599999946164
-     ],
-     [
-      -120.12108,
-      44.426
-     ],
-     [
-      -120.12050999999997,
-      44.42621
-     ],
-     [
-      -120.12002000000001,
-      44.42642
-     ],
-     [
-      -120.11919,
-      44.42692
-     ],
-     [
-      -120.11858999999998,
-      44.42699
-     ],
-     [
-      -120.11811,
-      44.42681
-     ],
-     [
-      -120.11743999999999,
-      44.42628
-     ],
-     [
-      -120.11737,
-      44.4261
-     ],
-     [
-      -120.11712,
-      44.42596
-     ],
-     [
-      -120.11705999999998,
-      44.42578
-     ],
-     [
-      -120.11680000000001,
-      44.42557
-     ],
-     [
-      -120.11676999999997,
-      44.42532
-     ],
-     [
-      -120.11667,
-      44.42523
-     ],
-     [
-      -120.11651,
-      44.42464
-     ],
-     [
-      -120.11637999999999,
-      44.42452
-     ],
-     [
-      -120.11642,
-      44.42429
-     ],
-     [
-      -120.11606999999998,
-      44.42409
-     ],
-     [
-      -120.11556000000002,
-      44.42409
-     ],
-     [
-      -120.11523999999997,
-      44.42455
-     ],
-     [
-      -120.11500999999998,
-      44.42525
-     ],
-     [
-      -120.11463000000003,
-      44.42546
-     ],
-     [
-      -120.1139,
-      44.42546
-     ],
-     [
-      -120.11358000000001,
-      44.42535
-     ],
-     [
-      -120.11271999999997,
-      44.42459
-     ],
-     [
-      -120.11217999999997,
-      44.42404
-     ],
-     [
-      -120.11122,
-      44.42355
-     ],
-     [
-      -120.11122,
-      44.42355
-     ],
-     [
-      -120.11122,
-      44.42355
-     ],
-     [
-      -120.10962,
-      44.42312
-     ],
-     [
-      -120.10926999999998,
-      44.42322
-     ],
-     [
-      -120.10931,
-      44.42386
-     ],
-     [
-      -120.10915,
-      44.42434
-     ],
-     [
-      -120.10847999999999,
-      44.42512
-     ],
-     [
-      -120.10824000000002,
-      44.4256
-     ],
-     [
-      -120.108,
-      44.42706
-     ],
-     [
-      -120.10780999999997,
-      44.42743
-     ],
-     [
-      -120.10755,
-      44.42761
-     ],
-     [
-      -120.10606000000001,
-      44.42805
-     ],
-     [
-      -120.10528999999997,
-      44.42839
-     ],
-     [
-      -120.10474999999997,
-      44.42905
-     ],
-     [
-      -120.10474999999997,
-      44.42958
-     ],
-     [
-      -120.10504000000003,
-      44.43106
-     ],
-     [
-      -120.10523,
-      44.43143
-     ],
-     [
-      -120.10559999999998,
-      44.43251
-     ],
-     [
-      -120.10564,
-      44.43291
-     ],
-     [
-      -120.1054597117531,
-      44.43335199699241
-     ],
-     [
-      -120.1054597117531,
-      44.43335199699241
-     ],
-     [
-      -120.10532999999998,
-      44.43367
-     ],
-     [
-      -120.10523999999998,
-      44.43378
-     ],
-     [
-      -120.10523999999998,
-      44.43378
-     ],
-     [
-      -120.10375999999997,
-      44.43572
-     ],
-     [
-      -120.10293999999999,
-      44.4365
-     ],
-     [
-      -120.10253999999998,
-      44.43668
-     ],
-     [
-      -120.10253999999998,
-      44.43668
-     ],
-     [
-      -120.10172,
-      44.43705
-     ],
-     [
-      -120.10111999999998,
-      44.43831
-     ],
-     [
-      -120.10070000000002,
-      44.43892
-     ],
-     [
-      -120.09956,
-      44.4397
-     ],
-     [
-      -120.09767999999997,
-      44.44071
-     ],
-     [
-      -120.09697,
-      44.44128
-     ],
-     [
-      -120.09685000000002,
-      44.44167
-     ],
-     [
-      -120.09685000000002,
-      44.44206
-     ],
-     [
-      -120.09632999999997,
-      44.44347
-     ],
-     [
-      -120.09593000000001,
-      44.44395
-     ],
-     [
-      -120.09593000000001,
-      44.44395
-     ],
-     [
-      -120.09593000000001,
-      44.44395
-     ],
-     [
-      -120.09481,
-      44.44658
-     ],
-     [
-      -120.09402,
-      44.44793
-     ],
-     [
-      -120.09291999999999,
-      44.44947
-     ],
-     [
-      -120.09291999999999,
-      44.44947
-     ],
-     [
-      -120.09125,
-      44.45179
-     ],
-     [
-      -120.09087,
-      44.45202
-     ],
-     [
-      -120.08891,
-      44.45239
-     ],
-     [
-      -120.08823000000001,
-      44.45269
-     ],
-     [
-      -120.08681999999999,
-      44.45291
-     ],
-     [
-      -120.08585,
-      44.45278
-     ],
-     [
-      -120.08585,
-      44.45278
-     ],
-     [
-      -120.08585,
-      44.45278
-     ],
-     [
-      -120.08438999999998,
-      44.45214
-     ],
-     [
-      -120.08368000000002,
-      44.45173
-     ],
-     [
-      -120.08326,
-      44.45131
-     ],
-     [
-      -120.08301,
-      44.4509
-     ],
-     [
-      -120.08269000000001,
-      44.45063
-     ],
-     [
-      -120.08230000000003,
-      44.45051
-     ],
-     [
-      -120.08186,
-      44.45047
-     ],
-     [
-      -120.08148,
-      44.45066
-     ],
-     [
-      -120.08122000000003,
-      44.45093
-     ],
-     [
-      -120.08067733837868,
-      44.45119715649049
-     ],
-     [
-      -120.08067733837868,
-      44.45119715649049
-     ],
-     [
-      -120.08056999999997,
-      44.45125
-     ],
-     [
-      -120.08056999999997,
-      44.45125
-     ],
-     [
-      -120.08017000000001,
-      44.45145
-     ],
-     [
-      -120.07945999999998,
-      44.45227
-     ],
-     [
-      -120.07898780613203,
-      44.45263190040974
-     ],
-     [
-      -120.07897066882163,
-      44.45264503484471
-     ],
-     [
-      -120.07808999999997,
-      44.45332
-     ],
-     [
-      -120.07808999999997,
-      44.45332
-     ],
-     [
-      -120.07808999999997,
-      44.45332
-     ],
-     [
-      -120.07717000000002,
-      44.4541
-     ],
-     [
-      -120.07652999999999,
-      44.45452
-     ],
-     [
-      -120.07541000000003,
-      44.45466
-     ],
-     [
-      -120.07443999999998,
-      44.45448
-     ],
-     [
-      -120.07416999999998,
-      44.45421
-     ],
-     [
-      -120.07366000000002,
-      44.45397
-     ],
-     [
-      -120.07123000000001,
-      44.45234
-     ],
-     [
-      -120.07116638283236,
-      44.4522716509769
-     ],
-     [
-      -120.07116638283236,
-      44.4522716509769
-     ],
-     [
-      -120.07051229617684,
-      44.45156891324784
-     ],
-     [
-      -120.07051229617684,
-      44.45156891324784
-     ],
-     [
-      -120.07002,
-      44.45104
-     ],
-     [
-      -120.06984999999997,
-      44.44947
-     ],
-     [
-      -120.06984999999997,
-      44.44947
-     ],
-     [
-      -120.06983000000002,
-      44.44924
-     ],
-     [
-      -120.06855000000002,
-      44.4485
-     ],
-     [
-      -120.06801000000002,
-      44.44848
-     ],
-     [
-      -120.06747000000001,
-      44.44866
-     ],
-     [
-      -120.06654000000003,
-      44.44871
-     ],
-     [
-      -120.06284,
-      44.44837
-     ],
-     [
-      -120.06221,
-      44.44818
-     ],
-     [
-      -120.06121999999999,
-      44.44745
-     ],
-     [
-      -120.06040999999999,
-      44.44693
-     ],
-     [
-      -120.06040999999999,
-      44.44693
-     ],
-     [
-      -120.06040999999999,
-      44.44693
-     ],
-     [
-      -120.05901,
-      44.44588
-     ],
-     [
-      -120.05858999999998,
-      44.44535
-     ],
-     [
-      -120.05858999999998,
-      44.44535
-     ],
-     [
-      -120.05854,
-      44.44528
-     ],
-     [
-      -120.05700000000002,
-      44.44476
-     ],
-     [
-      -120.05581999999998,
-      44.44467
-     ],
-     [
-      -120.05444999999997,
-      44.44444
-     ],
-     [
-      -120.05360999999999,
-      44.44459
-     ],
-     [
-      -120.05360999999999,
-      44.44459
-     ],
-     [
-      -120.05360999999999,
-      44.44459
-     ],
-     [
-      -120.05340000000001,
-      44.44473
-     ],
-     [
-      -120.05324000000002,
-      44.44501
-     ],
-     [
-      -120.05329999999998,
-      44.44515
-     ],
-     [
-      -120.05311,
-      44.44533
-     ],
-     [
-      -120.05149,
-      44.44569
-     ],
-     [
-      -120.05081999999999,
-      44.44572
-     ],
-     [
-      -120.04989,
-      44.44551
-     ],
-     [
-      -120.04919000000001,
-      44.44499
-     ],
-     [
-      -120.04867999999999,
-      44.44485
-     ],
-     [
-      -120.04613,
-      44.44462
-     ],
-     [
-      -120.04561999999999,
-      44.44437
-     ],
-     [
-      -120.0456199997086,
-      44.444369999858395
-     ],
-     [
-      -120.0456199997086,
-      44.444369999858395
-     ],
-     [
-      -120.0387400002432,
-      44.442650000063324
-     ],
-     [
-      -120.0387400002432,
-      44.442650000063324
-     ],
-     [
-      -120.03874000000002,
-      44.44265
-     ],
-     [
-      -120.03845999999999,
-      44.4426
-     ],
-     [
-      -120.03845999999999,
-      44.4426
-     ],
-     [
-      -120.03845999999999,
-      44.4426
-     ],
-     [
-      -120.03755000000001,
-      44.44238
-     ],
-     [
-      -120.03701000000001,
-      44.44249
-     ],
-     [
-      -120.03661999999997,
-      44.44246
-     ],
-     [
-      -120.03661999999997,
-      44.44246
-     ],
-     [
-      -120.03629063859006,
-      44.44243526979174
-     ],
-     [
-      -120.03629063859006,
-      44.44243526979174
-     ],
-     [
-      -120.03368999999998,
-      44.44224
-     ],
-     [
-      -120.03267,
-      44.44244
-     ],
-     [
-      -120.03093999999999,
-      44.44222
-     ],
-     [
-      -120.03010999999998,
-      44.44237
-     ],
-     [
-      -120.03010999999998,
-      44.44237
-     ],
-     [
-      -120.03010999999998,
-      44.44237
-     ],
-     [
-      -120.02868337803085,
-      44.442746469686305
-     ],
-     [
-      -120.02868337803085,
-      44.442746469686305
-     ],
-     [
-      -120.02795000000003,
-      44.44294
-     ],
-     [
-      -120.02580999999998,
-      44.4437
-     ],
-     [
-      -120.02440000000001,
-      44.44383
-     ],
-     [
-      -120.02381000000003,
-      44.44391
-     ],
-     [
-      -120.02293288703981,
-      44.444443501697414
-     ],
-     [
-      -120.02293288703981,
-      44.444443501697414
-     ],
-     [
-      -120.02283999999997,
-      44.4445
-     ],
-     [
-      -120.01556,
-      44.44947
-     ],
-     [
-      -120.01556,
-      44.44947
-     ],
-     [
-      -120.01465000000002,
-      44.45017
-     ],
-     [
-      -120.01465000000002,
-      44.45017
-     ],
-     [
-      -120.014469431632,
-      44.45030948095492
-     ],
-     [
-      -120.01446315760143,
-      44.450314327361795
-     ],
-     [
-      -120.01297999999997,
-      44.45146
-     ],
-     [
-      -120.01173,
-      44.45229
-     ],
-     [
-      -120.01013999999998,
-      44.45313
-     ],
-     [
-      -120.00765000000001,
-      44.45381
-     ],
-     [
-      -120.00655999999998,
-      44.45384
-     ],
-     [
-      -120.00576999999998,
-      44.45365
-     ],
-     [
-      -120.00480784067372,
-      44.45336369893218
-     ],
-     [
-      -120.00480784067372,
-      44.45336369893218
-     ],
-     [
-      -120.00371999999999,
-      44.45304
-     ],
-     [
-      -120.00371999999999,
-      44.45304
-     ],
-     [
-      -120.00371999999999,
-      44.45304
-     ],
-     [
-      -120.00202999999999,
-      44.45246
-     ],
-     [
-      -120.00148999999999,
-      44.45205
-     ],
-     [
-      -120.00110999999998,
-      44.45171
-     ],
-     [
-      -120.00045999999998,
-      44.45125
-     ],
-     [
-      -120.00045999999998,
-      44.45116
-     ],
-     [
-      -119.99989,
-      44.45066
-     ],
-     [
-      -119.99898999999999,
-      44.45009
-     ],
-     [
-      -119.99808790092072,
-      44.44970691682936
-     ],
-     [
-      -119.99804393494236,
-      44.44968824634539
-     ],
-     [
-      -119.99752999999998,
-      44.44947
-     ],
-     [
-      -119.99752999999998,
-      44.44947
-     ],
-     [
-      -119.99640999999997,
-      44.44899
-     ],
-     [
-      -119.99399,
-      44.44723
-     ],
-     [
-      -119.99399,
-      44.44723
-     ],
-     [
-      -119.99399,
-      44.44723
-     ],
-     [
-      -119.99315000000001,
-      44.4471
-     ],
-     [
-      -119.99271365236018,
-      44.44717340964402
-     ],
-     [
-      -119.99204846452449,
-      44.447288298689855
-     ],
-     [
-      -119.99204216933362,
-      44.447275955826015
-     ],
-     [
-      -119.99149,
-      44.44742
-     ],
-     [
-      -119.99079,
-      44.44776
-     ],
-     [
-      -119.98903999999999,
-      44.44902
-     ],
-     [
-      -119.98852999999997,
-      44.44947
-     ],
-     [
-      -119.98852999999997,
-      44.44947
-     ],
-     [
-      -119.98792000000003,
-      44.45
-     ],
-     [
-      -119.98738000000003,
-      44.45071
-     ],
-     [
-      -119.98684000000003,
-      44.45119
-     ],
-     [
-      -119.98518000000001,
-      44.45217
-     ],
-     [
-      -119.98413,
-      44.45256
-     ],
-     [
-      -119.98316999999997,
-      44.45284
-     ],
-     [
-      -119.98202000000003,
-      44.4533
-     ],
-     [
-      -119.98158000000001,
-      44.45357
-     ],
-     [
-      -119.98068,
-      44.45394
-     ],
-     [
-      -119.97868,
-      44.45458
-     ],
-     [
-      -119.97771999999998,
-      44.45499
-     ],
-     [
-      -119.97724,
-      44.45506
-     ],
-     [
-      -119.97507000000002,
-      44.4551
-     ],
-     [
-      -119.97417999999999,
-      44.45529
-     ],
-     [
-      -119.97338000000002,
-      44.45561
-     ],
-     [
-      -119.97246000000001,
-      44.45634
-     ],
-     [
-      -119.97069999999997,
-      44.45705
-     ],
-     [
-      -119.97069999999997,
-      44.45705
-     ],
-     [
-      -119.969224561864,
-      44.45754634554805
-     ],
-     [
-      -119.96919166228633,
-      44.457557413147924
-     ],
-     [
-      -119.96852999999999,
-      44.45778
-     ],
-     [
-      -119.96767,
-      44.45833
-     ],
-     [
-      -119.96671000000003,
-      44.45851
-     ],
-     [
-      -119.96528,
-      44.45851
-     ],
-     [
-      -119.96068000000002,
-      44.45812
-     ],
-     [
-      -119.95803000000001,
-      44.45815
-     ],
-     [
-      -119.95803000000001,
-      44.45815
-     ],
-     [
-      -119.95803000000001,
-      44.45815
-     ],
-     [
-      -119.95504,
-      44.45776
-     ],
-     [
-      -119.95504,
-      44.45776
-     ],
-     [
-      -119.95504,
-      44.45776
-     ],
-     [
-      -119.95344,
-      44.45758
-     ],
-     [
-      -119.95209999999997,
-      44.4576
-     ],
-     [
-      -119.9513,
-      44.45753
-     ],
-     [
-      -119.94925999999998,
-      44.45714
-     ],
-     [
-      -119.94873000000001,
-      44.45709
-     ],
-     [
-      -119.94873000000001,
-      44.45709
-     ],
-     [
-      -119.94754,
-      44.45696
-     ],
-     [
-      -119.94562000000002,
-      44.45657
-     ],
-     [
-      -119.94535840445627,
-      44.45640988548615
-     ],
-     [
-      -119.94528208366114,
-      44.45636317189603
-     ],
-     [
-      -119.94445999999999,
-      44.45586
-     ],
-     [
-      -119.94301000000002,
-      44.45406
-     ],
-     [
-      -119.94236999999998,
-      44.45344
-     ],
-     [
-      -119.94186000000002,
-      44.45257
-     ],
-     [
-      -119.94160999999997,
-      44.45239
-     ],
-     [
-      -119.93826999999999,
-      44.45083
-     ],
-     [
-      -119.93772000000001,
-      44.4507
-     ],
-     [
-      -119.93772000000001,
-      44.4507
-     ],
-     [
-      -119.93768724475467,
-      44.450671762719516
-     ],
-     [
-      -119.9376961810467,
-      44.45067319870027
-     ]
-    ],
-    "type": "LineString"
-   },
-   "id": "b0e197bd-8b74-4c82-8c12-2a2dccd5ecdd",
-   "type": "Feature",
-   "properties": {
-    "creator": "J9KSHN",
-    "pattern": "solid",
-    "description": "",
-    "fill": "#0000FF",
-    "title": "OBCDR4",
-    "stroke": "#0000FF",
-    "folderId": "7ac799f1-70b5-4389-8a97-e678b7aba43f",
-    "gpstype": "TRACK",
-    "stroke-opacity": 1,
-    "stroke-width": 3,
-    "fill-opacity": 0.1,
-    "class": "Shape",
-    "updated": 1671659889000
    }
   },
   {
