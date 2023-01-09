@@ -52,6 +52,31 @@
   {
    "geometry": {
     "coordinates": [
+     -120.83445093258149,
+     42.86643622461491,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "030fbe58-b573-494d-a61a-c780f0133f29",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "placemark2",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Restroom",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670978820000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.7958120758505,
      43.22671088700485,
      0,
@@ -75,6 +100,56 @@
   {
    "geometry": {
     "coordinates": [
+     -121.66870468227556,
+     43.24321225070166,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "06d28392-6a88-4ae7-99ba-abf5a810a4aa",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "1.5 mi out",
+    "title": "N to Skookum Butte, 1.5 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.24666572202908,
+     43.06802994261004,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "0ee13d53-cf75-43fd-9a4a-fe8dbd398e54",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "camping$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "free\nfilter creek water",
+    "title": "Lower Buck Cr CG",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670958806000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.81476700166711,
      43.228805400227905,
      0,
@@ -89,10 +164,35 @@
     "creator": "J9KSHN",
     "marker-color": "000000",
     "description": "",
-    "title": "OBCDR2 Chemult Jctn 3 Terminus",
+    "title": "OBCDR2 Route 3 Terminus",
+    "marker-size": "2",
+    "class": "Marker",
+    "updated": 1673109888000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.29969443980245,
+     43.01718991583502,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "15ea5b72-09ca-4e13-a79d-87e7f9cefa8f",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "4 mi out",
+    "title": "N to Upper Buck Cr CG, 4 mi out",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1670956550000,
+    "updated": 1673110075000,
     "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
     "marker-rotation": null
    }
@@ -135,14 +235,41 @@
    "id": "242a9a43-93a6-439f-9799-b53757d31ee8",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "firelookout$circle",
+    "marker-symbol": "hut$circle",
     "creator": "J9KSHN",
-    "marker-color": "#000000",
-    "description": "",
+    "marker-color": "000000",
+    "description": "$40, reservations only\nno water",
     "title": "Fremont Point Lookout",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1670954529000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2"
+    "updated": 1670978748000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.06052269812099,
+     42.98447590281567,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "28104ae6-dc8c-4d9b-bf31-48f9ec49cf11",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "11 mi out",
+    "title": "NW to gas, 11 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110045000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
    }
   },
   {
@@ -166,6 +293,56 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1670957839000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.10955526409734,
+     42.964146730317935,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "47caf398-9211-473e-9698-e5a5bb9f66fa",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "5 mi out",
+    "title": "N to Silver Creek Marsh CG, 5 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.05737375387154,
+     42.98315411055145,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "4d416afb-a7c6-412f-8195-b2fe8ef467f2",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "4 mi out",
+    "title": "S to East Bay CG, 4 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
     "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
     "marker-rotation": null
    }
@@ -248,6 +425,31 @@
   {
    "geometry": {
     "coordinates": [
+     -121.47227254047931,
+     43.03549363420155,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "623346e7-bd3d-467a-bba9-5f1e8ff2a326",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "6 miles out\nno water",
+    "title": "S to Jackson Cr CG, 6 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.28648238611743,
      43.010035201955745,
      0,
@@ -287,10 +489,35 @@
     "creator": "J9KSHN",
     "marker-color": "000000",
     "description": "",
-    "title": "OBCDR 2 Jctn 5 Terminus",
+    "title": "OBCDR2 Route 5 Terminus",
+    "marker-size": "2",
+    "class": "Marker",
+    "updated": 1673109909000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -120.99772278179702,
+     42.86110857066319,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "7189c355-24df-47ee-a6dc-8599f1b74265",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "2 mi out",
+    "title": "W to Sycan Butte, 2 mi out",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1670956571000,
+    "updated": 1673110075000,
     "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
     "marker-rotation": null
    }
@@ -348,6 +575,31 @@
   {
    "geometry": {
     "coordinates": [
+     -121.28823945413622,
+     43.00708341913107,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "81080cdf-150e-4afc-86e0-cd253d65c921",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "N to Rodman Rock, 0.5 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.79604553100779,
      43.22722655006498,
      0,
@@ -366,6 +618,81 @@
     "class": "Marker",
     "updated": 1670954529000,
     "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2"
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.26253572050582,
+     43.07831891353355,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "9a519d7a-b3f7-4088-bf6b-4ec32f3cf185",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "W to Lower Buck Cr CG",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.52630459072813,
+     43.08176360915644,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "9e774770-a57f-45ad-9aed-afff03e700ab",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "11 mi out",
+    "title": "W to Sugarpine Mtn, 11 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.02103863215088,
+     42.98588892645616,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "a1949195-87bf-450f-8fca-37329f105b82",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "4 mi out",
+    "title": "N to Hagar Mtn, 4 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
    }
   },
   {
@@ -419,6 +746,80 @@
   {
    "geometry": {
     "coordinates": [
+     -121.12816675938346,
+     43.01953475264672,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "ab6927ff-6c72-4d51-925c-5dcb78420a02",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "5 mi out",
+    "title": "W to Bunyard Crossing CG, 5 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.72140711650424,
+     43.265695893849276,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "bd413c19-88a0-4650-b6e0-64a60f2d0637",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "4 mi out",
+    "title": "N to Walker Mtn, 4 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.04788961531165,
+     43.12763936737909,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "c3753420-bdc2-4e16-9bb0-c07bce5a2fcb",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "fuel$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "7 AM to 7 PM\n7 miles from the turnoff to the south.",
+    "title": "Silver Lake Gas",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110149000,
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.01749498016602,
      42.86793498912368,
      0,
@@ -437,6 +838,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1670957189000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.54869119521933,
+     43.184220810117864,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "d0bbc04e-3dad-4a03-9e36-1ed0b480b462",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "flag-1",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "4 mi out",
+    "title": "N to Tea Table Mtn, 4 mi out",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673110075000,
     "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
     "marker-rotation": null
    }
@@ -487,6 +913,31 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1670957019000,
+    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     -121.0316666620338,
+     43.01004988799248,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "d63f0b82-c611-4d1f-9ff3-b0c955320082",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "placemark2",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "",
+    "title": "Restroom",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1670957806000,
     "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
     "marker-rotation": null
    }
@@ -638,305 +1089,6 @@
   {
    "geometry": {
     "coordinates": [
-     -120.99772278179702,
-     42.86110857066319,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "7189c355-24df-47ee-a6dc-8599f1b74265",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "2 mi out",
-    "title": "W to Sycan Butte, 2 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670957183000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.54869119521933,
-     43.184220810117864,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "d0bbc04e-3dad-4a03-9e36-1ed0b480b462",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "4 mi out",
-    "title": "N to Tea Table Mtn, 4 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670956960000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.28823945413622,
-     43.00708341913107,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "81080cdf-150e-4afc-86e0-cd253d65c921",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "N to Rodman Rock, 0.5 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670956305000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.52630459072813,
-     43.08176360915644,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "9e774770-a57f-45ad-9aed-afff03e700ab",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "11 mi out",
-    "title": "W to Sugarpine Mtn, 11 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670956949000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.47227254047931,
-     43.03549363420155,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "623346e7-bd3d-467a-bba9-5f1e8ff2a326",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "6 miles out\nno water",
-    "title": "S to Jackson Cr CG, 6 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670957142000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.66870468227556,
-     43.24321225070166,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "06d28392-6a88-4ae7-99ba-abf5a810a4aa",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "1.5 mi out",
-    "title": "N to Skookum Butte, 1.5 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670957010000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.72140711650424,
-     43.265695893849276,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "bd413c19-88a0-4650-b6e0-64a60f2d0637",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "4 mi out",
-    "title": "N to Walker Mtn, 4 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670957064000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.0316666620338,
-     43.01004988799248,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "d63f0b82-c611-4d1f-9ff3-b0c955320082",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Restroom",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670957806000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.02103863215088,
-     42.98588892645616,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "a1949195-87bf-450f-8fca-37329f105b82",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "4 mi out",
-    "title": "N to Hagar Mtn, 4 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670957863000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.10955526409734,
-     42.964146730317935,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "47caf398-9211-473e-9698-e5a5bb9f66fa",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "5 mi out",
-    "title": "N to Silver Creek Marsh CG, 5 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670958275000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.12816675938346,
-     43.01953475264672,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "ab6927ff-6c72-4d51-925c-5dcb78420a02",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "5 mi out",
-    "title": "W to Bunyard Crossing CG, 5 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670958380000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.05737375387154,
-     42.98315411055145,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "4d416afb-a7c6-412f-8195-b2fe8ef467f2",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "4 mi out",
-    "title": "S to East Bay CG, 4 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670958236000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -121.26644733929815,
      43.05335227451677,
      0,
@@ -955,81 +1107,6 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1670958689000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.24666572202908,
-     43.06802994261004,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "0ee13d53-cf75-43fd-9a4a-fe8dbd398e54",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "camping$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "free\nfilter creek water",
-    "title": "Lower Buck Cr CG",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670958806000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.26253572050582,
-     43.07831891353355,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "9a519d7a-b3f7-4088-bf6b-4ec32f3cf185",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "W to Lower Buck Cr CG",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670958836000,
-    "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.29969443980245,
-     43.01718991583502,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "15ea5b72-09ca-4e13-a79d-87e7f9cefa8f",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "placemark2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "4 mi out",
-    "title": "N to Upper Buck Cr CG, 4 mi out",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1670958938000,
     "folderId": "1a3a15e2-ac83-470c-9080-15d956b23cc2",
     "marker-rotation": null
    }
@@ -10562,6 +10639,770 @@
    "geometry": {
     "coordinates": [
      [
+      -120.90019,
+      42.90987
+     ],
+     [
+      -120.90019,
+      42.90987
+     ],
+     [
+      -120.90311039465419,
+      42.90925167539895
+     ],
+     [
+      -120.90317063791197,
+      42.90923892031179
+     ],
+     [
+      -120.90326,
+      42.90922
+     ],
+     [
+      -120.90326,
+      42.90922
+     ],
+     [
+      -120.90489,
+      42.90887
+     ],
+     [
+      -120.90534,
+      42.90873
+     ],
+     [
+      -120.9056,
+      42.90861
+     ],
+     [
+      -120.90606,
+      42.90845
+     ],
+     [
+      -120.90655,
+      42.90816
+     ],
+     [
+      -120.90655,
+      42.90816
+     ],
+     [
+      -120.9071,
+      42.90783
+     ],
+     [
+      -120.90775,
+      42.90732
+     ],
+     [
+      -120.90775,
+      42.90732
+     ],
+     [
+      -120.90837,
+      42.90693
+     ],
+     [
+      -120.90871,
+      42.90665
+     ],
+     [
+      -120.90871,
+      42.90665
+     ],
+     [
+      -120.90953,
+      42.90607
+     ],
+     [
+      -120.91093,
+      42.90522
+     ],
+     [
+      -120.91223,
+      42.90456
+     ],
+     [
+      -120.91223,
+      42.90456
+     ],
+     [
+      -120.91255,
+      42.90433
+     ],
+     [
+      -120.91276,
+      42.90422
+     ],
+     [
+      -120.91305,
+      42.90399
+     ],
+     [
+      -120.91331,
+      42.90376
+     ],
+     [
+      -120.91341,
+      42.90359
+     ],
+     [
+      -120.91357,
+      42.90313
+     ],
+     [
+      -120.91416,
+      42.90086
+     ],
+     [
+      -120.91422,
+      42.90037
+     ],
+     [
+      -120.91442,
+      42.89953
+     ],
+     [
+      -120.91453,
+      42.89923
+     ],
+     [
+      -120.91465,
+      42.89857
+     ],
+     [
+      -120.91474,
+      42.89826
+     ],
+     [
+      -120.91474,
+      42.89826
+     ],
+     [
+      -120.91496,
+      42.89738
+     ],
+     [
+      -120.91516,
+      42.89678
+     ],
+     [
+      -120.91521,
+      42.89645
+     ],
+     [
+      -120.91553,
+      42.89592
+     ],
+     [
+      -120.91553,
+      42.89592
+     ],
+     [
+      -120.91603,
+      42.89514
+     ],
+     [
+      -120.91675,
+      42.89419
+     ],
+     [
+      -120.91771,
+      42.89283
+     ],
+     [
+      -120.91821,
+      42.89206
+     ],
+     [
+      -120.91821,
+      42.89206
+     ],
+     [
+      -120.9187,
+      42.89144
+     ],
+     [
+      -120.91917,
+      42.89076
+     ],
+     [
+      -120.91981,
+      42.88976
+     ],
+     [
+      -120.92083,
+      42.88865
+     ],
+     [
+      -120.92156,
+      42.88795
+     ],
+     [
+      -120.92179,
+      42.88781
+     ],
+     [
+      -120.92283,
+      42.88688
+     ],
+     [
+      -120.92403,
+      42.88589
+     ],
+     [
+      -120.92442,
+      42.88553
+     ],
+     [
+      -120.92459,
+      42.88535
+     ],
+     [
+      -120.92459,
+      42.88535
+     ],
+     [
+      -120.92483,
+      42.88518
+     ],
+     [
+      -120.92586,
+      42.88428
+     ],
+     [
+      -120.92644,
+      42.88382
+     ],
+     [
+      -120.92665,
+      42.88358
+     ],
+     [
+      -120.9287868241386,
+      42.88175567583424
+     ],
+     [
+      -120.92880865784299,
+      42.88173703520124
+     ],
+     [
+      -120.92918,
+      42.88142
+     ],
+     [
+      -120.92976,
+      42.88088
+     ],
+     [
+      -120.93092,
+      42.87992
+     ],
+     [
+      -120.93142,
+      42.87948
+     ],
+     [
+      -120.93142,
+      42.87948
+     ],
+     [
+      -120.93174,
+      42.8792
+     ],
+     [
+      -120.93174,
+      42.8792
+     ],
+     [
+      -120.9322,
+      42.87887
+     ],
+     [
+      -120.93344,
+      42.87854
+     ],
+     [
+      -120.93431,
+      42.87828
+     ],
+     [
+      -120.93477,
+      42.87809
+     ],
+     [
+      -120.93574,
+      42.87777
+     ],
+     [
+      -120.93598,
+      42.87758
+     ],
+     [
+      -120.93631,
+      42.87726
+     ],
+     [
+      -120.93631,
+      42.87726
+     ],
+     [
+      -120.93689,
+      42.87681
+     ],
+     [
+      -120.9375,
+      42.87627
+     ],
+     [
+      -120.9375,
+      42.87627
+     ],
+     [
+      -120.93778,
+      42.87596
+     ],
+     [
+      -120.93778,
+      42.87596
+     ],
+     [
+      -120.93798,
+      42.87575
+     ],
+     [
+      -120.93873,
+      42.87504
+     ],
+     [
+      -120.93884,
+      42.87489
+     ],
+     [
+      -120.93934,
+      42.87444
+     ],
+     [
+      -120.93996,
+      42.87382
+     ],
+     [
+      -120.9402,
+      42.87353
+     ],
+     [
+      -120.9402,
+      42.87353
+     ],
+     [
+      -120.94154,
+      42.87211
+     ],
+     [
+      -120.94272,
+      42.87089
+     ],
+     [
+      -120.94364,
+      42.87
+     ],
+     [
+      -120.94446,
+      42.86943
+     ],
+     [
+      -120.94713,
+      42.86748
+     ],
+     [
+      -120.94713,
+      42.86748
+     ],
+     [
+      -120.94963,
+      42.86567
+     ],
+     [
+      -120.95208,
+      42.86394
+     ],
+     [
+      -120.95244,
+      42.86359
+     ],
+     [
+      -120.95244,
+      42.86359
+     ],
+     [
+      -120.95308,
+      42.86324
+     ],
+     [
+      -120.95444,
+      42.86228
+     ],
+     [
+      -120.95568,
+      42.86135
+     ],
+     [
+      -120.95625,
+      42.86099
+     ],
+     [
+      -120.95777,
+      42.85986
+     ],
+     [
+      -120.95777,
+      42.85986
+     ],
+     [
+      -120.95805,
+      42.85965
+     ],
+     [
+      -120.95805,
+      42.85965
+     ],
+     [
+      -120.95896,
+      42.85893
+     ],
+     [
+      -120.95947,
+      42.85848
+     ],
+     [
+      -120.95947,
+      42.85848
+     ],
+     [
+      -120.96033,
+      42.85773
+     ],
+     [
+      -120.96158,
+      42.85624
+     ],
+     [
+      -120.96274,
+      42.85558
+     ],
+     [
+      -120.96318,
+      42.85528
+     ],
+     [
+      -120.9637,
+      42.85482
+     ],
+     [
+      -120.96413817665686,
+      42.85436522574249
+     ],
+     [
+      -120.9641491765538,
+      42.8543538091828
+     ],
+     [
+      -120.96502,
+      42.85345
+     ],
+     [
+      -120.96502,
+      42.85345
+     ],
+     [
+      -120.96643,
+      42.85203
+     ],
+     [
+      -120.96653,
+      42.85188
+     ],
+     [
+      -120.96682,
+      42.85117
+     ],
+     [
+      -120.96742,
+      42.84918
+     ],
+     [
+      -120.96742,
+      42.84918
+     ],
+     [
+      -120.96761,
+      42.84887
+     ],
+     [
+      -120.96818,
+      42.84818
+     ],
+     [
+      -120.96832,
+      42.84794
+     ],
+     [
+      -120.96869,
+      42.8475
+     ],
+     [
+      -120.96885190103282,
+      42.84713122542523
+     ],
+     [
+      -120.968898327353,
+      42.84710610057529
+     ],
+     [
+      -120.96888692954766,
+      42.84707768760169
+     ],
+     [
+      -120.96887,
+      42.84709
+     ],
+     [
+      -120.96887,
+      42.84709
+     ],
+     [
+      -120.96949,
+      42.84786
+     ],
+     [
+      -120.96995,
+      42.84827
+     ],
+     [
+      -120.97047,
+      42.84863
+     ],
+     [
+      -120.97099,
+      42.84896
+     ],
+     [
+      -120.97123,
+      42.84904
+     ],
+     [
+      -120.97123,
+      42.84904
+     ],
+     [
+      -120.97203,
+      42.84928
+     ],
+     [
+      -120.97367,
+      42.84961
+     ],
+     [
+      -120.97457,
+      42.84977
+     ],
+     [
+      -120.97539,
+      42.84995
+     ],
+     [
+      -120.97931,
+      42.85067
+     ],
+     [
+      -120.98016,
+      42.85088
+     ],
+     [
+      -120.98073,
+      42.85116
+     ],
+     [
+      -120.98103,
+      42.85139
+     ],
+     [
+      -120.98127,
+      42.85169
+     ],
+     [
+      -120.98145,
+      42.85201
+     ],
+     [
+      -120.98145,
+      42.85201
+     ],
+     [
+      -120.98155,
+      42.85219
+     ],
+     [
+      -120.98186,
+      42.85293
+     ],
+     [
+      -120.98294,
+      42.85391
+     ],
+     [
+      -120.98355,
+      42.85457
+     ],
+     [
+      -120.98418,
+      42.85514
+     ],
+     [
+      -120.98498,
+      42.85595
+     ],
+     [
+      -120.98544,
+      42.85632
+     ],
+     [
+      -120.98582,
+      42.8565
+     ],
+     [
+      -120.9865,
+      42.8566
+     ],
+     [
+      -120.98708,
+      42.85661
+     ],
+     [
+      -120.98787,
+      42.8565
+     ],
+     [
+      -120.98904,
+      42.85639
+     ],
+     [
+      -120.98957,
+      42.85641
+     ],
+     [
+      -120.98999,
+      42.85653
+     ],
+     [
+      -120.99063,
+      42.85679
+     ],
+     [
+      -120.99134,
+      42.85738
+     ],
+     [
+      -120.99169,
+      42.85772
+     ],
+     [
+      -120.99211,
+      42.85794
+     ],
+     [
+      -120.99259,
+      42.85806
+     ],
+     [
+      -120.99297,
+      42.85807
+     ],
+     [
+      -120.99351,
+      42.85803
+     ],
+     [
+      -120.9942,
+      42.85792
+     ],
+     [
+      -120.99468,
+      42.8579
+     ],
+     [
+      -120.99511,
+      42.85796
+     ],
+     [
+      -120.9954,
+      42.85806
+     ],
+     [
+      -120.99584,
+      42.85844
+     ],
+     [
+      -120.99616,
+      42.85886
+     ],
+     [
+      -120.99616,
+      42.85886
+     ],
+     [
+      -120.99687,
+      42.85986
+     ],
+     [
+      -120.99687,
+      42.85986
+     ],
+     [
+      -120.99727,
+      42.86043
+     ],
+     [
+      -120.99727,
+      42.86043
+     ],
+     [
+      -120.99767095942042,
+      42.86105371465398
+     ],
+     [
+      -120.99767595381977,
+      42.8610520819121
+     ],
+     [
+      -120.99771251939227,
+      42.86110510173519
+     ]
+    ],
+    "type": "LineString"
+   },
+   "id": "eccbaf22-35ec-4737-9191-c5d385df3764",
+   "type": "Feature",
+   "properties": {
+    "creator": "J9KSHN",
+    "pattern": "solid",
+    "description": "",
+    "fill": "#0000FF",
+    "title": "OBCDR2 Sycan RR",
+    "stroke": "#0000FF",
+    "folderId": "2ac706c1-ac3b-46e8-aa76-fa69e7779a33",
+    "gpstype": "TRACK",
+    "stroke-opacity": 1,
+    "stroke-width": 3,
+    "fill-opacity": 0.1,
+    "class": "Shape",
+    "updated": 1670958522000
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     [
       -121.36566169440246,
       43.00737847464316
      ],
@@ -13056,770 +13897,6 @@
     "fill-opacity": 0.1,
     "class": "Shape",
     "updated": 1670956238000
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     [
-      -120.90019,
-      42.90987
-     ],
-     [
-      -120.90019,
-      42.90987
-     ],
-     [
-      -120.90311039465419,
-      42.90925167539895
-     ],
-     [
-      -120.90317063791197,
-      42.90923892031179
-     ],
-     [
-      -120.90326,
-      42.90922
-     ],
-     [
-      -120.90326,
-      42.90922
-     ],
-     [
-      -120.90489,
-      42.90887
-     ],
-     [
-      -120.90534,
-      42.90873
-     ],
-     [
-      -120.9056,
-      42.90861
-     ],
-     [
-      -120.90606,
-      42.90845
-     ],
-     [
-      -120.90655,
-      42.90816
-     ],
-     [
-      -120.90655,
-      42.90816
-     ],
-     [
-      -120.9071,
-      42.90783
-     ],
-     [
-      -120.90775,
-      42.90732
-     ],
-     [
-      -120.90775,
-      42.90732
-     ],
-     [
-      -120.90837,
-      42.90693
-     ],
-     [
-      -120.90871,
-      42.90665
-     ],
-     [
-      -120.90871,
-      42.90665
-     ],
-     [
-      -120.90953,
-      42.90607
-     ],
-     [
-      -120.91093,
-      42.90522
-     ],
-     [
-      -120.91223,
-      42.90456
-     ],
-     [
-      -120.91223,
-      42.90456
-     ],
-     [
-      -120.91255,
-      42.90433
-     ],
-     [
-      -120.91276,
-      42.90422
-     ],
-     [
-      -120.91305,
-      42.90399
-     ],
-     [
-      -120.91331,
-      42.90376
-     ],
-     [
-      -120.91341,
-      42.90359
-     ],
-     [
-      -120.91357,
-      42.90313
-     ],
-     [
-      -120.91416,
-      42.90086
-     ],
-     [
-      -120.91422,
-      42.90037
-     ],
-     [
-      -120.91442,
-      42.89953
-     ],
-     [
-      -120.91453,
-      42.89923
-     ],
-     [
-      -120.91465,
-      42.89857
-     ],
-     [
-      -120.91474,
-      42.89826
-     ],
-     [
-      -120.91474,
-      42.89826
-     ],
-     [
-      -120.91496,
-      42.89738
-     ],
-     [
-      -120.91516,
-      42.89678
-     ],
-     [
-      -120.91521,
-      42.89645
-     ],
-     [
-      -120.91553,
-      42.89592
-     ],
-     [
-      -120.91553,
-      42.89592
-     ],
-     [
-      -120.91603,
-      42.89514
-     ],
-     [
-      -120.91675,
-      42.89419
-     ],
-     [
-      -120.91771,
-      42.89283
-     ],
-     [
-      -120.91821,
-      42.89206
-     ],
-     [
-      -120.91821,
-      42.89206
-     ],
-     [
-      -120.9187,
-      42.89144
-     ],
-     [
-      -120.91917,
-      42.89076
-     ],
-     [
-      -120.91981,
-      42.88976
-     ],
-     [
-      -120.92083,
-      42.88865
-     ],
-     [
-      -120.92156,
-      42.88795
-     ],
-     [
-      -120.92179,
-      42.88781
-     ],
-     [
-      -120.92283,
-      42.88688
-     ],
-     [
-      -120.92403,
-      42.88589
-     ],
-     [
-      -120.92442,
-      42.88553
-     ],
-     [
-      -120.92459,
-      42.88535
-     ],
-     [
-      -120.92459,
-      42.88535
-     ],
-     [
-      -120.92483,
-      42.88518
-     ],
-     [
-      -120.92586,
-      42.88428
-     ],
-     [
-      -120.92644,
-      42.88382
-     ],
-     [
-      -120.92665,
-      42.88358
-     ],
-     [
-      -120.9287868241386,
-      42.88175567583424
-     ],
-     [
-      -120.92880865784299,
-      42.88173703520124
-     ],
-     [
-      -120.92918,
-      42.88142
-     ],
-     [
-      -120.92976,
-      42.88088
-     ],
-     [
-      -120.93092,
-      42.87992
-     ],
-     [
-      -120.93142,
-      42.87948
-     ],
-     [
-      -120.93142,
-      42.87948
-     ],
-     [
-      -120.93174,
-      42.8792
-     ],
-     [
-      -120.93174,
-      42.8792
-     ],
-     [
-      -120.9322,
-      42.87887
-     ],
-     [
-      -120.93344,
-      42.87854
-     ],
-     [
-      -120.93431,
-      42.87828
-     ],
-     [
-      -120.93477,
-      42.87809
-     ],
-     [
-      -120.93574,
-      42.87777
-     ],
-     [
-      -120.93598,
-      42.87758
-     ],
-     [
-      -120.93631,
-      42.87726
-     ],
-     [
-      -120.93631,
-      42.87726
-     ],
-     [
-      -120.93689,
-      42.87681
-     ],
-     [
-      -120.9375,
-      42.87627
-     ],
-     [
-      -120.9375,
-      42.87627
-     ],
-     [
-      -120.93778,
-      42.87596
-     ],
-     [
-      -120.93778,
-      42.87596
-     ],
-     [
-      -120.93798,
-      42.87575
-     ],
-     [
-      -120.93873,
-      42.87504
-     ],
-     [
-      -120.93884,
-      42.87489
-     ],
-     [
-      -120.93934,
-      42.87444
-     ],
-     [
-      -120.93996,
-      42.87382
-     ],
-     [
-      -120.9402,
-      42.87353
-     ],
-     [
-      -120.9402,
-      42.87353
-     ],
-     [
-      -120.94154,
-      42.87211
-     ],
-     [
-      -120.94272,
-      42.87089
-     ],
-     [
-      -120.94364,
-      42.87
-     ],
-     [
-      -120.94446,
-      42.86943
-     ],
-     [
-      -120.94713,
-      42.86748
-     ],
-     [
-      -120.94713,
-      42.86748
-     ],
-     [
-      -120.94963,
-      42.86567
-     ],
-     [
-      -120.95208,
-      42.86394
-     ],
-     [
-      -120.95244,
-      42.86359
-     ],
-     [
-      -120.95244,
-      42.86359
-     ],
-     [
-      -120.95308,
-      42.86324
-     ],
-     [
-      -120.95444,
-      42.86228
-     ],
-     [
-      -120.95568,
-      42.86135
-     ],
-     [
-      -120.95625,
-      42.86099
-     ],
-     [
-      -120.95777,
-      42.85986
-     ],
-     [
-      -120.95777,
-      42.85986
-     ],
-     [
-      -120.95805,
-      42.85965
-     ],
-     [
-      -120.95805,
-      42.85965
-     ],
-     [
-      -120.95896,
-      42.85893
-     ],
-     [
-      -120.95947,
-      42.85848
-     ],
-     [
-      -120.95947,
-      42.85848
-     ],
-     [
-      -120.96033,
-      42.85773
-     ],
-     [
-      -120.96158,
-      42.85624
-     ],
-     [
-      -120.96274,
-      42.85558
-     ],
-     [
-      -120.96318,
-      42.85528
-     ],
-     [
-      -120.9637,
-      42.85482
-     ],
-     [
-      -120.96413817665686,
-      42.85436522574249
-     ],
-     [
-      -120.9641491765538,
-      42.8543538091828
-     ],
-     [
-      -120.96502,
-      42.85345
-     ],
-     [
-      -120.96502,
-      42.85345
-     ],
-     [
-      -120.96643,
-      42.85203
-     ],
-     [
-      -120.96653,
-      42.85188
-     ],
-     [
-      -120.96682,
-      42.85117
-     ],
-     [
-      -120.96742,
-      42.84918
-     ],
-     [
-      -120.96742,
-      42.84918
-     ],
-     [
-      -120.96761,
-      42.84887
-     ],
-     [
-      -120.96818,
-      42.84818
-     ],
-     [
-      -120.96832,
-      42.84794
-     ],
-     [
-      -120.96869,
-      42.8475
-     ],
-     [
-      -120.96885190103282,
-      42.84713122542523
-     ],
-     [
-      -120.968898327353,
-      42.84710610057529
-     ],
-     [
-      -120.96888692954766,
-      42.84707768760169
-     ],
-     [
-      -120.96887,
-      42.84709
-     ],
-     [
-      -120.96887,
-      42.84709
-     ],
-     [
-      -120.96949,
-      42.84786
-     ],
-     [
-      -120.96995,
-      42.84827
-     ],
-     [
-      -120.97047,
-      42.84863
-     ],
-     [
-      -120.97099,
-      42.84896
-     ],
-     [
-      -120.97123,
-      42.84904
-     ],
-     [
-      -120.97123,
-      42.84904
-     ],
-     [
-      -120.97203,
-      42.84928
-     ],
-     [
-      -120.97367,
-      42.84961
-     ],
-     [
-      -120.97457,
-      42.84977
-     ],
-     [
-      -120.97539,
-      42.84995
-     ],
-     [
-      -120.97931,
-      42.85067
-     ],
-     [
-      -120.98016,
-      42.85088
-     ],
-     [
-      -120.98073,
-      42.85116
-     ],
-     [
-      -120.98103,
-      42.85139
-     ],
-     [
-      -120.98127,
-      42.85169
-     ],
-     [
-      -120.98145,
-      42.85201
-     ],
-     [
-      -120.98145,
-      42.85201
-     ],
-     [
-      -120.98155,
-      42.85219
-     ],
-     [
-      -120.98186,
-      42.85293
-     ],
-     [
-      -120.98294,
-      42.85391
-     ],
-     [
-      -120.98355,
-      42.85457
-     ],
-     [
-      -120.98418,
-      42.85514
-     ],
-     [
-      -120.98498,
-      42.85595
-     ],
-     [
-      -120.98544,
-      42.85632
-     ],
-     [
-      -120.98582,
-      42.8565
-     ],
-     [
-      -120.9865,
-      42.8566
-     ],
-     [
-      -120.98708,
-      42.85661
-     ],
-     [
-      -120.98787,
-      42.8565
-     ],
-     [
-      -120.98904,
-      42.85639
-     ],
-     [
-      -120.98957,
-      42.85641
-     ],
-     [
-      -120.98999,
-      42.85653
-     ],
-     [
-      -120.99063,
-      42.85679
-     ],
-     [
-      -120.99134,
-      42.85738
-     ],
-     [
-      -120.99169,
-      42.85772
-     ],
-     [
-      -120.99211,
-      42.85794
-     ],
-     [
-      -120.99259,
-      42.85806
-     ],
-     [
-      -120.99297,
-      42.85807
-     ],
-     [
-      -120.99351,
-      42.85803
-     ],
-     [
-      -120.9942,
-      42.85792
-     ],
-     [
-      -120.99468,
-      42.8579
-     ],
-     [
-      -120.99511,
-      42.85796
-     ],
-     [
-      -120.9954,
-      42.85806
-     ],
-     [
-      -120.99584,
-      42.85844
-     ],
-     [
-      -120.99616,
-      42.85886
-     ],
-     [
-      -120.99616,
-      42.85886
-     ],
-     [
-      -120.99687,
-      42.85986
-     ],
-     [
-      -120.99687,
-      42.85986
-     ],
-     [
-      -120.99727,
-      42.86043
-     ],
-     [
-      -120.99727,
-      42.86043
-     ],
-     [
-      -120.99767095942042,
-      42.86105371465398
-     ],
-     [
-      -120.99767595381977,
-      42.8610520819121
-     ],
-     [
-      -120.99771251939227,
-      42.86110510173519
-     ]
-    ],
-    "type": "LineString"
-   },
-   "id": "eccbaf22-35ec-4737-9191-c5d385df3764",
-   "type": "Feature",
-   "properties": {
-    "creator": "J9KSHN",
-    "pattern": "solid",
-    "description": "",
-    "fill": "#0000FF",
-    "title": "OBCDR2 Sycan RR",
-    "stroke": "#0000FF",
-    "folderId": "2ac706c1-ac3b-46e8-aa76-fa69e7779a33",
-    "gpstype": "TRACK",
-    "stroke-opacity": 1,
-    "stroke-width": 3,
-    "fill-opacity": 0.1,
-    "class": "Shape",
-    "updated": 1670958522000
    }
   }
  ],

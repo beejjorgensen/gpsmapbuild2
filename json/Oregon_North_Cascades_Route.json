@@ -176,14 +176,14 @@
    "id": "0ede15f5-284c-4c19-a368-9aa6528dec45",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "placemark2",
+    "marker-symbol": "flag-1",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "",
-    "title": "East to gas",
+    "description": "8 mi out",
+    "title": "E to gas, 8 mi out",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669819070000,
+    "updated": 1673307365000,
     "marker-rotation": null
    }
   },
@@ -410,14 +410,14 @@
    "id": "27b1534b-e0ad-4c7d-836a-c0d6fb7452e4",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "placemark2",
+    "marker-symbol": "flag-1",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "",
-    "title": "West to Tumalo Falls",
+    "description": "4 mi out",
+    "title": "W to Tumalo Falls, 4 mi out",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669818858000,
+    "updated": 1673307589000,
     "marker-rotation": null
    }
   },
@@ -442,30 +442,6 @@
     "marker-size": 1,
     "class": "Marker",
     "updated": 1663304531000
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.77223064485524,
-     44.166638399979604,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "29c02c90-39f2-4678-805a-b0cf2ba98a8f",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "North Sister",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304532000,
-    "marker-rotation": null
    }
   },
   {
@@ -508,11 +484,11 @@
     "marker-symbol": "peak$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "Great vista of Three Sisters",
+    "description": "Great vista of Three Sisters\n5 mi out",
     "title": "Triangle Hill",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669818593000,
+    "updated": 1673307480000,
     "marker-rotation": null
    }
   },
@@ -607,30 +583,6 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1663304532000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.64255878840709,
-     44.00541423676364,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "36ad7514-795e-488c-a5e8-8fb7e77cef18",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Tumalo Mountain (hike)",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1669818906000,
     "marker-rotation": null
    }
   },
@@ -955,14 +907,14 @@
    "id": "4cf941e8-6a84-437f-bcad-75fbca47bfe1",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "placemark2",
+    "marker-symbol": "flag-1",
     "creator": "J9KSHN",
     "marker-color": "000000",
     "description": "",
     "title": "North to gas",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669819032000,
+    "updated": 1673307348000,
     "marker-rotation": null
    }
   },
@@ -1120,14 +1072,14 @@
    "id": "538e90ce-6d7c-4a5f-bead-661b80a4019e",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "placemark2",
+    "marker-symbol": "flag-1",
     "creator": "J9KSHN",
     "marker-color": "000000",
     "description": "",
     "title": "N to Trout Creek Butte",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669391120000,
+    "updated": 1673307348000,
     "marker-rotation": null
    }
   },
@@ -1313,30 +1265,6 @@
     "marker-color": "000000",
     "description": "",
     "title": "Restroom",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304532000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.69591332527503,
-     45.37356847004297,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "65f7c42a-58d3-41be-8383-85ff994eb10b",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Mount Hood",
     "marker-size": "1",
     "class": "Marker",
     "updated": 1663304532000,
@@ -1534,30 +1462,6 @@
   {
    "geometry": {
     "coordinates": [
-     -121.84300134594773,
-     44.478994773580794,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "6e1a430c-0f6a-4974-b8f9-8ec74ab9e636",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Three Fingered Jack",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304532000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -121.26964593537599,
      45.228044753619315,
      0,
@@ -1716,9 +1620,9 @@
     "marker-color": "000000",
     "description": "",
     "title": "The Dalles Terminus",
-    "marker-size": "1",
+    "marker-size": "1.5",
     "class": "Marker",
-    "updated": 1663304532000,
+    "updated": 1673307197000,
     "marker-rotation": null
    }
   },
@@ -1772,6 +1676,30 @@
   {
    "geometry": {
     "coordinates": [
+     -121.55182167693235,
+     44.078434560857254,
+     0,
+     0
+    ],
+    "type": "Point"
+   },
+   "id": "7691cd47-37a1-4557-8b2c-56c9c0925856",
+   "type": "Feature",
+   "properties": {
+    "marker-symbol": "peak$circle",
+    "creator": "J9KSHN",
+    "marker-color": "000000",
+    "description": "4 mi out",
+    "title": "Bearwallow Butte",
+    "marker-size": "1",
+    "class": "Marker",
+    "updated": 1673307513000,
+    "marker-rotation": null
+   }
+  },
+  {
+   "geometry": {
+    "coordinates": [
      -121.18154047220855,
      45.6006762817078,
      0,
@@ -1819,30 +1747,6 @@
   {
    "geometry": {
     "coordinates": [
-     -121.74824932483985,
-     44.26551067431199,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "7882c612-0b82-41d3-a886-b6fbfecf1f06",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Black Crater (hike)",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1669390570000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -121.52345671901988,
      45.69972208974729,
      0,
@@ -1882,9 +1786,9 @@
     "marker-color": "000000",
     "description": "Summit road closed in winter",
     "title": "Bend Terminus",
-    "marker-size": "1",
+    "marker-size": "2",
     "class": "Marker",
-    "updated": 1663304533000,
+    "updated": 1673307147000,
     "marker-rotation": null
    }
   },
@@ -2027,30 +1931,6 @@
     "marker-size": "1",
     "class": "Marker",
     "updated": 1663304533000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.63540769487258,
-     44.39975458910741,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "86162352-0bbb-425c-b5c7-6c847dde6320",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Black Butte (hike)",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1669390611000,
     "marker-rotation": null
    }
   },
@@ -2201,30 +2081,6 @@
   {
    "geometry": {
     "coordinates": [
-     -121.74536970871955,
-     45.30249124099927,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "8d18679e-a66e-4506-9878-3c8fc1a85544",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "flag-2",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Government Camp Terminus",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304533000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -121.72816718231809,
      45.28758552510217,
      0,
@@ -2312,30 +2168,6 @@
     "marker-color": "000000",
     "description": "",
     "title": "Gas (clear)",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304533000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.69964479726173,
-     44.08286694779111,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "9b897d7a-1cd1-42fe-857f-a3a4380dc606",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Broken Top",
     "marker-size": "1",
     "class": "Marker",
     "updated": 1663304533000,
@@ -2559,30 +2391,6 @@
   {
    "geometry": {
     "coordinates": [
-     -121.79955205491866,
-     44.67419411697277,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "b081c465-d84d-45dc-a75a-d9f2c980b4db",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Mount Jefferson",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304533000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -121.47959707419425,
      45.43415614011333,
      0,
@@ -2795,54 +2603,6 @@
   {
    "geometry": {
     "coordinates": [
-     -121.76930144432707,
-     44.10355690696829,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "c1ceb0f7-5bda-4cfb-a97a-3b60fdf809f4",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "South Sister",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304533000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.83849804556722,
-     44.33220736143758,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "c396187c-bbc4-4356-ac20-524d9a0eada0",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Mount Washington",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1669390600000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -121.47068681547609,
      44.04447734063861,
      0,
@@ -2880,11 +2640,11 @@
     "marker-symbol": "fuel$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "",
+    "description": "Exxon\n5 AM - 8 PM\nSa/Su 7 AM - 8 PM",
     "title": "Gas 20 miles out",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669390697000,
+    "updated": 1670869854000,
     "marker-rotation": null
    }
   },
@@ -3183,14 +2943,14 @@
    "id": "d0401948-d2eb-4d3d-a2db-ac8931e931cc",
    "type": "Feature",
    "properties": {
-    "marker-symbol": "placemark2",
+    "marker-symbol": "flag-1",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "",
-    "title": "North to Triangle Hill",
+    "description": "5 mi out",
+    "title": "N to Triangle and Bearwallow, 5 mi out",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669818774000,
+    "updated": 1673307538000,
     "marker-rotation": null
    }
   },
@@ -3307,9 +3067,9 @@
     "marker-color": "000000",
     "description": "",
     "title": "Hood River Terminus",
-    "marker-size": "1",
+    "marker-size": "2",
     "class": "Marker",
-    "updated": 1663304534000,
+    "updated": 1673307175000,
     "marker-rotation": null
    }
   },
@@ -3329,11 +3089,11 @@
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "$12 ($6 extra vehicle)",
+    "description": "$12+$6",
     "title": "Lost Lake CG",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1663304534000,
+    "updated": 1673307289000,
     "marker-rotation": null
    }
   },
@@ -3596,54 +3356,6 @@
   {
    "geometry": {
     "coordinates": [
-     -121.78410553120636,
-     44.14832764113711,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "ea7a3a43-35a8-49fc-b8cd-7214dd5effd8",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Middle Sister",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304534000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     -121.68845674906993,
-     43.97949497642543,
-     0,
-     0
-    ],
-    "type": "Point"
-   },
-   "id": "eb0d873d-f44f-4f27-82ad-ec4ec9a8661f",
-   "type": "Feature",
-   "properties": {
-    "marker-symbol": "peak$circle",
-    "creator": "J9KSHN",
-    "marker-color": "000000",
-    "description": "",
-    "title": "Mount Bachelor",
-    "marker-size": "1",
-    "class": "Marker",
-    "updated": 1663304534000,
-    "marker-rotation": null
-   }
-  },
-  {
-   "geometry": {
-    "coordinates": [
      -121.97286933314236,
      44.78198897463461,
      0,
@@ -3798,10 +3510,10 @@
     "creator": "J9KSHN",
     "marker-color": "000000",
     "description": "",
-    "title": "Campsite Poop Creek",
+    "title": "Poop Creek Campsite",
     "marker-size": "1",
     "class": "Marker",
-    "updated": 1669390796000,
+    "updated": 1673307077000,
     "marker-rotation": null
    }
   },
