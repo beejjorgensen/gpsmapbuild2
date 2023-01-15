@@ -69,7 +69,7 @@ def toxml(name, waypoints, tracks):
 
 def symbol_map(sym, name, color):
     # All red markers should be red-flagged
-    if color == "#FF0000":
+    if color == "FF0000" or color == "#FF0000":
         return "Flag, Red"
 
     sym = sym.split('$')[0]
