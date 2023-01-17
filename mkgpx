@@ -2,6 +2,7 @@
 
 SMOOTH_DIST=5
 MAX_POINTS=1900
+#MAX_POINTS=1100   # Average 75 miles on ORBDR5 (min 60 mi, max 106)
 
 OUTDIR=build
 
