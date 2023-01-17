@@ -78,7 +78,7 @@ class AppContext:
         self.consume_option_with_arg()
 
         try:
-            self.joinmax = float(self.argv[0])
+            self.join_max_dist = float(self.argv[0])
         except:
             usage_exit(2)
     
