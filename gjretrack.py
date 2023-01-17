@@ -423,7 +423,7 @@ def join_tracks(tracks, max_dist):
     def get_dist(p1, p2):
         nonlocal best_dist, best_dist_coords
 
-        dist = lldist(*p1, *p2)
+        dist = lldist(p1[0], p1[1], p2[0], p2[1])
 
         if dist < best_dist:
             best_dist = dist
