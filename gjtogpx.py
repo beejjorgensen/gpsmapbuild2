@@ -10,6 +10,7 @@
 import sys
 import json
 import re
+from xml.sax.saxutils import escape
 
 class Waypoint:
     def __init__(self, name, lat, lon, sym, desc=None):
@@ -45,18 +46,20 @@ def toxml(name, waypoints, tracks):
 
     for w in waypoints:
         r += f'<wpt lat="{w.lat}" lon="{w.lon}">'
-        r += f'<name>{w.name}</name>'
+        r += f'<name>{escape(w.name)}</name>'
         r += f'<sym>{w.sym}</sym>'
         if w.desc is not None:
-            r += f'<cmt>{w.desc}</cmt>'
+            r += f'<cmt>{escape(w.desc)}</cmt>'
         r += '</wpt>'
 
     for t in tracks:
         r += '<trk>'
-        r += f'<name>{t.name}</name>'
+        r += f'<name>{escape(t.name)}</name>'
         r += '<trkseg>'
 
-        for lon, lat in t.coords:
+        for c in t.coords:
+            lon = c[0]
+            lat = c[1]
             r += f'<trkpt lat="{lat}" lon="{lon}">'
             r += '</trkpt>'
 
