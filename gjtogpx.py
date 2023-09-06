@@ -85,11 +85,14 @@ def symbol_map(sym, name, color):
         "Edwards Crossing": "pin",  # The bridge
         "crossing": "crossing",
         "cemetery|grave": "cemetery",
-        "store|market|grocer|minimart": "store",
-        " mines?|^mining|^mine$|^mines$": "mine",
+        "museum": "museum",
+        "summit": "summit",
+        "store|market|grocer|minimart|albertsons|safeway": "store",
+        " mines?|^mining|^mine$|^mines$|mines both sides": "mine",
         "restarea|rest area": "restarea",
         "theater": "theater",
-        "bridge": "bridge"
+        "bridge": "bridge",
+        "post +office": "postoffice",
     }
 
     if sym == "placemark2":
@@ -156,6 +159,10 @@ def symbol_map(sym, name, color):
         "automobile": "Car",
         "hiking": "Trail Head",
         "bridge": "Bridge",
+        "swimming": "Swimming Area",
+        "circle-p": "Parking Area",
+        "summit": "Summit",
+        "postoffice": "Post Office",
     }
 
     # Bank (dollar sign)
