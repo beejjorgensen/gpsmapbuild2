@@ -82,12 +82,13 @@ def symbol_map(sym, name, color):
         "ranger sta|guard sta": "residence",
         "Crescent Junction": "pin",  # The town
         "junction": "junction",
-        "Edwards Crossing": "pin",  # The bridge
+        "Edwards Crossing": "bridge",  # The bridge
         "crossing": "crossing",
         "cemetery|grave": "cemetery",
         "museum": "museum",
+        "visitors+ center": "museum",
         "summit": "summit",
-        "store|market|grocer|minimart|albertsons|safeway": "store",
+        "store|market|grocer|minimart|albertsons|safeway": "shopping",
         " mines?|^mining|^mine$|^mines$|mines both sides": "mine",
         "restarea|rest area": "restarea",
         "theater": "theater",
@@ -119,6 +120,9 @@ def symbol_map(sym, name, color):
     if sym == "foodservice" and re.search(r"pizza", name, re.I) is not None:
         sym = "pizza"
 
+    if sym in ("camping", "campfire") and re.search(r"campsite", name, re.I) is not None:
+        sym = "campsite"
+
     sym_map = {
         "bar": "Bar",
         "atv": "Car",
@@ -145,15 +149,15 @@ def symbol_map(sym, name, color):
         "warning": "Flag, Red",
         "danger": "Skull and Crossbones",
         "cemetery": "Cemetery",
-        "hut": "Lodge",
-        "lodging": "Lodge",
+        "hut": "Lodging",
+        "lodging": "Lodging",
         "foodservice": "Restaurant",
         "shelter-empty": "Lodge",
         "rangerstation2": "Residence",
         "mine": "Mine",
         "museum": "Museum",
         "gate-side": "Pin, Green",
-        "store": "Shopping",
+        "shopping": "Shopping Center",
         "theater": "Movie Theater",
         "airport": "Airport",
         "automobile": "Car",
@@ -163,6 +167,7 @@ def symbol_map(sym, name, color):
         "circle-p": "Parking Area",
         "summit": "Summit",
         "postoffice": "Post Office",
+        "campsite": "Park",
     }
 
     # Bank (dollar sign)
@@ -172,6 +177,9 @@ def symbol_map(sym, name, color):
     # Residence (House)
     # Fishing Hot Spot Facility (Small hut)
     # Lodge (Small hut with chimney)
+
+    # https://freegeographytools.com/2008/garmin-gps-unit-waypoint-icons-table
+    # https://www.gpsbabel.org/htmldoc-development/GarminIcons.html
 
     if sym not in sym_map:
         print(f'Symbol "{sym}" not in symbol map', file=sys.stderr)
