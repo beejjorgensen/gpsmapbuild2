@@ -199,13 +199,15 @@
     "marker-symbol": "swimming$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "tel://208-462-3250, from 2.8 mi. N. of Crouch, off route 1 mi. W. at 101 Holiday Dr., HS fee required to soak",
+    "description": "$6 soak",
     "stroke-width": 2,
-    "title": "M,R,HS-Terrace Lakes Resort",
+    "title": "HS Terrace Lakes Resort",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256939114,
-    "folderId": "17905eaf-1f21-470b-9288-06c129ece1f8"
+    "updated": 1694056012842,
+    "folderId": "17905eaf-1f21-470b-9288-06c129ece1f8",
+    "marker-rotation": null
    }
   },
   {
@@ -351,13 +353,15 @@
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "tel://208-392-6681, 13.7 mi. SE of Idaho City, CG no potable water",
+    "description": "Fees unknown\nNo water",
     "stroke-width": 2,
-    "title": "CG-Bald Mtn. Campground(USFS)",
+    "title": "Bald Mtn CG",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256643620,
-    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4"
+    "updated": 1694056491722,
+    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4",
+    "marker-rotation": null
    }
   },
   {
@@ -2402,13 +2406,15 @@
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "tel://208-365-7000, 11.2 mi. N. of Crouch, CG no potable water",
+    "description": "Fees\nNo water",
     "stroke-width": 2,
-    "title": "CG-Hardscrabble Campground(USFS)",
+    "title": "Hardscrabble CG",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256643817,
-    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4"
+    "updated": 1694055799194,
+    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4",
+    "marker-rotation": null
    }
   },
   {
@@ -5593,13 +5599,15 @@
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "tel://208-365-7000, 3.8 mi. SE of Garden Valley, CG(reservable)",
+    "description": "Fees\nwater",
     "stroke-width": 2,
-    "title": "CG-Hot Springs Campground(USFS)",
+    "title": "Hot Springs CG, water",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256643895,
-    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4"
+    "updated": 1694056257927,
+    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4",
+    "marker-rotation": null
    }
   },
   {
@@ -8834,13 +8842,15 @@
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "tel://208-462-8000, off route 0.5 mi. SW at 40 S. Middle Fork Rd., Crouch, ID",
+    "description": "$22+4\nwater",
     "stroke-width": 2,
-    "title": "CG-Riverpond Campground(pvt.)",
+    "title": "Riverpond CG, water",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256644103,
-    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4"
+    "updated": 1694056085232,
+    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4",
+    "marker-rotation": null
    }
   },
   {
@@ -9015,11 +9025,13 @@
     "marker-color": "000000",
     "description": "Pool located just below parking turnout directly across from Hot Springs Campground",
     "stroke-width": 2,
-    "title": "POI-Hot Springs Campground HS",
+    "title": "HS Hot Springs Campground",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256939188,
-    "folderId": "17905eaf-1f21-470b-9288-06c129ece1f8"
+    "updated": 1694056272267,
+    "folderId": "17905eaf-1f21-470b-9288-06c129ece1f8",
+    "marker-rotation": null
    }
   },
   {
@@ -9540,13 +9552,15 @@
     "marker-symbol": "camping$circle",
     "creator": "J9KSHN",
     "marker-color": "000000",
-    "description": "tel://208-365-7000, 8.1 mi. N. of Crouch",
+    "description": "Fees\nwater",
     "stroke-width": 2,
-    "title": "CG-Tie Creek Campground(USFS)",
+    "title": "Tie Creek CG, water",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256643977,
-    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4"
+    "updated": 1694055843274,
+    "folderId": "26998ea5-9ecf-4508-9346-dfe6f38bcaf4",
+    "marker-rotation": null
    }
   },
   {
@@ -9868,11 +9882,13 @@
     "marker-color": "000000",
     "description": "Garden Valley, ID, pop:394",
     "stroke-width": 2,
-    "title": "CS,M-Garden Valley",
+    "title": "Garden Valley, ID",
     "stroke": "#FF0000",
+    "marker-size": "1",
     "class": "Marker",
-    "updated": 1693256811144,
-    "folderId": "fc899ab3-769a-44c3-af6a-8a156f3fb4c0"
+    "updated": 1694056115660,
+    "folderId": "fc899ab3-769a-44c3-af6a-8a156f3fb4c0",
+    "marker-rotation": null
    }
   },
   {
