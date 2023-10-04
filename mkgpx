@@ -37,6 +37,7 @@ for f in $files; do
         California_Ponderosa_Way_Route) track_name="CPWR" ;;
         Magruder_Corridor) track_name="IDMCR" ;;
         ID_Hot_Spring_Route) track_name="IDHSR" ;;
+        Oregon_Fremont_Ridge_Lava_Beds_Route) track_name="FRLBR" ;;
     esac
 
     ./gjretrack.py -e $SMOOTH_DIST -m 1900 -j -v "$f" | ./gjtogpx.py - "$track_name" > "$gpx_name"

@@ -88,7 +88,7 @@ def symbol_map(sym, name, color):
         "museum": "museum",
         "visitors+ center": "museum",
         "summit": "summit",
-        "store|market|grocer|minimart|albertsons|safeway": "shopping",
+        "store|market|grocer|minimart|albertsons|safeway|merc[ae]ntile|food center|food place": "shopping",
         " mines?|^mining|^mine$|^mines$|mines both sides": "mine",
         "restarea|rest area": "restarea",
         "theater": "theater",
