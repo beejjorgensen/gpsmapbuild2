@@ -38,6 +38,7 @@ for f in $files; do
         Magruder_Corridor) track_name="IDMCR" ;;
         ID_Hot_Spring_Route) track_name="IDHSR" ;;
         Oregon_Fremont_Ridge_Lava_Beds_Route) track_name="FRLBR" ;;
+        CABDR-N-July2024) track_name="CABDRN" ;;
     esac
 
     ./gjretrack.py -e $SMOOTH_DIST -m 1900 -j -v "$f" | ./gjtogpx.py - "$track_name" > "$gpx_name"
