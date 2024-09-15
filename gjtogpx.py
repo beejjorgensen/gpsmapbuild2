@@ -78,7 +78,7 @@ def symbol_map(sym, name, color):
     sym = sym.split('$')[0]
 
     placemark2_map = {
-        "restroom|bathroom|toilet": "restroom",
+        "restroom|bathroom|washroom|toilet": "restroom",
         "ranger sta|guard sta": "residence",
         "Crescent Junction": "pin",  # The town
         "junction": "junction",
@@ -88,7 +88,7 @@ def symbol_map(sym, name, color):
         "museum": "museum",
         "visitors+ center": "museum",
         "summit": "summit",
-        "hardware|store|market|grocer|minimart|albertsons|vons|safeway|merc[ae]ntile|food center|food place": "shopping",
+        "hardware|store|market|bi-?mart|fred meyer|walmart|grocer|minimart|albertsons|vons|safeway|merc[ae]ntile|food center|food place": "shopping",
         " mines?|^mining|^mine$|^mines$|mines both sides": "mine",
         "restarea|rest area": "restarea",
         "theater": "theater",
