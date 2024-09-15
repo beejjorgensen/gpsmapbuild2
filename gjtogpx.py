@@ -88,12 +88,13 @@ def symbol_map(sym, name, color):
         "museum": "museum",
         "visitors+ center": "museum",
         "summit": "summit",
-        "store|market|grocer|minimart|albertsons|safeway|merc[ae]ntile|food center|food place": "shopping",
+        "hardware|store|market|grocer|minimart|albertsons|vons|safeway|merc[ae]ntile|food center|food place": "shopping",
         " mines?|^mining|^mine$|^mines$|mines both sides": "mine",
         "restarea|rest area": "restarea",
         "theater": "theater",
         "bridge": "bridge",
         "post +office": "postoffice",
+        "laundry|laundromat": "laundry",
     }
 
     if sym == "placemark2":
@@ -168,6 +169,7 @@ def symbol_map(sym, name, color):
         "summit": "Summit",
         "postoffice": "Post Office",
         "campsite": "Park",
+        "laundry": "Block, Green",
     }
 
     # Bank (dollar sign)
