@@ -33,7 +33,7 @@ for f in $files; do
         OBCDR4_Unofficial) track_name="OBCDR4" ;;
         OBCDR5_Unofficial) track_name="OBCDR5" ;;
         OBCDR6_Unofficial) track_name="OBCDR6" ;;
-        California_Trans-Sierra_Route) track_name="CTSR" ;;
+        California_Trans-Sierra_Route) track_name="CATSR" ;;
         California_Ponderosa_Way_Route) track_name="CPWR" ;;
         Magruder_Corridor) track_name="IDMCR" ;;
         ID_Hot_Spring_Route) track_name="IDHSR" ;;
